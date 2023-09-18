@@ -1,0 +1,207 @@
+Legend: (S) = Stable   (V) = Volatile
+
+----------------------------
+Registry: \Device\HarddiskVolume1\Documents and Settings\Pat\Local Settings\Application Data\Microsoft\Windows\UsrClass.dat
+Key name: S-1-5-21-1292428093-1645522239-1547161642-1003_Classes (S)
+Last updated: 2009-12-10 17:50:00 UTC+0000
+
+Subkeys:
+  (S) .htm
+  (S) .html
+  (S) .shtml
+  (S) .xht
+  (S) .xhtml
+  (S) Applications
+  (S) CLSID
+  (S) FirefoxHTML
+  (S) FirefoxURL
+  (S) ftp
+  (S) http
+  (S) https
+  (S) JavaPlugin.160_17
+  (S) Software
+
+Values:
+----------------------------
+Registry: \Device\HarddiskVolume1\Documents and Settings\Pat\NTUSER.DAT
+Key name: $$$PROTO.HIV (S)
+Last updated: 2009-12-11 01:38:47 UTC+0000
+
+Subkeys:
+  (S) AppEvents
+  (S) Console
+  (S) Control Panel
+  (S) Environment
+  (S) Identities
+  (S) Keyboard Layout
+  (S) Network
+  (S) Printers
+  (S) Software
+  (S) UNICODE Program Groups
+  (S) Windows 3.1 Migration Status
+  (V) SessionInformation
+  (V) Volatile Environment
+
+Values:
+----------------------------
+Registry: \Device\HarddiskVolume1\Documents and Settings\NetworkService\NTUSER.DAT
+Key name: $$$PROTO.HIV (S)
+Last updated: 2009-11-09 00:37:11 UTC+0000
+
+Subkeys:
+  (S) AppEvents
+  (S) Console
+  (S) Control Panel
+  (S) Environment
+  (S) Identities
+  (S) Keyboard Layout
+  (S) Printers
+  (S) Software
+  (S) UNICODE Program Groups
+
+Values:
+----------------------------
+Registry: \Device\HarddiskVolume1\WINDOWS\system32\config\SAM
+Key name: SAM (S)
+Last updated: 2009-11-08 15:35:15 UTC+0000
+
+Subkeys:
+  (S) SAM
+
+Values:
+----------------------------
+Registry: \Device\HarddiskVolume1\Documents and Settings\NetworkService\Local Settings\Application Data\Microsoft\Windows\UsrClass.dat
+Key name: S-1-5-20_Classes (S)
+Last updated: 2009-11-09 00:37:14 UTC+0000
+
+Subkeys:
+
+Values:
+----------------------------
+Registry: [no name]
+Key name: HARDWARE (S)
+Last updated: 2009-12-11 01:27:00 UTC+0000
+
+Subkeys:
+  (S) ACPI
+  (S) DESCRIPTION
+  (S) DEVICEMAP
+  (V) RESOURCEMAP
+
+Values:
+----------------------------
+Registry: \Device\HarddiskVolume1\WINDOWS\system32\config\software
+Key name: $$$PROTO.HIV (S)
+Last updated: 2009-12-07 18:15:02 UTC+0000
+
+Subkeys:
+  (S) Adobe
+  (S) Avg
+  (S) Brother
+  (S) C07ft5Y
+  (S) Classes
+  (S) Clients
+  (S) Gemplus
+  (S) Google
+  (S) InstalledOptions
+  (S) Intel
+  (S) JavaSoft
+  (S) JreMetrics
+  (S) Macromedia
+  (S) Microsoft
+  (S) Mozilla
+  (S) mozilla.org
+  (S) ODBC
+  (S) OpenOffice.org
+  (S) Policies
+  (S) Program Groups
+  (S) Python
+  (S) RealVNC
+  (S) RegisteredApplications
+  (S) Schlumberger
+  (S) Secure
+  (S) Sun Microsystems
+  (S) Windows
+  (S) Windows 3.1 Migration Status
+
+Values:
+----------------------------
+Registry: \Device\HarddiskVolume1\WINDOWS\system32\config\default
+Key name: $$$PROTO.HIV (S)
+Last updated: 2009-11-09 00:26:46 UTC+0000
+
+Subkeys:
+  (S) AppEvents
+  (S) Console
+  (S) Control Panel
+  (S) Environment
+  (S) Identities
+  (S) Keyboard Layout
+  (S) Printers
+  (S) Software
+  (S) UNICODE Program Groups
+
+Values:
+----------------------------
+Registry: \Device\HarddiskVolume1\WINDOWS\system32\config\SECURITY
+Key name: SECURITY (S)
+Last updated: 2009-12-11 01:28:07 UTC+0000
+
+Subkeys:
+  (S) Cache
+  (S) Policy
+  (S) RXACT
+  (V) SAM
+
+Values:
+----------------------------
+Registry: [no name]
+Key name: REGISTRY (S)
+Last updated: 2009-12-11 01:27:00 UTC+0000
+
+Subkeys:
+  (S) MACHINE
+  (S) USER
+
+Values:
+----------------------------
+Registry: \Device\HarddiskVolume1\WINDOWS\system32\config\system
+Key name: $$$PROTO.HIV (S)
+Last updated: 2009-12-11 01:27:00 UTC+0000
+
+Subkeys:
+  (S) ControlSet001
+  (S) ControlSet002
+  (S) LastKnownGoodRecovery
+  (S) MountedDevices
+  (S) Select
+  (S) Setup
+  (S) WPA
+  (V) CurrentControlSet
+
+Values:
+----------------------------
+Registry: \Device\HarddiskVolume1\Documents and Settings\LocalService\NTUSER.DAT
+Key name: $$$PROTO.HIV (S)
+Last updated: 2009-11-09 00:38:45 UTC+0000
+
+Subkeys:
+  (S) AppEvents
+  (S) Console
+  (S) Control Panel
+  (S) Environment
+  (S) Identities
+  (S) Keyboard Layout
+  (S) Printers
+  (S) Software
+  (S) UNICODE Program Groups
+
+Values:
+----------------------------
+Registry: \Device\HarddiskVolume1\Documents and Settings\LocalService\Local Settings\Application Data\Microsoft\Windows\UsrClass.dat
+Key name: S-1-5-19_Classes (S)
+Last updated: 2009-11-09 00:38:47 UTC+0000
+
+Subkeys:
+
+Values:

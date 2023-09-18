@@ -1,0 +1,67 @@
+Process: csrss.exe Pid: 640 Address: 0x7f6f0000
+Vad Tag: Vad  Protection: PAGE_EXECUTE_READWRITE
+Flags: Protection: 6
+
+0x7f6f0000  c8 00 00 00 3e 01 00 00 ff ee ff ee 08 70 00 00   ....>........p..
+0x7f6f0010  08 00 00 00 00 fe 00 00 00 00 10 00 00 20 00 00   ................
+0x7f6f0020  00 02 00 00 00 20 00 00 8d 01 00 00 ff ef fd 7f   ................
+0x7f6f0030  03 00 08 06 00 00 00 00 00 00 00 00 00 00 00 00   ................
+
+0x7f6f0000 c8000000         ENTER 0x0, 0x0
+0x7f6f0004 3e0100           ADD [EAX], EAX
+0x7f6f0007 00ff             ADD BH, BH
+0x7f6f0009 ee               OUT DX, AL
+0x7f6f000a ff               DB 0xff
+0x7f6f000b ee               OUT DX, AL
+0x7f6f000c 087000           OR [EAX+0x0], DH
+0x7f6f000f 0008             ADD [EAX], CL
+0x7f6f0011 0000             ADD [EAX], AL
+0x7f6f0013 0000             ADD [EAX], AL
+0x7f6f0015 fe00             INC BYTE [EAX]
+0x7f6f0017 0000             ADD [EAX], AL
+0x7f6f0019 0010             ADD [EAX], DL
+0x7f6f001b 0000             ADD [EAX], AL
+0x7f6f001d 2000             AND [EAX], AL
+0x7f6f001f 0000             ADD [EAX], AL
+0x7f6f0021 0200             ADD AL, [EAX]
+0x7f6f0023 0000             ADD [EAX], AL
+0x7f6f0025 2000             AND [EAX], AL
+0x7f6f0027 008d010000ff     ADD [EBP-0xffffff], CL
+0x7f6f002d ef               OUT DX, EAX
+0x7f6f002e fd               STD
+0x7f6f002f 7f03             JG 0x7f6f0034
+0x7f6f0031 0008             ADD [EAX], CL
+0x7f6f0033 06               PUSH ES
+0x7f6f0034 0000             ADD [EAX], AL
+0x7f6f0036 0000             ADD [EAX], AL
+0x7f6f0038 0000             ADD [EAX], AL
+0x7f6f003a 0000             ADD [EAX], AL
+0x7f6f003c 0000             ADD [EAX], AL
+0x7f6f003e 0000             ADD [EAX], AL
+
+Process: soffice.bin Pid: 2132 Address: 0x2960000
+Vad Tag: VadS Protection: PAGE_EXECUTE_READWRITE
+Flags: CommitCharge: 1, MemCommit: 1, PrivateMemory: 1, Protection: 6
+
+0x02960000  64 d1 86 61 38 00 96 02 48 00 96 02 58 00 96 02   d..a8...H...X...
+0x02960010  18 00 96 02 28 00 96 02 b8 03 00 00 00 ba 00 00   ....(...........
+0x02960020  00 00 e9 9b 1b f0 5e 00 b8 04 00 00 00 ba 00 00   ......^.........
+0x02960030  00 00 e9 8b 1b f0 5e 00 b8 00 00 00 00 ba 00 00   ......^.........
+
+0x02960000 64d18661380096   ROL DWORD [FS:ESI-0x69ffc79f], 0x1
+0x02960007 024800           ADD CL, [EAX+0x0]
+0x0296000a 96               XCHG ESI, EAX
+0x0296000b 025800           ADD BL, [EAX+0x0]
+0x0296000e 96               XCHG ESI, EAX
+0x0296000f 0218             ADD BL, [EAX]
+0x02960011 009602280096     ADD [ESI-0x69ffd7fe], DL
+0x02960017 02b803000000     ADD BH, [EAX+0x3]
+0x0296001d ba00000000       MOV EDX, 0x0
+0x02960022 e99b1bf05e       JMP 0x61861bc2
+0x02960027 00b804000000     ADD [EAX+0x4], BH
+0x0296002d ba00000000       MOV EDX, 0x0
+0x02960032 e98b1bf05e       JMP 0x61861bc2
+0x02960037 00b800000000     ADD [EAX+0x0], BH
+0x0296003d ba               DB 0xba
+0x0296003e 0000             ADD [EAX], AL
+

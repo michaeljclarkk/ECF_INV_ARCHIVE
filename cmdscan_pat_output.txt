@@ -1,0 +1,13 @@
+**************************************************
+CommandProcess: csrss.exe Pid: 640
+CommandHistory: 0x4f2878 Application: mdd_1.3.exe Flags: Allocated
+CommandCount: 0 LastAdded: -1 LastDisplayed: -1
+FirstCommand: 0 CommandCountMax: 50
+ProcessHandle: 0x780
+**************************************************
+CommandProcess: csrss.exe Pid: 640
+CommandHistory: 0x4f2ed8 Application: cmd.exe Flags: Allocated, Reset
+CommandCount: 1 LastAdded: 0 LastDisplayed: 0
+FirstCommand: 0 CommandCountMax: 50
+ProcessHandle: 0x8e4
+Cmd #0 @ 0x4f2730: z:\ram\mdd_1.3.exe -o z:\ram\pat-2009-12-11.ram

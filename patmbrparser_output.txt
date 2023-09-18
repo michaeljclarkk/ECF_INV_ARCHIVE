@@ -1,0 +1,2245 @@
+***************************************************************************
+Potential MBR at physical offset: 0x600
+Disk Signature: 50-d3-50-d3
+Bootcode md5: 80c3459d4bb192442e019a2d9e2ed50f
+Bootcode (FULL) md5: 7bb858d4992125b8f8281dec825a9f22
+Disassembly of Bootable Code:
+0000000600: 0000                             ADD [BX+SI], AL
+0000000602: 0000                             ADD [BX+SI], AL
+0000000604: 0000                             ADD [BX+SI], AL
+0000000606: 0000                             ADD [BX+SI], AL
+0000000608: 0000                             ADD [BX+SI], AL
+000000060a: 0000                             ADD [BX+SI], AL
+000000060c: 0000                             ADD [BX+SI], AL
+000000060e: 0000                             ADD [BX+SI], AL
+0000000610: 0000                             ADD [BX+SI], AL
+0000000612: 0000                             ADD [BX+SI], AL
+0000000614: 0000                             ADD [BX+SI], AL
+0000000616: 0000                             ADD [BX+SI], AL
+0000000618: 0000                             ADD [BX+SI], AL
+000000061a: 00bdbe07                         ADD [DI+0x7be], BH
+000000061e: b104                             MOV CL, 0x4
+0000000620: 386e00                           CMP [BP+0x0], CH
+0000000623: 7c09                             JL 0x2e
+0000000625: 7513                             JNZ 0x3a
+0000000627: 83c510                           ADD BP, 0x10
+000000062a: e2f4                             LOOP 0x20
+000000062c: cd18                             INT 0x18
+000000062e: 8bf5                             MOV SI, BP
+0000000630: 83c610                           ADD SI, 0x10
+0000000633: 49                               DEC CX
+0000000634: 7419                             JZ 0x4f
+0000000636: 382c                             CMP [SI], CH
+0000000638: 74f6                             JZ 0x30
+000000063a: a0b507                           MOV AL, [0x7b5]
+000000063d: b407                             MOV AH, 0x7
+000000063f: 8bf0                             MOV SI, AX
+0000000641: ac                               LODSB
+0000000642: 3c00                             CMP AL, 0x0
+0000000644: 74fc                             JZ 0x42
+0000000646: bb0700                           MOV BX, 0x7
+0000000649: b40e                             MOV AH, 0xe
+000000064b: cd10                             INT 0x10
+000000064d: ebf2                             JMP 0x41
+000000064f: 884e10                           MOV [BP+0x10], CL
+0000000652: e84600                           CALL 0x9b
+0000000655: 732a                             JAE 0x81
+0000000657: fe4610                           INC BYTE [BP+0x10]
+000000065a: 807e040b                         CMP BYTE [BP+0x4], 0xb
+000000065e: 740b                             JZ 0x6b
+0000000660: 807e040c                         CMP BYTE [BP+0x4], 0xc
+0000000664: 7405                             JZ 0x6b
+0000000666: a0b607                           MOV AL, [0x7b6]
+0000000669: 75d2                             JNZ 0x3d
+000000066b: 80460206                         ADD BYTE [BP+0x2], 0x6
+000000066f: 83460806                         ADD WORD [BP+0x8], 0x6
+0000000673: 83560a00                         ADC WORD [BP+0xa], 0x0
+0000000677: e82100                           CALL 0x9b
+000000067a: 7305                             JAE 0x81
+000000067c: a0b607                           MOV AL, [0x7b6]
+000000067f: ebbc                             JMP 0x3d
+0000000681: 813efe7d55aa                     CMP WORD [0x7dfe], 0xaa55
+0000000687: 740b                             JZ 0x94
+0000000689: 807e1000                         CMP BYTE [BP+0x10], 0x0
+000000068d: 74c8                             JZ 0x57
+000000068f: a0b707                           MOV AL, [0x7b7]
+0000000692: eba9                             JMP 0x3d
+0000000694: 8bfc                             MOV DI, SP
+0000000696: 1e                               PUSH DS
+0000000697: 57                               PUSH DI
+0000000698: 8bf5                             MOV SI, BP
+000000069a: cb                               RETF
+000000069b: bf0500                           MOV DI, 0x5
+000000069e: 8a5600                           MOV DL, [BP+0x0]
+00000006a1: b408                             MOV AH, 0x8
+00000006a3: cd13                             INT 0x13
+00000006a5: 7223                             JB 0xca
+00000006a7: 8ac1                             MOV AL, CL
+00000006a9: 243f                             AND AL, 0x3f
+00000006ab: 98                               CBW
+00000006ac: 8ade                             MOV BL, DH
+00000006ae: 8afc                             MOV BH, AH
+00000006b0: 43                               INC BX
+00000006b1: f7e3                             MUL BX
+00000006b3: 8bd1                             MOV DX, CX
+00000006b5: 86d6                             XCHG DH, DL
+00000006b7: b106                             MOV CL, 0x6
+00000006b9: d2ee                             SHR DH, CL
+00000006bb: 42                               INC DX
+00000006bc: f7e2                             MUL DX
+00000006be: 39560a                           CMP [BP+0xa], DX
+00000006c1: 7723                             JA 0xe6
+00000006c3: 7205                             JB 0xca
+00000006c5: 394608                           CMP [BP+0x8], AX
+00000006c8: 731c                             JAE 0xe6
+00000006ca: b80102                           MOV AX, 0x201
+00000006cd: bb007c                           MOV BX, 0x7c00
+00000006d0: 8b4e02                           MOV CX, [BP+0x2]
+00000006d3: 8b5600                           MOV DX, [BP+0x0]
+00000006d6: cd13                             INT 0x13
+00000006d8: 7351                             JAE 0x12b
+00000006da: 4f                               DEC DI
+00000006db: 744e                             JZ 0x12b
+00000006dd: 32e4                             XOR AH, AH
+00000006df: 8a5600                           MOV DL, [BP+0x0]
+00000006e2: cd13                             INT 0x13
+00000006e4: ebe4                             JMP 0xca
+00000006e6: 8a5600                           MOV DL, [BP+0x0]
+00000006e9: 60                               PUSHA
+00000006ea: bbaa55                           MOV BX, 0x55aa
+00000006ed: b441                             MOV AH, 0x41
+00000006ef: cd13                             INT 0x13
+00000006f1: 7236                             JB 0x129
+00000006f3: 81fb55aa                         CMP BX, 0xaa55
+00000006f7: 7530                             JNZ 0x129
+00000006f9: f6c101                           TEST CL, 0x1
+00000006fc: 742b                             JZ 0x129
+00000006fe: 61                               POPA
+00000006ff: 60                               PUSHA
+0000000700: 807300c0                         XOR BYTE [BP+DI+0x0], 0xc0
+0000000704: 806b00c0                         SUB BYTE [BP+DI+0x0], 0xc0
+0000000708: 806f00c0                         SUB BYTE [BX+0x0], 0xc0
+000000070c: 808100c0ad                       ADD BYTE [BX+DI-0x4000], 0xad
+0000000711: 8200c0                           ADD BYTE [BX+SI], 0xc0
+0000000714: ad                               LODSW
+0000000715: 92                               XCHG DX, AX
+0000000716: 00c0                             ADD AL, AL
+0000000718: 136161                           ADC SP, [BX+DI+0x61]
+000000071b: 730e                             JAE 0x12b
+000000071d: 4f                               DEC DI
+000000071e: 740b                             JZ 0x12b
+0000000720: 32e4                             XOR AH, AH
+0000000722: 8a5600                           MOV DL, [BP+0x0]
+0000000725: cd13                             INT 0x13
+0000000727: ebd6                             JMP 0xff
+0000000729: 61                               POPA
+000000072a: f9                               STC
+000000072b: c3                               RET
+
+000000072c: 49 6e 76 61 6c 69 64 20 70 61 72 74 69 74 69 6f   Invalid.partitio
+000000073c: 6e 20 74 61 00 fc 09 00 00 04 00 00 72 20 6c 6f   n.ta........r.lo
+000000074c: 61 64 69 6e 67 20 6f 70 65 72 61 74 69 6e 67 20   ading.operating.
+000000075c: 73 79 73 74 65 6d 00 4d 69 73 73 69 6e 67 20 6f   system.Missing.o
+000000076c: 70 65 72 61 74 69 6e 67 20 73 79 73 74 65 6d 00   perating.system.
+000000077c: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+000000078c: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+000000079c: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00000007ac: 00 00 00 00 00 00 00 00 00 2c 44 63               .........,Dc
+
+===== Partition Table #1 =====
+Boot flag: 0x80 (Bootable)
+Partition type: 0x7 (NTFS)
+Starting Sector (LBA): 0x3f (63)
+Starting CHS: Cylinder: 0 Head: 1 Sector: 1
+Ending CHS: Cylinder: 1023 Head: 254 Sector: 63
+Size in sectors: 0x1838dae (25398702)
+
+===== Partition Table #2 =====
+Boot flag: 0x0 
+Partition type: 0x0 (Empty)
+Starting Sector (LBA): 0x0 (0)
+Starting CHS: Cylinder: 0 Head: 0 Sector: 0
+Ending CHS: Cylinder: 0 Head: 0 Sector: 0
+Size in sectors: 0x0 (0)
+
+===== Partition Table #3 =====
+Boot flag: 0x0 
+Partition type: 0x0 (Empty)
+Starting Sector (LBA): 0x0 (0)
+Starting CHS: Cylinder: 0 Head: 0 Sector: 0
+Ending CHS: Cylinder: 0 Head: 0 Sector: 0
+Size in sectors: 0x0 (0)
+
+===== Partition Table #4 =====
+Boot flag: 0x0 
+Partition type: 0x0 (Empty)
+Starting Sector (LBA): 0x0 (0)
+Starting CHS: Cylinder: 0 Head: 0 Sector: 0
+Ending CHS: Cylinder: 0 Head: 0 Sector: 0
+Size in sectors: 0x0 (0)
+
+***************************************************************************
+
+***************************************************************************
+Potential MBR at physical offset: 0xfaf54
+Disk Signature: 00-80-fc-41
+Bootcode md5: 072b97d95e3888604a17efb8b63ef104
+Bootcode (FULL) md5: 60e77f541576b4ec50cfc9d18f932759
+Disassembly of Bootable Code:
+00000faf54: c80bf88b                         ENTER 0xf80b, 0x8b
+00000faf58: d7                               XLAT BYTE [BX+AL]
+00000faf59: eb15                             JMP 0x1c
+00000faf5b: 83ce02                           OR SI, 0x2
+00000faf5e: ba1800                           MOV DX, 0x18
+00000faf61: b493                             MOV AH, 0x93
+00000faf63: a31c00                           MOV [0x1c], AX
+00000faf66: a14c00                           MOV AX, [0x4c]
+00000faf69: a31800                           MOV [0x18], AX
+00000faf6c: 893e1a00                         MOV [0x1a], DI
+00000faf70: 8bfd                             MOV DI, BP
+00000faf72: 0bf6                             OR SI, SI
+00000faf74: 7432                             JZ 0x54
+00000faf76: 0f01160000                       LGDT DWORD [0x0]
+00000faf7b: b80100                           MOV AX, 0x1
+00000faf7e: 0f01f0                           LMSW AX
+00000faf81: ea86af0800                       JMP FAR 0x8:0xaf86
+00000faf86: f7c60100                         TEST SI, 0x1
+00000faf8a: 7402                             JZ 0x3a
+00000faf8c: 8ec3                             MOV ES, BX
+00000faf8e: f7c60200                         TEST SI, 0x2
+00000faf92: 7402                             JZ 0x42
+00000faf94: 8eda                             MOV DS, DX
+00000faf96: 0f20c0                           MOV EAX, CR0
+00000faf99: 24f0                             AND AL, 0xf0
+00000faf9b: 83e50e                           AND BP, 0xe
+00000faf9e: 0bc5                             OR AX, BP
+00000fafa0: 0f22c0                           MOV CR0, EAX
+00000fafa3: eaa8af00f0                       JMP FAR 0xf000:0xafa8
+00000fafa8: f7c60100                         TEST SI, 0x1
+00000fafac: 7502                             JNZ 0x5c
+00000fafae: 8ec3                             MOV ES, BX
+00000fafb0: f7c60200                         TEST SI, 0x2
+00000fafb4: 7502                             JNZ 0x64
+00000fafb6: 8eda                             MOV DS, DX
+00000fafb8: 8bec                             MOV BP, SP
+00000fafba: 8b4600                           MOV AX, [BP+0x0]
+00000fafbd: 8b5604                           MOV DX, [BP+0x4]
+00000fafc0: bd8000                           MOV BP, 0x80
+00000fafc3: 8ed5                             MOV SS, BP
+00000fafc5: 36893e0600                       MOV [SS:0x6], DI
+00000fafca: 36a31a00                         MOV [SS:0x1a], AX
+00000fafce: 3689161800                       MOV [SS:0x18], DX
+00000fafd3: bc2600                           MOV SP, 0x26
+00000fafd6: 61                               POPA
+00000fafd7: 368b262c00                       MOV SP, [SS:0x2c]
+00000fafdc: 83ec06                           SUB SP, 0x6
+00000fafdf: 368e162000                       MOV SS, [SS:0x20]
+00000fafe4: cf                               IRET
+00000fafe5: 50                               PUSH AX
+00000fafe6: 1e                               PUSH DS
+00000fafe7: 52                               PUSH DX
+00000fafe8: ba4000                           MOV DX, 0x40
+00000fafeb: 8eda                             MOV DS, DX
+00000fafed: b80bff                           MOV AX, 0xff0b
+00000faff0: ba2000                           MOV DX, 0x20
+00000faff3: ee                               OUT DX, AL
+00000faff4: ec                               IN AL, DX
+00000faff5: 3af0                             CMP DH, AL
+00000faff7: 12e0                             ADC AH, AL
+00000faff9: 88266b00                         MOV [0x6b], AH
+00000faffd: 731f                             JAE 0xca
+00000fafff: a804                             TEST AL, 0x4
+00000fb001: 7410                             JZ 0xbf
+00000fb003: b020                             MOV AL, 0x20
+00000fb005: ee                               OUT DX, AL
+00000fb006: b00b                             MOV AL, 0xb
+00000fb008: baa000                           MOV DX, 0xa0
+00000fb00b: ee                               OUT DX, AL
+00000fb00c: e684                             OUT 0x84, AL
+00000fb00e: e684                             OUT 0x84, AL
+00000fb010: ec                               IN AL, DX
+00000fb011: 8ae0                             MOV AH, AL
+00000fb013: 42                               INC DX
+00000fb014: ec                               IN AL, DX
+00000fb015: 0ac4                             OR AL, AH
+00000fb017: e684                             OUT 0x84, AL
+00000fb019: ee                               OUT DX, AL
+00000fb01a: 4a                               DEC DX
+00000fb01b: b020                             MOV AL, 0x20
+00000fb01d: ee                               OUT DX, AL
+00000fb01e: 5a                               POP DX
+00000fb01f: 1f                               POP DS
+00000fb020: 58                               POP AX
+00000fb021: cf                               IRET
+00000fb022: 50                               PUSH AX
+00000fb023: 8ae0                             MOV AH, AL
+00000fb025: e89dfc                           CALL 0xfd71
+00000fb028: 8ac4                             MOV AL, AH
+00000fb02a: e664                             OUT 0x64, AL
+00000fb02c: e684                             OUT 0x84, AL
+00000fb02e: e894fc                           CALL 0xfd71
+00000fb031: 2ef60631b0ff                     TEST BYTE [CS:0xb031], 0xff
+00000fb037: 58                               POP AX
+00000fb038: cb                               RETF
+00000fb039: 50                               PUSH AX
+00000fb03a: 1e                               PUSH DS
+00000fb03b: b84000                           MOV AX, 0x40
+00000fb03e: 8ed8                             MOV DS, AX
+00000fb040: b001                             MOV AL, 0x1
+00000fb042: 86060001                         XCHG [0x100], AL
+00000fb046: fec8                             DEC AL
+00000fb048: 7468                             JZ 0x15e
+00000fb04a: fb                               STI
+00000fb04b: 53                               PUSH BX
+00000fb04c: 51                               PUSH CX
+00000fb04d: 52                               PUSH DX
+00000fb04e: 33d2                             XOR DX, DX
+00000fb050: b402                             MOV AH, 0x2
+00000fb052: cd17                             INT 0x17
+00000fb054: 80f480                           XOR AH, 0x80
+00000fb057: f6c4a0                           TEST AH, 0xa0
+00000fb05a: 7404                             JZ 0x10c
+00000fb05c: b3ff                             MOV BL, 0xff
+00000fb05e: eb4b                             JMP 0x157
+00000fb060: b40f                             MOV AH, 0xf
+00000fb062: cd10                             INT 0x10
+00000fb064: 8adc                             MOV BL, AH
+00000fb066: b403                             MOV AH, 0x3
+00000fb068: cd10                             INT 0x10
+00000fb06a: 52                               PUSH DX
+00000fb06b: 8a0e8400                         MOV CL, [0x84]
+00000fb06f: fec1                             INC CL
+00000fb071: b6ff                             MOV DH, 0xff
+00000fb073: eb23                             JMP 0x144
+00000fb075: b402                             MOV AH, 0x2
+00000fb077: cd10                             INT 0x10
+00000fb079: b408                             MOV AH, 0x8
+00000fb07b: cd10                             INT 0x10
+00000fb07d: 2c0a                             SUB AL, 0xa
+00000fb07f: 7407                             JZ 0x134
+00000fb081: 48                               DEC AX
+00000fb082: 7406                             JZ 0x136
+00000fb084: 3c02                             CMP AL, 0x2
+00000fb086: 7702                             JA 0x136
+00000fb088: b015                             MOV AL, 0x15
+00000fb08a: 040b                             ADD AL, 0xb
+00000fb08c: 74fa                             JZ 0x134
+00000fb08e: e82d00                           CALL 0x16a
+00000fb091: 7513                             JNZ 0x152
+00000fb093: 42                               INC DX
+00000fb094: 3ad3                             CMP DL, BL
+00000fb096: 72dd                             JB 0x121
+00000fb098: e81a00                           CALL 0x161
+00000fb09b: 7509                             JNZ 0x152
+00000fb09d: b2ff                             MOV DL, 0xff
+00000fb09f: 42                               INC DX
+00000fb0a0: 3af1                             CMP DH, CL
+00000fb0a2: 72d1                             JB 0x121
+00000fb0a4: 32db                             XOR BL, BL
+00000fb0a6: 5a                               POP DX
+00000fb0a7: b402                             MOV AH, 0x2
+00000fb0a9: cd10                             INT 0x10
+00000fb0ab: 881e0001                         MOV [0x100], BL
+00000fb0af: 5a                               POP DX
+00000fb0b0: 59                               POP CX
+00000fb0b1: 5b                               POP BX
+00000fb0b2: 1f                               POP DS
+00000fb0b3: 58                               POP AX
+00000fb0b4: cf                               IRET
+00000fb0b5: b00d                             MOV AL, 0xd
+00000fb0b7: e80400                           CALL 0x16a
+00000fb0ba: 7511                             JNZ 0x179
+00000fb0bc: b00a                             MOV AL, 0xa
+00000fb0be: 52                               PUSH DX
+00000fb0bf: 32e4                             XOR AH, AH
+00000fb0c1: 33d2                             XOR DX, DX
+00000fb0c3: cd17                             INT 0x17
+00000fb0c5: 5a                               POP DX
+00000fb0c6: 80e409                           AND AH, 0x9
+00000fb0c9: 7402                             JZ 0x179
+00000fb0cb: b3ff                             MOV BL, 0xff
+00000fb0cd: c3                               RET
+
+00000fb0ce: 66 50 1e 0f a8 6a 40 1f 8e 2e 0e 00 80 3e 75 00   fP...j@......>u.
+00000fb0de: 00 74 1a 33 c0 8e d8 66 a1 4c 00 66 65 a3 a0 01   .t.3...f.L.fe...
+00000fb0ee: 8c c8 66 c1 e0 10 b8 01 b1 66 a3 4c 00 0f a9 1f   ..f......f.L....
+00000fb0fe: 66 58 c3 fb 0f a8 6a 40 0f a9 65 8e 2e 0e         fX....j@..e...
+
+===== Partition Table #1 =====
+Boot flag: 0x80 (Bootable)
+Partition type: 0x27 (PQservice)
+Starting Sector (LBA): 0x83217500 (2200007936)
+Starting CHS: Cylinder: 626 Head: 250 Sector: 0
+Ending CHS: Cylinder: 896 Head: 129 Sector: 58
+Size in sectors: 0x1c7501f9 (477430265)
+
+===== Partition Table #2 =====
+Boot flag: 0x3d 
+Partition type: 0x7 (NTFS)
+Starting Sector (LBA): 0x10eb0f74 (283840372)
+Starting CHS: Cylinder: 116 Head: 1 Sector: 2
+Ending CHS: Cylinder: 3 Head: 61 Sector: 1
+Size in sectors: 0x1eff659c (520054172)
+
+===== Partition Table #3 =====
+Boot flag: 0xa0 
+Partition type: 0x11 (Hidden FAT12,CHS)
+Starting Sector (LBA): 0x6ebf809 (116127753)
+Starting CHS: Cylinder: 744 Head: 1 Sector: 28
+Ending CHS: Cylinder: 747 Head: 0 Sector: 29
+Size in sectors: 0x1eff659c (520054172)
+
+===== Partition Table #4 =====
+Boot flag: 0xa0 
+Partition type: 0xca (Invalid)
+Starting Sector (LBA): 0x26525153 (642928979)
+Starting CHS: Cylinder: 169 Head: 1 Sector: 15
+Ending CHS: Cylinder: 80 Head: 2 Sector: 0
+Size in sectors: 0x1febf81 (33472385)
+
+***************************************************************************
+
+***************************************************************************
+Potential MBR at physical offset: 0xc85002
+Disk Signature: 60-77-da-21
+Bootcode md5: d78276f56f8ec8d4f8cca375e4534366
+Bootcode (FULL) md5: 328323b8b2f8e2505e3a304439606778
+Disassembly of Bootable Code:
+0000c85002: c3                               RET
+
+0000c85003: 77 f8 4d c3 77 c3 c0 c2 77 d6 bb c1 77 7a d4 c1   w.M.w...w...wz..
+0000c85013: 77 7c f9 c5 77 a0 d0 c1 77 67 6d c3 77 80 fc c5   w|..w...wgm.w...
+0000c85023: 77 76 fa c3 77 f3 c1 c1 77 b0 de c1 77 1c 0b c4   wv..w...w...w...
+0000c85033: 77 36 d0 c1 77 16 de c1 77 10 f3 c5 77 40 24 c6   w6..w...w...w@$.
+0000c85043: 77 a3 fa c2 77 4b ec c3 77 ea f0 c2 77 03 03 c3   w...wK..w...w...
+0000c85053: 77 8d ed c2 77 23 1f c4 77 70 6f c4 77 5b 22 c4   w...w#..wpo.w[".
+0000c85063: 77 f0 75 c4 77 8a ff c3 77 bb 6a c4 77 e5 6b c3   w.u.w...w.j.w.k.
+0000c85073: 77 2b dc c1 77 22 d1 c1 77 0a d1 c1 77 f2 d0 c1   w+..w"..w...w...
+0000c85083: 77 b7 d7 c1 77 c1 c3 c1 77 bc f2 c1 77 19 a5 c3   w...w...w...w...
+0000c85093: 77 d8 23 c6 77 25 f1 c1 77 67 9d c3 77 ae 2d c3   w.#.w%..wg..w.-.
+0000c850a3: 77 bd 67 c4 77 f9 80 c4 77 ed 9c c2 77 fd 9c c2   w.g.w...w...w...
+0000c850b3: 77 81 7f c4 77 c5 d8 c1 77 96 c8 c1 77 77 c8 c1   w...w...w...ww..
+0000c850c3: 77 7c cd c1 77 5d cd c1 77 60 7c c4 77 ed c3 c1   w|..w]..w`|.w...
+0000c850d3: 77 37 c4 c2 77 1b c2 c2 77 07 c4 c2 77 0d 5f c3   w7..w...w...w._.
+0000c850e3: 77 eb bc c1 77 2f 80 c4 77 05 bb c1 77 1a bc c1   w...w/..w...w...
+0000c850f3: 77 b0 72 c4 77 d6 d1 c1 77 bf d0 c1 77 b8 7e c4   w.r.w...w...w.~.
+0000c85103: 77 e3 ce c1 77 e7 ff c3 77 11 d7 c1 77 51 4e c3   w...w...w...wQN.
+0000c85113: 77 00 00 00 00 c5 ab 92 7c 2d f6 90 7c 94 2c 90   w.......|-..|.,.
+0000c85123: 7c 00 00 00 00 e1 14 51 77 7b ef 4f 77 e9 3e 52   |......Qw{.Ow.>R
+0000c85133: 77 4c e5 4f 77 60 d0 4f 77 44 d0 4f 77 1a ee 57   wL.Ow`.OwD.Ow..W
+0000c85143: 77 b6 fc 52 77 1d c8 5d 77 2a 56 54 77 98 ca 50   w..Rw..]w*VTw..P
+0000c85153: 77 8c 09 52 77 c5 56 51 77 7e 05 50 77 39 9f 52   w..Rw.VQw~.Pw9.R
+0000c85163: 77 20 e8 53 77 33 bb 52 77 2c fa 53 77 31 ef 4f   w..Sw3.Rw,.Sw1.O
+0000c85173: 77 c0 d6 52 77 71 ea 50 77 94 73 50 77 f2 87 51   w..Rwq.Pw.sPw..Q
+0000c85183: 77 46 ee 4f 77 06 51 52 77 53 2a 50 77 12 de 4f   wF.Ow.QRwS*Pw..O
+0000c85193: 77 ac 00 53 77 27 97 51 77 04 41 51 77 04 2b 53   w..Sw'.Qw.AQw.+S
+0000c851a3: 77 aa 4a 5e 77 80 5e 50 77 5a 55 51 77 d2 21 60   w.J^w.^PwZUQw.!`
+0000c851b3: 77 6d 22 60 77 1d 22                              wm"`w."
+
+===== Partition Table #1 =====
+Boot flag: 0xf4 
+Partition type: 0x0 (Empty)
+Starting Sector (LBA): 0x77124c35 (1997687861)
+Starting CHS: Cylinder: 375 Head: 215 Sector: 18
+Ending CHS: Cylinder: 0 Head: 0 Sector: 0
+Size in sectors: 0x77143365 (1997812581)
+
+===== Partition Table #2 =====
+Boot flag: 0x80 (Bootable)
+Partition type: 0x1b (Hidden FAT32,CHS)
+Starting Sector (LBA): 0x77124ba2 (1997687714)
+Starting CHS: Cylinder: 119 Head: 72 Sector: 18
+Ending CHS: Cylinder: 119 Head: 76 Sector: 18
+Size in sectors: 0x77124b39 (1997687609)
+
+===== Partition Table #3 =====
+Boot flag: 0x39 
+Partition type: 0xfd (Invalid)
+Starting Sector (LBA): 0x7712ab93 (1997712275)
+Starting CHS: Cylinder: 119 Head: 172 Sector: 18
+Ending CHS: Cylinder: 119 Head: 76 Sector: 18
+Size in sectors: 0x7712ab10 (1997712144)
+
+===== Partition Table #4 =====
+Boot flag: 0xf0 
+Partition type: 0xbb (Boot Wizard hidden)
+Starting Sector (LBA): 0x77124fa5 (1997688741)
+Starting CHS: Cylinder: 119 Head: 72 Sector: 18
+Ending CHS: Cylinder: 119 Head: 107 Sector: 18
+Size in sectors: 0x77124950 (1997687120)
+
+***************************************************************************
+
+***************************************************************************
+Potential MBR at physical offset: 0x131c21a
+Disk Signature: 00-00-01-16
+Bootcode md5: 60b295d9bf60cff1443cc03afc08e9a1
+Bootcode (FULL) md5: 60b295d9bf60cff1443cc03afc08e9a1
+Disassembly of Bootable Code:
+000131c21a: 0000                             ADD [BX+SI], AL
+000131c21c: 689e01                           PUSH WORD 0x19e
+000131c21f: c00100                           ROL BYTE [BX+DI], 0x0
+000131c222: 0000                             ADD [BX+SI], AL
+000131c224: 01160100                         ADD [0x1], DX
+000131c228: 800000                           ADD BYTE [BX+SI], 0x0
+000131c22b: 006193                           ADD [BX+DI-0x6d], AH
+000131c22e: 0000                             ADD [BX+SI], AL
+000131c230: 9c                               PUSHF
+000131c231: 0f0000                           SLDT WORD [BX+SI]
+000131c234: dcfd                             FDIV ST5, ST0
+000131c236: 1f                               POP DS
+000131c237: c00100                           ROL BYTE [BX+DI], 0x0
+000131c23a: 0000                             ADD [BX+SI], AL
+000131c23c: 01160100                         ADD [0x1], DX
+000131c240: 800000                           ADD BYTE [BX+SI], 0x0
+000131c243: 00709a                           ADD [BX+SI-0x66], DH
+000131c246: 0100                             ADD [BX+SI], AX
+000131c248: 034000                           ADD AX, [BX+SI+0x0]
+000131c24b: 00542b                           ADD [SI+0x2b], DL
+000131c24e: 03c0                             ADD AX, AX
+000131c250: 0100                             ADD [BX+SI], AX
+000131c252: 0000                             ADD [BX+SI], AL
+000131c254: 01160100                         ADD [0x1], DX
+000131c258: 800000                           ADD BYTE [BX+SI], 0x0
+000131c25b: 00673a                           ADD [BX+0x3a], AH
+000131c25e: 0000                             ADD [BX+SI], AL
+000131c260: e5ac                             IN AX, 0xac
+000131c262: 0000                             ADD [BX+SI], AL
+000131c264: 90                               NOP
+000131c265: 44                               INC SP
+000131c266: 41                               INC CX
+000131c267: e118                             LOOPZ 0x67
+000131c269: b400                             MOV AH, 0x0
+000131c26b: 0008                             ADD [BX+SI], CL
+000131c26d: 1200                             ADC AL, [BX+SI]
+000131c26f: 00c4                             ADD AH, AL
+000131c271: 745c                             JZ 0xb5
+000131c273: 90                               NOP
+000131c274: 8a2c                             MOV CH, [SI]
+000131c276: 0000                             ADD [BX+SI], AL
+000131c278: 2b0c                             SUB CX, [SI]
+000131c27a: 0000                             ADD [BX+SI], AL
+000131c27c: 68ff1f                           PUSH WORD 0x1fff
+000131c27f: c00100                           ROL BYTE [BX+DI], 0x0
+000131c282: 0000                             ADD [BX+SI], AL
+000131c284: 01160100                         ADD [0x1], DX
+000131c288: 800000                           ADD BYTE [BX+SI], 0x0
+000131c28b: 0088b601                         ADD [BX+SI+0x1b6], CL
+000131c28f: 007a0f                           ADD [BP+SI+0xf], BH
+000131c292: 0000                             ADD [BX+SI], AL
+000131c294: f00400                           ADD AL, 0x0
+000131c297: c00100                           ROL BYTE [BX+DI], 0x0
+000131c29a: 0000                             ADD [BX+SI], AL
+000131c29c: 01160100                         ADD [0x1], DX
+000131c2a0: 800000                           ADD BYTE [BX+SI], 0x0
+000131c2a3: 00d3                             ADD BL, DL
+000131c2a5: 99                               CWD
+000131c2a6: 0100                             ADD [BX+SI], AX
+000131c2a8: 0f4400                           CMOVZ AX, [BX+SI]
+000131c2ab: 00a47f41                         ADD [SI+0x417f], AH
+000131c2af: e101                             LOOPZ 0x98
+000131c2b1: 0000                             ADD [BX+SI], AL
+000131c2b3: 0008                             ADD [BX+SI], CL
+000131c2b5: 16                               PUSH SS
+000131c2b6: 0100                             ADD [BX+SI], AX
+000131c2b8: c4745c                           LES SI, [SI+0x5c]
+000131c2bb: 90                               NOP
+000131c2bc: 8d2c                             LEA BP, [SI]
+000131c2be: 0000                             ADD [BX+SI], AL
+000131c2c0: 770e                             JA 0xb6
+000131c2c2: 0000                             ADD [BX+SI], AL
+000131c2c4: 2c97                             SUB AL, 0x97
+000131c2c6: 00c0                             ADD AL, AL
+000131c2c8: 0100                             ADD [BX+SI], AX
+000131c2ca: 0000                             ADD [BX+SI], AL
+000131c2cc: 01160100                         ADD [0x1], DX
+000131c2d0: 800000                           ADD BYTE [BX+SI], 0x0
+000131c2d3: 00fb                             ADD BL, BH
+000131c2d5: 3900                             CMP [BX+SI], AX
+000131c2d7: 00960e00                         ADD [BP+0xe], DL
+000131c2db: 0014                             ADD [SI], DL
+000131c2dd: 9a00c00100                       CALL FAR 0x1:0xc000
+000131c2e2: 0000                             ADD [BX+SI], AL
+000131c2e4: 01160100                         ADD [0x1], DX
+000131c2e8: 800000                           ADD BYTE [BX+SI], 0x0
+000131c2eb: 00fb                             ADD BL, BH
+000131c2ed: 3900                             CMP [BX+SI], AX
+000131c2ef: 00671d                           ADD [BX+0x1d], AH
+000131c2f2: 0000                             ADD [BX+SI], AL
+000131c2f4: 54                               PUSH SP
+000131c2f5: 866fe1                           XCHG [BX-0x1f], CH
+000131c2f8: 0100                             ADD [BX+SI], AX
+000131c2fa: 0000                             ADD [BX+SI], AL
+000131c2fc: 08160100                         OR [0x1], DL
+000131c300: ce                               INTO
+000131c301: 04b0                             ADD AL, 0xb0
+000131c303: 8ea54700                         MOV FS, [DI+0x47]
+000131c307: 00a50100                         ADD [DI+0x1], AH
+000131c30b: 007cf1                           ADD [SI-0xf], BH
+000131c30e: 1dc001                           SBB AX, 0x1c0
+000131c311: 0000                             ADD [BX+SI], AL
+000131c313: 0001                             ADD [BX+DI], AL
+000131c315: 16                               PUSH SS
+000131c316: 0100                             ADD [BX+SI], AX
+000131c318: 800000                           ADD BYTE [BX+SI], 0x0
+000131c31b: 0027                             ADD [BX], AH
+000131c31d: 350000                           XOR AX, 0x0
+000131c320: 3dad01                           CMP AX, 0x1ad
+000131c323: 00a09708                         ADD [BX+SI+0x897], AH
+000131c327: e32b                             JCXZ 0x13a
+000131c329: 5c                               POP SP
+000131c32a: 0000                             ADD [BX+SI], AL
+000131c32c: 0812                             OR [BP+SI], DL
+000131c32e: 0000                             ADD [BX+SI], AL
+000131c330: 363410                           XOR AL, 0x10
+000131c333: 8bfc                             MOV DI, SP
+000131c335: f30100                           ADD [BX+SI], AX
+000131c338: 883f                             MOV [BX], BH
+000131c33a: 0000                             ADD [BX+SI], AL
+000131c33c: 58                               POP AX
+000131c33d: 50                               PUSH AX
+000131c33e: 02e3                             ADD AH, BL
+000131c340: 0100                             ADD [BX+SI], AX
+000131c342: 0000                             ADD [BX+SI], AL
+000131c344: 08160100                         OR [0x1], DL
+000131c348: 6e                               OUTS DX, BYTE [SI]
+000131c349: 54                               PUSH SP
+000131c34a: c0883df901                       ROR BYTE [BX+SI-0x6c3], 0x1
+000131c34f: 0015                             ADD [DI], DL
+000131c351: f9                               STC
+000131c352: 0100                             ADD [BX+SI], AX
+000131c354: b83616                           MOV AX, 0x1636
+000131c357: e36d                             JCXZ 0x1ac
+000131c359: df01                             FILD WORD [BX+DI]
+000131c35b: 0008                             ADD [BX+SI], CL
+000131c35d: 1200                             ADC AL, [BX+SI]
+000131c35f: 0068bc                           ADD [BX+SI-0x44], CH
+000131c362: 328e6494                         XOR CL, [BP-0x6b9c]
+000131c366: 0000                             ADD [BX+SI], AL
+000131c368: 4d                               DEC BP
+000131c369: a20100                           MOV [0x1], AL
+000131c36c: 009b17e1                         ADD [BP+DI-0x1ee9], BL
+000131c370: 8296010008                       ADC BYTE [BP+0x1], 0x8
+000131c375: 1200                             ADC AL, [BX+SI]
+000131c377: 0072ec                           ADD [BP+SI-0x14], DH
+000131c37a: 91                               XCHG CX, AX
+000131c37b: 8a5b39                           MOV BL, [BP+DI+0x39]
+000131c37e: 0000                             ADD [BX+SI], AL
+000131c380: bc2e00                           MOV SP, 0x2e
+000131c383: 005427                           ADD [SI+0x27], DL
+000131c386: 91                               XCHG CX, AX
+000131c387: e1bd                             LOOPZ 0x12c
+000131c389: cd01                             INT 0x1
+000131c38b: 0008                             ADD [BX+SI], CL
+000131c38d: 1200                             ADC AL, [BX+SI]
+000131c38f: 00ca                             ADD DL, CL
+000131c391: 3ce8                             CMP AL, 0xe8
+000131c393: 8805                             MOV [DI], AL
+000131c395: ef                               OUT DX, AX
+000131c396: 0100                             ADD [BX+SI], AX
+000131c398: 58                               POP AX
+000131c399: 52                               PUSH DX
+000131c39a: 0000                             ADD [BX+SI], AL
+000131c39c: a4                               MOVSB
+000131c39d: 8608                             XCHG [BX+SI], CL
+000131c39f: e362                             JCXZ 0x1e9
+000131c3a1: 07                               POP ES
+000131c3a2: 0000                             ADD [BX+SI], AL
+000131c3a4: 0812                             OR [BP+SI], DL
+000131c3a6: 0000                             ADD [BX+SI], AL
+000131c3a8: c4                               DB 0xc4
+000131c3a9: c4                               DB 0xc4
+000131c3aa: d9                               DB 0xd9
+000131c3ab: 8e                               DB 0x8e
+000131c3ac: 0b6700                           OR SP, [BX+0x0]
+000131c3af: 00ef                             ADD BH, CH
+000131c3b1: db01                             FILD DWORD [BX+DI]
+000131c3b3: 00941a00                         ADD [SI+0x1a], DL
+000131c3b7: c028e9                           SHR BYTE [BX+SI], 0xe9
+000131c3ba: 0100                             ADD [BX+SI], AX
+000131c3bc: 0012                             ADD [BP+SI], DL
+000131c3be: 0000                             ADD [BX+SI], AL
+000131c3c0: 80d05d                           ADC AL, 0x5d
+000131c3c3: 02a6e501                         ADD AH, [BP+0x1e5]
+000131c3c7: 00f9                             ADD CL, BH
+000131c3c9: 0e                               PUSH CS
+000131c3ca: 0000                             ADD [BX+SI], AL
+000131c3cc: 94                               XCHG SP, AX
+000131c3cd: 97                               XCHG DI, AX
+000131c3ce: 00c0                             ADD AL, AL
+000131c3d0: 0100                             ADD [BX+SI], AX
+
+
+===== Partition Table #1 =====
+Boot flag: 0x80 (Bootable)
+Partition type: 0xfb (VMWare File System)
+Starting Sector (LBA): 0x1e8a5 (125093)
+Starting CHS: Cylinder: 0 Head: 0 Sector: 0
+Ending CHS: Cylinder: 0 Head: 57 Sector: 0
+Size in sectors: -0x1d29bde8 (-489274856)
+
+===== Partition Table #2 =====
+Boot flag: 0x63 
+Partition type: 0x8 (Invalid)
+Starting Sector (LBA): 0x888f8cd4 (2291109076)
+Starting CHS: Cylinder: 0 Head: 1 Sector: 0
+Ending CHS: Cylinder: 0 Head: 18 Sector: 0
+Size in sectors: 0x1949a (103578)
+
+===== Partition Table #3 =====
+Boot flag: 0xad 
+Partition type: 0x14 (Hidden FAT16,16-32MB,CHS)
+Starting Sector (LBA): 0x1 (1)
+Starting CHS: Cylinder: 0 Head: 14 Sector: 0
+Ending CHS: Cylinder: 192 Head: 165 Sector: 0
+Size in sectors: 0x11601 (71169)
+
+===== Partition Table #4 =====
+Boot flag: 0x80 (Bootable)
+Partition type: 0x33 (Invalid)
+Starting Sector (LBA): 0x1d607 (120327)
+Starting CHS: Cylinder: 0 Head: 0 Sector: 0
+Ending CHS: Cylinder: 0 Head: 12 Sector: 0
+Size in sectors: -0x1e822f3c (-511848252)
+
+***************************************************************************
+
+***************************************************************************
+Potential MBR at physical offset: 0x2ff4046
+Disk Signature: 57-77-f2-87
+Bootcode md5: 87bc110adac49140ccd9a0c5a598d315
+Bootcode (FULL) md5: a098839635414dff9fea7e716dec50be
+Disassembly of Bootable Code:
+0002ff4046: df77e1                           FBSTP TBYTE [BX-0x1f]
+0002ff4049: a3de77                           MOV [0x77de], AX
+0002ff404c: 03c0                             ADD AX, AX
+0002ff404e: df77b9                           FBSTP TBYTE [BX-0x47]
+0002ff4051: 4b                               DEC BX
+0002ff4052: de7755                           FIDIV WORD [BX+0x55]
+0002ff4055: 4b                               DEC BX
+0002ff4056: de7787                           FIDIV WORD [BX-0x79]
+0002ff4059: 4b                               DEC BX
+0002ff405a: de77e7                           FIDIV WORD [BX-0x19]
+0002ff405d: 73dd                             JAE 0xfff6
+0002ff405f: 772c                             JA 0x47
+0002ff4061: d5e0                             AAD 0xe0
+0002ff4063: 77f4                             JA 0x13
+0002ff4065: 1e                               PUSH DS
+0002ff4066: de7707                           FIDIV WORD [BX+0x7]
+0002ff4069: 57                               PUSH DI
+0002ff406a: de77bb                           FIDIV WORD [BX-0x45]
+0002ff406d: 58                               POP AX
+0002ff406e: de7727                           FIDIV WORD [BX+0x27]
+0002ff4071: 1e                               PUSH DS
+0002ff4072: de771b                           FIDIV WORD [BX+0x1b]
+0002ff4075: e0de                             LOOPNZ 0xf
+0002ff4077: 77c6                             JA 0xfff9
+0002ff4079: 79dd                             JNS 0x12
+0002ff407b: 7705                             JA 0x3c
+0002ff407d: 4b                               DEC BX
+0002ff407e: de772d                           FIDIV WORD [BX+0x2d]
+0002ff4081: 4b                               DEC BX
+0002ff4082: de77eb                           FIDIV WORD [BX-0x15]
+0002ff4085: 79dd                             JNS 0x1e
+0002ff4087: 778e                             JA 0xffd1
+0002ff4089: 4e                               DEC SI
+0002ff408a: df77bb                           FBSTP TBYTE [BX-0x45]
+0002ff408d: 74dd                             JZ 0x26
+0002ff408f: 775e                             JA 0xa9
+0002ff4091: 74dd                             JZ 0x2a
+0002ff4093: 7759                             JA 0xa8
+0002ff4095: 5b                               POP BX
+0002ff4096: de7757                           FIDIV WORD [BX+0x57]
+0002ff4099: 44                               INC SP
+0002ff409a: df7719                           FBSTP TBYTE [BX+0x19]
+0002ff409d: f2dd775c                         FNSAVE [BX+0x5c]
+0002ff40a1: 7ddd                             JGE 0x3a
+0002ff40a3: 77a3                             JA 0x2
+0002ff40a5: 7edf                             JLE 0x40
+0002ff40a7: 7778                             JA 0xdb
+0002ff40a9: 7edf                             JLE 0x44
+0002ff40ab: 7709                             JA 0x70
+0002ff40ad: 7ddd                             JGE 0x46
+0002ff40af: 7733                             JA 0x9e
+0002ff40b1: 4c                               DEC SP
+0002ff40b2: de7749                           FIDIV WORD [BX+0x49]
+0002ff40b5: dadd                             FCMOVU ST0, ST5
+0002ff40b7: 7738                             JA 0xab
+0002ff40b9: 73dd                             JAE 0x52
+0002ff40bb: 77cc                             JA 0x43
+0002ff40bd: 72dd                             JB 0x56
+0002ff40bf: 778b                             JA 0x6
+0002ff40c1: 79dd                             JNS 0x5a
+0002ff40c3: 77af                             JA 0x2e
+0002ff40c5: 6add                             PUSH -0x23
+0002ff40c7: 77ff                             JA 0x82
+0002ff40c9: 6f                               OUTS DX, WORD [SI]
+0002ff40ca: dd77d9                           FNSAVE [BX-0x27]
+0002ff40cd: 7bdd                             JNP 0x66
+0002ff40cf: 779b                             JA 0x26
+0002ff40d1: 55                               PUSH BP
+0002ff40d2: de776c                           FIDIV WORD [BX+0x6c]
+0002ff40d5: 77dd                             JA 0x6e
+0002ff40d7: 7767                             JA 0xfa
+0002ff40d9: d7                               XLAT BYTE [BX+AL]
+0002ff40da: dd7727                           FNSAVE [BX+0x27]
+0002ff40dd: 6c                               INS BYTE [ES:DI], DX
+0002ff40de: dd7700                           FNSAVE [BX+0x0]
+0002ff40e1: 0000                             ADD [BX+SI], AL
+0002ff40e3: 00552c                           ADD [DI+0x2c], DL
+0002ff40e6: b276                             MOV DL, 0x76
+0002ff40e8: df39                             FISTP QWORD [BX+DI]
+0002ff40ea: b276                             MOV DL, 0x76
+0002ff40ec: 0000                             ADD [BX+SI], AL
+0002ff40ee: 0000                             ADD [BX+SI], AL
+0002ff40f0: b09f                             MOV AL, 0x9f
+0002ff40f2: 807c1a1e                         CMP BYTE [SI+0x1a], 0x1e
+0002ff40f6: 807cca3f                         CMP BYTE [SI-0x36], 0x3f
+0002ff40fa: 867c5d                           XCHG [SI+0x5d], BH
+0002ff40fd: 49                               DEC CX
+0002ff40fe: 847cbf                           TEST [SI-0x41], BH
+0002ff4101: 4b                               DEC BX
+0002ff4102: 837cd097                         CMP WORD [SI-0x30], -0x69
+0002ff4106: 807ce917                         CMP BYTE [SI-0x17], 0x17
+0002ff410a: 807ca99a                         CMP BYTE [SI-0x57], 0x9a
+0002ff410e: 807cebae                         CMP BYTE [SI-0x15], 0xae
+0002ff4112: 807c7477                         CMP BYTE [SI+0x74], 0x77
+0002ff4116: b75c                             MOV BH, 0x5c
+0002ff4118: 30fe                             XOR DH, BH
+0002ff411a: 90                               NOP
+0002ff411b: 7c05                             JL 0xdc
+0002ff411d: af                               SCASW
+0002ff411e: 807cfea3                         CMP BYTE [SI-0x2], 0xa3
+0002ff4122: 807cc7a4                         CMP BYTE [SI-0x39], 0xa4
+0002ff4126: 807c4a93                         CMP BYTE [SI+0x4a], 0x93
+0002ff412a: 807cc099                         CMP BYTE [SI-0x40], 0x99
+0002ff412e: 807ce79b                         CMP BYTE [SI-0x19], 0x9b
+0002ff4132: 807c8b99                         CMP BYTE [SI-0x75], 0x99
+0002ff4136: 807c21fe                         CMP BYTE [SI+0x21], 0xfe
+0002ff413a: 90                               NOP
+0002ff413b: 7c95                             JL 0x8c
+0002ff413d: de807c2d                         FIADD WORD [BX+SI+0x2d7c]
+0002ff4141: 9a807ccf99                       CALL FAR 0x99cf:0x7c80
+0002ff4146: 807c3613                         CMP BYTE [SI+0x36], 0x13
+0002ff414a: 817c919f80                       CMP WORD [SI-0x6f], 0x809f
+0002ff414f: 7c7a                             JL 0x185
+0002ff4151: 13917c7e                         ADC DX, [BX+DI+0x7e7c]
+0002ff4155: ac                               LODSB
+0002ff4156: 807c0010                         CMP BYTE [SI+0x0], 0x10
+0002ff415a: 90                               NOP
+0002ff415b: 7ce0                             JL 0xf7
+0002ff415d: 10907c1a                         ADC [BX+SI+0x1a7c], DL
+0002ff4161: 98                               CBW
+0002ff4162: 807c0698                         CMP BYTE [SI+0x6], 0x98
+0002ff4166: 807c0000                         CMP BYTE [SI+0x0], 0x0
+0002ff416a: 0000                             ADD [BX+SI], AL
+0002ff416c: 31f9                             XOR CX, DI
+0002ff416e: c3                               RET
+
+0002ff416f: 77 94 7e c4 77 fa 27 c2 77 94 5c c3 77 61 7e c4   w.~.w.'.w.\.wa~.
+0002ff417f: 77 2f 80 c4 77 cc 7f c4 77 bb 6a c4 77 bd 67 c4   w/..w...w.j.w.g.
+0002ff418f: 77 e3 7e c4 77 e6 81 c4 77 b8 7e c4 77 3d d1 c1   w.~.w...w.~.w=..
+0002ff419f: 77 6b 80 c4 77 07 c4 c2 77 1b c2 c2 77 30 fa c4   wk..w...w...w0..
+0002ff41af: 77 b3 1b c4 77 67 9d c3 77 d8 23 c6 77 6d 26 c2   w...wg..w.#.wm&.
+0002ff41bf: 77 00 00 00 00 0e 8a 86 5b 00 7a 86 5b fa 12 87   w.......[.z.[...
+0002ff41cf: 5b 00 00 00 00 da 86 91 7c 2d f6 90 7c 95 12 90   [.......|-..|...
+0002ff41df: 7c 00 00 00 00 7e 05 50 77 12 de 4f 77 44 d0 4f   |....~.Pw..OwD.O
+0002ff41ef: 77 98 ca 50 77 e9 3e 52 77 4c e5 4f 77 62 c7      w..Pw.>RwL.Owb.
+
+===== Partition Table #1 =====
+Boot flag: 0x5a 
+Partition type: 0x8 (Invalid)
+Starting Sector (LBA): 0x7752fcb6 (2001927350)
+Starting CHS: Cylinder: 375 Head: 85 Sector: 17
+Ending CHS: Cylinder: 375 Head: 221 Sector: 15
+Size in sectors: 0x774fd060 (2001719392)
+
+===== Partition Table #2 =====
+Boot flag: 0x0 
+Partition type: 0xfd (Invalid)
+Starting Sector (LBA): 0x7714306e (1997811822)
+Starting CHS: Cylinder: 0 Head: 0 Sector: 0
+Ending CHS: Cylinder: 119 Head: 76 Sector: 18
+Size in sectors: 0x77164f39 (1997950777)
+
+===== Partition Table #3 =====
+Boot flag: 0x19 
+Partition type: 0x8d (Invalid)
+Starting Sector (LBA): 0x77124950 (1997687120)
+Starting CHS: Cylinder: 119 Head: 79 Sector: 22
+Ending CHS: Cylinder: 119 Head: 79 Sector: 18
+Size in sectors: 0x771248f0 (1997687024)
+
+===== Partition Table #4 =====
+Boot flag: 0x80 (Bootable)
+Partition type: 0xa5 (FreeBSD)
+Starting Sector (LBA): 0x7712ac39 (1997712441)
+Starting CHS: Cylinder: 119 Head: 72 Sector: 18
+Ending CHS: Cylinder: 119 Head: 79 Sector: 18
+Size in sectors: 0x77124ba2 (1997687714)
+
+***************************************************************************
+
+***************************************************************************
+Potential MBR at physical offset: 0x6a71002
+Disk Signature: 60-77-da-21
+Bootcode md5: d78276f56f8ec8d4f8cca375e4534366
+Bootcode (FULL) md5: 328323b8b2f8e2505e3a304439606778
+Disassembly of Bootable Code:
+0006a71002: c3                               RET
+
+0006a71003: 77 f8 4d c3 77 c3 c0 c2 77 d6 bb c1 77 7a d4 c1   w.M.w...w...wz..
+0006a71013: 77 7c f9 c5 77 a0 d0 c1 77 67 6d c3 77 80 fc c5   w|..w...wgm.w...
+0006a71023: 77 76 fa c3 77 f3 c1 c1 77 b0 de c1 77 1c 0b c4   wv..w...w...w...
+0006a71033: 77 36 d0 c1 77 16 de c1 77 10 f3 c5 77 40 24 c6   w6..w...w...w@$.
+0006a71043: 77 a3 fa c2 77 4b ec c3 77 ea f0 c2 77 03 03 c3   w...wK..w...w...
+0006a71053: 77 8d ed c2 77 23 1f c4 77 70 6f c4 77 5b 22 c4   w...w#..wpo.w[".
+0006a71063: 77 f0 75 c4 77 8a ff c3 77 bb 6a c4 77 e5 6b c3   w.u.w...w.j.w.k.
+0006a71073: 77 2b dc c1 77 22 d1 c1 77 0a d1 c1 77 f2 d0 c1   w+..w"..w...w...
+0006a71083: 77 b7 d7 c1 77 c1 c3 c1 77 bc f2 c1 77 19 a5 c3   w...w...w...w...
+0006a71093: 77 d8 23 c6 77 25 f1 c1 77 67 9d c3 77 ae 2d c3   w.#.w%..wg..w.-.
+0006a710a3: 77 bd 67 c4 77 f9 80 c4 77 ed 9c c2 77 fd 9c c2   w.g.w...w...w...
+0006a710b3: 77 81 7f c4 77 c5 d8 c1 77 96 c8 c1 77 77 c8 c1   w...w...w...ww..
+0006a710c3: 77 7c cd c1 77 5d cd c1 77 60 7c c4 77 ed c3 c1   w|..w]..w`|.w...
+0006a710d3: 77 37 c4 c2 77 1b c2 c2 77 07 c4 c2 77 0d 5f c3   w7..w...w...w._.
+0006a710e3: 77 eb bc c1 77 2f 80 c4 77 05 bb c1 77 1a bc c1   w...w/..w...w...
+0006a710f3: 77 b0 72 c4 77 d6 d1 c1 77 bf d0 c1 77 b8 7e c4   w.r.w...w...w.~.
+0006a71103: 77 e3 ce c1 77 e7 ff c3 77 11 d7 c1 77 51 4e c3   w...w...w...wQN.
+0006a71113: 77 00 00 00 00 c5 ab 92 7c 2d f6 90 7c 94 2c 90   w.......|-..|.,.
+0006a71123: 7c 00 00 00 00 e1 14 51 77 7b ef 4f 77 e9 3e 52   |......Qw{.Ow.>R
+0006a71133: 77 4c e5 4f 77 60 d0 4f 77 44 d0 4f 77 1a ee 57   wL.Ow`.OwD.Ow..W
+0006a71143: 77 b6 fc 52 77 1d c8 5d 77 2a 56 54 77 98 ca 50   w..Rw..]w*VTw..P
+0006a71153: 77 8c 09 52 77 c5 56 51 77 7e 05 50 77 39 9f 52   w..Rw.VQw~.Pw9.R
+0006a71163: 77 20 e8 53 77 33 bb 52 77 2c fa 53 77 31 ef 4f   w..Sw3.Rw,.Sw1.O
+0006a71173: 77 c0 d6 52 77 71 ea 50 77 94 73 50 77 f2 87 51   w..Rwq.Pw.sPw..Q
+0006a71183: 77 46 ee 4f 77 06 51 52 77 53 2a 50 77 12 de 4f   wF.Ow.QRwS*Pw..O
+0006a71193: 77 ac 00 53 77 27 97 51 77 04 41 51 77 04 2b 53   w..Sw'.Qw.AQw.+S
+0006a711a3: 77 aa 4a 5e 77 80 5e 50 77 5a 55 51 77 d2 21 60   w.J^w.^PwZUQw.!`
+0006a711b3: 77 6d 22 60 77 1d 22                              wm"`w."
+
+===== Partition Table #1 =====
+Boot flag: 0xf4 
+Partition type: 0x0 (Empty)
+Starting Sector (LBA): 0x77124c35 (1997687861)
+Starting CHS: Cylinder: 375 Head: 215 Sector: 18
+Ending CHS: Cylinder: 0 Head: 0 Sector: 0
+Size in sectors: 0x77143365 (1997812581)
+
+===== Partition Table #2 =====
+Boot flag: 0x80 (Bootable)
+Partition type: 0x1b (Hidden FAT32,CHS)
+Starting Sector (LBA): 0x77124ba2 (1997687714)
+Starting CHS: Cylinder: 119 Head: 72 Sector: 18
+Ending CHS: Cylinder: 119 Head: 76 Sector: 18
+Size in sectors: 0x77124b39 (1997687609)
+
+===== Partition Table #3 =====
+Boot flag: 0x39 
+Partition type: 0xfd (Invalid)
+Starting Sector (LBA): 0x7712ab93 (1997712275)
+Starting CHS: Cylinder: 119 Head: 172 Sector: 18
+Ending CHS: Cylinder: 119 Head: 76 Sector: 18
+Size in sectors: 0x7712ab10 (1997712144)
+
+===== Partition Table #4 =====
+Boot flag: 0xf0 
+Partition type: 0xbb (Boot Wizard hidden)
+Starting Sector (LBA): 0x77124fa5 (1997688741)
+Starting CHS: Cylinder: 119 Head: 72 Sector: 18
+Ending CHS: Cylinder: 119 Head: 107 Sector: 18
+Size in sectors: 0x77124950 (1997687120)
+
+***************************************************************************
+
+***************************************************************************
+Potential MBR at physical offset: 0xc0cf002
+Disk Signature: 60-77-da-21
+Bootcode md5: d78276f56f8ec8d4f8cca375e4534366
+Bootcode (FULL) md5: 328323b8b2f8e2505e3a304439606778
+Disassembly of Bootable Code:
+000c0cf002: c3                               RET
+
+000c0cf003: 77 f8 4d c3 77 c3 c0 c2 77 d6 bb c1 77 7a d4 c1   w.M.w...w...wz..
+000c0cf013: 77 7c f9 c5 77 a0 d0 c1 77 67 6d c3 77 80 fc c5   w|..w...wgm.w...
+000c0cf023: 77 76 fa c3 77 f3 c1 c1 77 b0 de c1 77 1c 0b c4   wv..w...w...w...
+000c0cf033: 77 36 d0 c1 77 16 de c1 77 10 f3 c5 77 40 24 c6   w6..w...w...w@$.
+000c0cf043: 77 a3 fa c2 77 4b ec c3 77 ea f0 c2 77 03 03 c3   w...wK..w...w...
+000c0cf053: 77 8d ed c2 77 23 1f c4 77 70 6f c4 77 5b 22 c4   w...w#..wpo.w[".
+000c0cf063: 77 f0 75 c4 77 8a ff c3 77 bb 6a c4 77 e5 6b c3   w.u.w...w.j.w.k.
+000c0cf073: 77 2b dc c1 77 22 d1 c1 77 0a d1 c1 77 f2 d0 c1   w+..w"..w...w...
+000c0cf083: 77 b7 d7 c1 77 c1 c3 c1 77 bc f2 c1 77 19 a5 c3   w...w...w...w...
+000c0cf093: 77 d8 23 c6 77 25 f1 c1 77 67 9d c3 77 ae 2d c3   w.#.w%..wg..w.-.
+000c0cf0a3: 77 bd 67 c4 77 f9 80 c4 77 ed 9c c2 77 fd 9c c2   w.g.w...w...w...
+000c0cf0b3: 77 81 7f c4 77 c5 d8 c1 77 96 c8 c1 77 77 c8 c1   w...w...w...ww..
+000c0cf0c3: 77 7c cd c1 77 5d cd c1 77 60 7c c4 77 ed c3 c1   w|..w]..w`|.w...
+000c0cf0d3: 77 37 c4 c2 77 1b c2 c2 77 07 c4 c2 77 0d 5f c3   w7..w...w...w._.
+000c0cf0e3: 77 eb bc c1 77 2f 80 c4 77 05 bb c1 77 1a bc c1   w...w/..w...w...
+000c0cf0f3: 77 b0 72 c4 77 d6 d1 c1 77 bf d0 c1 77 b8 7e c4   w.r.w...w...w.~.
+000c0cf103: 77 e3 ce c1 77 e7 ff c3 77 11 d7 c1 77 51 4e c3   w...w...w...wQN.
+000c0cf113: 77 00 00 00 00 c5 ab 92 7c 2d f6 90 7c 94 2c 90   w.......|-..|.,.
+000c0cf123: 7c 00 00 00 00 e1 14 51 77 7b ef 4f 77 e9 3e 52   |......Qw{.Ow.>R
+000c0cf133: 77 4c e5 4f 77 60 d0 4f 77 44 d0 4f 77 1a ee 57   wL.Ow`.OwD.Ow..W
+000c0cf143: 77 b6 fc 52 77 1d c8 5d 77 2a 56 54 77 98 ca 50   w..Rw..]w*VTw..P
+000c0cf153: 77 8c 09 52 77 c5 56 51 77 7e 05 50 77 39 9f 52   w..Rw.VQw~.Pw9.R
+000c0cf163: 77 20 e8 53 77 33 bb 52 77 2c fa 53 77 31 ef 4f   w..Sw3.Rw,.Sw1.O
+000c0cf173: 77 c0 d6 52 77 71 ea 50 77 94 73 50 77 f2 87 51   w..Rwq.Pw.sPw..Q
+000c0cf183: 77 46 ee 4f 77 06 51 52 77 53 2a 50 77 12 de 4f   wF.Ow.QRwS*Pw..O
+000c0cf193: 77 ac 00 53 77 27 97 51 77 04 41 51 77 04 2b 53   w..Sw'.Qw.AQw.+S
+000c0cf1a3: 77 aa 4a 5e 77 80 5e 50 77 5a 55 51 77 d2 21 60   w.J^w.^PwZUQw.!`
+000c0cf1b3: 77 6d 22 60 77 1d 22                              wm"`w."
+
+===== Partition Table #1 =====
+Boot flag: 0xf4 
+Partition type: 0x0 (Empty)
+Starting Sector (LBA): 0x77124c35 (1997687861)
+Starting CHS: Cylinder: 375 Head: 215 Sector: 18
+Ending CHS: Cylinder: 0 Head: 0 Sector: 0
+Size in sectors: 0x77143365 (1997812581)
+
+===== Partition Table #2 =====
+Boot flag: 0x80 (Bootable)
+Partition type: 0x1b (Hidden FAT32,CHS)
+Starting Sector (LBA): 0x77124ba2 (1997687714)
+Starting CHS: Cylinder: 119 Head: 72 Sector: 18
+Ending CHS: Cylinder: 119 Head: 76 Sector: 18
+Size in sectors: 0x77124b39 (1997687609)
+
+===== Partition Table #3 =====
+Boot flag: 0x39 
+Partition type: 0xfd (Invalid)
+Starting Sector (LBA): 0x7712ab93 (1997712275)
+Starting CHS: Cylinder: 119 Head: 172 Sector: 18
+Ending CHS: Cylinder: 119 Head: 76 Sector: 18
+Size in sectors: 0x7712ab10 (1997712144)
+
+===== Partition Table #4 =====
+Boot flag: 0xf0 
+Partition type: 0xbb (Boot Wizard hidden)
+Starting Sector (LBA): 0x77124fa5 (1997688741)
+Starting CHS: Cylinder: 119 Head: 72 Sector: 18
+Ending CHS: Cylinder: 119 Head: 107 Sector: 18
+Size in sectors: 0x77124950 (1997687120)
+
+***************************************************************************
+
+***************************************************************************
+Potential MBR at physical offset: 0xca8faae
+Disk Signature: 08-5d-5b-5f
+Bootcode md5: dfc3209910062928feeec2708bf00ff5
+Bootcode (FULL) md5: 947be809a71f81b03aa75618fcdf8af2
+Disassembly of Bootable Code:
+000ca8faae: 0100                             ADD [BX+SI], AX
+000ca8fab0: 0080fb22                         ADD [BX+SI+0x22fb], AL
+000ca8fab4: 0f840d01                         JZ 0x117
+000ca8fab8: 0000                             ADD [BX+SI], AL
+000ca8faba: 80fb27                           CMP BL, 0x27
+000ca8fabd: 0f843101                         JZ 0x144
+000ca8fac1: 0000                             ADD [BX+SI], AL
+000ca8fac3: b212                             MOV DL, 0x12
+000ca8fac5: e946fe                           JMP 0xfe60
+000ca8fac8: ff                               DB 0xff
+000ca8fac9: ff0f                             DEC WORD [BX]
+000ca8facb: b631                             MOV DH, 0x31
+000ca8facd: f6042e                           TEST BYTE [SI], 0x2e
+000ca8fad0: 0c0f                             OR AL, 0xf
+000ca8fad2: 846701                           TEST [BX+0x1], AH
+000ca8fad5: 0000                             ADD [BX+SI], AL
+000ca8fad7: b201                             MOV DL, 0x1
+000ca8fad9: 894c24                           MOV [SI+0x24], CX
+000ca8fadc: 18e9                             SBB CL, CH
+000ca8fade: 5c                               POP SP
+000ca8fadf: 0100                             ADD [BX+SI], AX
+000ca8fae1: 008a190f                         ADD [BP+SI+0xf19], CL
+000ca8fae5: b6f3                             MOV DH, 0xf3
+000ca8fae7: 885c24                           MOV [SI+0x24], BL
+000ca8faea: 138a1c2e                         ADC CX, [BP+SI+0x2e1c]
+000ca8faee: f6c30e                           TEST BL, 0xe
+000ca8faf1: 0f854701                         JNZ 0x18e
+000ca8faf5: 0000                             ADD [BX+SI], AL
+000ca8faf7: f6c301                           TEST BL, 0x1
+000ca8fafa: 7411                             JZ 0x5f
+000ca8fafc: 8bf1                             MOV SI, CX
+000ca8fafe: 2b7424                           SUB SI, [SI+0x24]
+000ca8fb01: 18b20289                         SBB [BP+SI-0x76fe], DH
+000ca8fb05: 7424                             JZ 0x7d
+000ca8fb07: 1ce9                             SBB AL, 0xe9
+000ca8fb09: 3101                             XOR [BX+DI], AX
+000ca8fb0b: 0000                             ADD [BX+SI], AL
+000ca8fb0d: 807c2413                         CMP BYTE [SI+0x24], 0x13
+000ca8fb11: 3d0f85                           CMP AX, 0x850f
+000ca8fb14: 2401                             AND AL, 0x1
+000ca8fb16: 0000                             ADD [BX+SI], AL
+000ca8fb18: 8bf1                             MOV SI, CX
+000ca8fb1a: 2b7424                           SUB SI, [SI+0x24]
+000ca8fb1d: 18b20389                         SBB [BP+SI-0x76fd], DH
+000ca8fb21: 7424                             JZ 0x99
+000ca8fb23: 1ce9                             SBB AL, 0xe9
+000ca8fb25: 150100                           ADC AX, 0x1
+000ca8fb28: 00b203e9                         ADD [BP+SI-0x16fd], DH
+000ca8fb2c: 0e                               PUSH CS
+000ca8fb2d: 0100                             ADD [BX+SI], AX
+000ca8fb2f: 00b2048b                         ADD [BP+SI-0x74fc], DH
+000ca8fb33: f9                               STC
+000ca8fb34: e90501                           JMP 0x18e
+000ca8fb37: 0000                             ADD [BX+SI], AL
+000ca8fb39: b207                             MOV DL, 0x7
+000ca8fb3b: 8bf9                             MOV DI, CX
+000ca8fb3d: e9fc00                           JMP 0x18e
+000ca8fb40: 0000                             ADD [BX+SI], AL
+000ca8fb42: b208                             MOV DL, 0x8
+000ca8fb44: 8bf9                             MOV DI, CX
+000ca8fb46: e9f300                           JMP 0x18e
+000ca8fb49: 0000                             ADD [BX+SI], AL
+000ca8fb4b: b20b                             MOV DL, 0xb
+000ca8fb4d: 8bf9                             MOV DI, CX
+000ca8fb4f: e9ea00                           JMP 0x18e
+000ca8fb52: 0000                             ADD [BX+SI], AL
+000ca8fb54: b20d                             MOV DL, 0xd
+000ca8fb56: 8bf9                             MOV DI, CX
+000ca8fb58: e9e100                           JMP 0x18e
+000ca8fb5b: 0000                             ADD [BX+SI], AL
+000ca8fb5d: b206                             MOV DL, 0x6
+000ca8fb5f: e9da00                           JMP 0x18e
+000ca8fb62: 0000                             ADD [BX+SI], AL
+000ca8fb64: b207                             MOV DL, 0x7
+000ca8fb66: e9d300                           JMP 0x18e
+000ca8fb69: 0000                             ADD [BX+SI], AL
+000ca8fb6b: b208                             MOV DL, 0x8
+000ca8fb6d: e9cc00                           JMP 0x18e
+000ca8fb70: 0000                             ADD [BX+SI], AL
+000ca8fb72: b209                             MOV DL, 0x9
+000ca8fb74: e9c500                           JMP 0x18e
+000ca8fb77: 0000                             ADD [BX+SI], AL
+000ca8fb79: b20a                             MOV DL, 0xa
+000ca8fb7b: e9be00                           JMP 0x18e
+000ca8fb7e: 0000                             ADD [BX+SI], AL
+000ca8fb80: 0fb631                           MOVZX SI, BYTE [BX+DI]
+000ca8fb83: 83c6f6                           ADD SI, -0xa
+000ca8fb86: 83fe52                           CMP SI, 0x52
+000ca8fb89: 0f87af00                         JA 0x18e
+000ca8fb8d: 0000                             ADD [BX+SI], AL
+000ca8fb8f: 0fb6b6d0ae                       MOVZX SI, BYTE [BP-0x5130]
+000ca8fb94: c6                               DB 0xc6
+000ca8fb95: 6aff                             PUSH -0x1
+000ca8fb97: 24b5                             AND AL, 0xb5
+000ca8fb99: c0aec66a8b                       SHR BYTE [BP+0x6ac6], 0x8b
+000ca8fb9e: c12bc7                           SHR WORD [BP+DI], 0xc7
+000ca8fba1: 83c001                           ADD AX, 0x1
+000ca8fba4: c6442412                         MOV BYTE [SI+0x24], 0x12
+000ca8fba8: 11b210e9                         ADC [BP+SI-0x16f0], SI
+000ca8fbac: 8e00                             MOV ES, [BX+SI]
+000ca8fbae: 0000                             ADD [BX+SI], AL
+000ca8fbb0: b20c                             MOV DL, 0xc
+000ca8fbb2: e98700                           JMP 0x18e
+000ca8fbb5: 0000                             ADD [BX+SI], AL
+000ca8fbb7: 8a11                             MOV DL, [BX+DI]
+000ca8fbb9: 80fa0a                           CMP DL, 0xa
+000ca8fbbc: 0f847a00                         JZ 0x18c
+000ca8fbc0: 0000                             ADD [BX+SI], AL
+000ca8fbc2: 80fa0d                           CMP DL, 0xd
+000ca8fbc5: 7475                             JZ 0x18e
+000ca8fbc7: b20b                             MOV DL, 0xb
+000ca8fbc9: eb73                             JMP 0x190
+000ca8fbcb: 0fb631                           MOVZX SI, BYTE [BX+DI]
+000ca8fbce: 83c6f6                           ADD SI, -0xa
+000ca8fbd1: 83fe52                           CMP SI, 0x52
+000ca8fbd4: 7768                             JA 0x190
+000ca8fbd6: 0fb6b634af                       MOVZX SI, BYTE [BP-0x50cc]
+000ca8fbdb: c6                               DB 0xc6
+000ca8fbdc: 6aff                             PUSH -0x1
+000ca8fbde: 24b5                             AND AL, 0xb5
+000ca8fbe0: 24af                             AND AL, 0xaf
+000ca8fbe2: c6                               DB 0xc6
+000ca8fbe3: 6ab2                             PUSH -0x4e
+000ca8fbe5: 0e                               PUSH CS
+000ca8fbe6: eb56                             JMP 0x190
+000ca8fbe8: 8a11                             MOV DL, [BX+DI]
+000ca8fbea: 80fa0a                           CMP DL, 0xa
+000ca8fbed: 744d                             JZ 0x18e
+000ca8fbef: 80fa0d                           CMP DL, 0xd
+000ca8fbf2: 7448                             JZ 0x18e
+000ca8fbf4: b20d                             MOV DL, 0xd
+000ca8fbf6: eb46                             JMP 0x190
+000ca8fbf8: 8b7424                           MOV SI, [SI+0x24]
+000ca8fbfb: 148a                             ADC AL, 0x8a
+000ca8fbfd: 5c                               POP SP
+000ca8fbfe: 2412                             AND AL, 0x12
+000ca8fc00: 881e8b5c                         MOV [0x5c8b], BL
+000ca8fc04: 241c                             AND AL, 0x1c
+000ca8fc06: 895e04                           MOV [BP+0x4], BX
+000ca8fc09: 8b5c24                           MOV BX, [SI+0x24]
+000ca8fc0c: 18894608                         SBB [BX+DI+0x846], CL
+000ca8fc10: 895e0c                           MOV [BP+0xc], BX
+000ca8fc13: 8b5c24                           MOV BX, [SI+0x24]
+000ca8fc16: 2489                             AND AL, 0x89
+000ca8fc18: 7e10                             JLE 0x17c
+000ca8fc1a: 83430801                         ADD WORD [BP+DI+0x8], 0x1
+000ca8fc1e: 8b2d                             MOV BP, [DI]
+000ca8fc20: 8430                             TEST [BX+SI], DH
+000ca8fc22: ea6a32d283                       JMP FAR 0x83d2:0x326a
+000ca8fc27: c6                               DB 0xc6
+000ca8fc28: 1489                             ADC AL, 0x89
+000ca8fc2a: 7424                             JZ 0x1a2
+000ca8fc2c: 14eb                             ADC AL, 0xeb
+000ca8fc2e: 0fb211                           LSS DX, [BX+DI]
+000ca8fc31: eb0b                             JMP 0x190
+000ca8fc33: 0fb631                           MOVZX SI, BYTE [BX+DI]
+000ca8fc36: f6042e                           TEST BYTE [SI], 0x2e
+000ca8fc39: 0e                               PUSH CS
+000ca8fc3a: 7502                             JNZ 0x190
+000ca8fc3c: 32d2                             XOR DL, DL
+000ca8fc3e: 83c101                           ADD CX, 0x1
+000ca8fc41: 836c242c                         SUB WORD [SI+0x24], 0x2c
+000ca8fc45: 010f                             ADD [BX], CX
+000ca8fc47: 85b5fcff                         TEST [DI-0x4], SI
+000ca8fc4b: ff8b4424                         DEC WORD [BP+DI+0x2444]
+000ca8fc4f: 248b                             AND AL, 0x8b
+000ca8fc51: 40                               INC AX
+000ca8fc52: 085d5b                           OR [DI+0x5b], BL
+000ca8fc55: 5f                               POP DI
+000ca8fc56: 5e                               POP SI
+000ca8fc57: 83c410                           ADD SP, 0x10
+000ca8fc5a: c3                               RET
+
+000ca8fc5b: 8b 46 08 5f 5e 83 c4 10 c3 8b 46                  .F._^.....F
+
+===== Partition Table #1 =====
+Boot flag: 0xc4 
+Partition type: 0xca (Invalid)
+Starting Sector (LBA): 0x6ac6aae2 (1791404770)
+Starting CHS: Cylinder: 912 Head: 16 Sector: 3
+Ending CHS: Cylinder: 874 Head: 170 Sector: 6
+Size in sectors: 0x6ac6a923 (1791404323)
+
+===== Partition Table #2 =====
+Boot flag: 0x3f 
+Partition type: 0x62 (Invalid)
+Starting Sector (LBA): 0x6ac6a96f (1791404399)
+Starting CHS: Cylinder: 874 Head: 169 Sector: 6
+Ending CHS: Cylinder: 874 Head: 169 Sector: 6
+Size in sectors: 0x6ac6a998 (1791404440)
+
+===== Partition Table #3 =====
+Boot flag: 0xca 
+Partition type: 0xf3 (Invalid)
+Starting Sector (LBA): 0x6ac6aa1c (1791404572)
+Starting CHS: Cylinder: 874 Head: 169 Sector: 6
+Ending CHS: Cylinder: 874 Head: 169 Sector: 6
+Size in sectors: 0x6ac6aa35 (1791404597)
+
+===== Partition Table #4 =====
+Boot flag: 0x80 (Bootable)
+Partition type: 0xb7 (BSDI)
+Starting Sector (LBA): 0x6ac6abcb (1791405003)
+Starting CHS: Cylinder: 874 Head: 171 Sector: 6
+Ending CHS: Cylinder: 874 Head: 171 Sector: 6
+Size in sectors: 0x6ac6abe8 (1791405032)
+
+***************************************************************************
+
+***************************************************************************
+Potential MBR at physical offset: 0x178c7600
+Disk Signature: 50-d3-50-d3
+Bootcode md5: ea14a5e4cb41a758f97048fbfe977671
+Bootcode (FULL) md5: ed3e0417a8f90cb58510ad69597e16b0
+Disassembly of Bootable Code:
+00178c7600: 0000                             ADD [BX+SI], AL
+00178c7602: 0000                             ADD [BX+SI], AL
+00178c7604: 0000                             ADD [BX+SI], AL
+00178c7606: 0000                             ADD [BX+SI], AL
+00178c7608: 0000                             ADD [BX+SI], AL
+00178c760a: 0000                             ADD [BX+SI], AL
+00178c760c: 0000                             ADD [BX+SI], AL
+00178c760e: 0000                             ADD [BX+SI], AL
+00178c7610: 0000                             ADD [BX+SI], AL
+00178c7612: 0000                             ADD [BX+SI], AL
+00178c7614: 0000                             ADD [BX+SI], AL
+00178c7616: 0000                             ADD [BX+SI], AL
+00178c7618: 0000                             ADD [BX+SI], AL
+00178c761a: 00bdbe07                         ADD [DI+0x7be], BH
+00178c761e: b104                             MOV CL, 0x4
+00178c7620: 386e00                           CMP [BP+0x0], CH
+00178c7623: 7c09                             JL 0x2e
+00178c7625: 7513                             JNZ 0x3a
+00178c7627: 83c510                           ADD BP, 0x10
+00178c762a: e2f4                             LOOP 0x20
+00178c762c: cd18                             INT 0x18
+00178c762e: 8bf5                             MOV SI, BP
+00178c7630: 83c610                           ADD SI, 0x10
+00178c7633: 49                               DEC CX
+00178c7634: 7419                             JZ 0x4f
+00178c7636: 382c                             CMP [SI], CH
+00178c7638: 74f6                             JZ 0x30
+00178c763a: a0b507                           MOV AL, [0x7b5]
+00178c763d: b407                             MOV AH, 0x7
+00178c763f: 8bf0                             MOV SI, AX
+00178c7641: ac                               LODSB
+00178c7642: 3c00                             CMP AL, 0x0
+00178c7644: 74fc                             JZ 0x42
+00178c7646: bb0700                           MOV BX, 0x7
+00178c7649: b40e                             MOV AH, 0xe
+00178c764b: cd10                             INT 0x10
+00178c764d: ebf2                             JMP 0x41
+00178c764f: 884e10                           MOV [BP+0x10], CL
+00178c7652: e84600                           CALL 0x9b
+00178c7655: 732a                             JAE 0x81
+00178c7657: fe4610                           INC BYTE [BP+0x10]
+00178c765a: 807e040b                         CMP BYTE [BP+0x4], 0xb
+00178c765e: 740b                             JZ 0x6b
+00178c7660: 807e040c                         CMP BYTE [BP+0x4], 0xc
+00178c7664: 7405                             JZ 0x6b
+00178c7666: a0b607                           MOV AL, [0x7b6]
+00178c7669: 75d2                             JNZ 0x3d
+00178c766b: 80460206                         ADD BYTE [BP+0x2], 0x6
+00178c766f: 83460806                         ADD WORD [BP+0x8], 0x6
+00178c7673: 83560a00                         ADC WORD [BP+0xa], 0x0
+00178c7677: e82100                           CALL 0x9b
+00178c767a: 7305                             JAE 0x81
+00178c767c: a0b607                           MOV AL, [0x7b6]
+00178c767f: ebbc                             JMP 0x3d
+00178c7681: 813efe7d55aa                     CMP WORD [0x7dfe], 0xaa55
+00178c7687: 740b                             JZ 0x94
+00178c7689: 807e1000                         CMP BYTE [BP+0x10], 0x0
+00178c768d: 74c8                             JZ 0x57
+00178c768f: a0b707                           MOV AL, [0x7b7]
+00178c7692: eba9                             JMP 0x3d
+00178c7694: 8bfc                             MOV DI, SP
+00178c7696: 1e                               PUSH DS
+00178c7697: 57                               PUSH DI
+00178c7698: 8bf5                             MOV SI, BP
+00178c769a: cb                               RETF
+00178c769b: bf0500                           MOV DI, 0x5
+00178c769e: 8a5600                           MOV DL, [BP+0x0]
+00178c76a1: b408                             MOV AH, 0x8
+00178c76a3: cd13                             INT 0x13
+00178c76a5: 7223                             JB 0xca
+00178c76a7: 8ac1                             MOV AL, CL
+00178c76a9: 243f                             AND AL, 0x3f
+00178c76ab: 98                               CBW
+00178c76ac: 8ade                             MOV BL, DH
+00178c76ae: 8afc                             MOV BH, AH
+00178c76b0: 43                               INC BX
+00178c76b1: f7e3                             MUL BX
+00178c76b3: 8bd1                             MOV DX, CX
+00178c76b5: 86d6                             XCHG DH, DL
+00178c76b7: b106                             MOV CL, 0x6
+00178c76b9: d2ee                             SHR DH, CL
+00178c76bb: 42                               INC DX
+00178c76bc: f7e2                             MUL DX
+00178c76be: 39560a                           CMP [BP+0xa], DX
+00178c76c1: 7723                             JA 0xe6
+00178c76c3: 7205                             JB 0xca
+00178c76c5: 394608                           CMP [BP+0x8], AX
+00178c76c8: 731c                             JAE 0xe6
+00178c76ca: b80102                           MOV AX, 0x201
+00178c76cd: bb007c                           MOV BX, 0x7c00
+00178c76d0: 8b4e02                           MOV CX, [BP+0x2]
+00178c76d3: 8b5600                           MOV DX, [BP+0x0]
+00178c76d6: cd13                             INT 0x13
+00178c76d8: 7351                             JAE 0x12b
+00178c76da: 4f                               DEC DI
+00178c76db: 744e                             JZ 0x12b
+00178c76dd: 32e4                             XOR AH, AH
+00178c76df: 8a5600                           MOV DL, [BP+0x0]
+00178c76e2: cd13                             INT 0x13
+00178c76e4: ebe4                             JMP 0xca
+00178c76e6: 8a5600                           MOV DL, [BP+0x0]
+00178c76e9: 60                               PUSHA
+00178c76ea: bbaa55                           MOV BX, 0x55aa
+00178c76ed: b441                             MOV AH, 0x41
+00178c76ef: cd13                             INT 0x13
+00178c76f1: 7236                             JB 0x129
+00178c76f3: 81fb55aa                         CMP BX, 0xaa55
+00178c76f7: 7530                             JNZ 0x129
+00178c76f9: f6c101                           TEST CL, 0x1
+00178c76fc: 742b                             JZ 0x129
+00178c76fe: 61                               POPA
+00178c76ff: 60                               PUSHA
+00178c7700: 807300c0                         XOR BYTE [BP+DI+0x0], 0xc0
+00178c7704: 806b00c0                         SUB BYTE [BP+DI+0x0], 0xc0
+00178c7708: 806f00c0                         SUB BYTE [BX+0x0], 0xc0
+00178c770c: 808100c0ad                       ADD BYTE [BX+DI-0x4000], 0xad
+00178c7711: 8200c0                           ADD BYTE [BX+SI], 0xc0
+00178c7714: 0000                             ADD [BX+SI], AL
+00178c7716: 0000                             ADD [BX+SI], AL
+00178c7718: 136161                           ADC SP, [BX+DI+0x61]
+00178c771b: 730e                             JAE 0x12b
+00178c771d: 4f                               DEC DI
+00178c771e: 740b                             JZ 0x12b
+00178c7720: 32e4                             XOR AH, AH
+00178c7722: 8a5600                           MOV DL, [BP+0x0]
+00178c7725: cd13                             INT 0x13
+00178c7727: ebd6                             JMP 0xff
+00178c7729: 61                               POPA
+00178c772a: f9                               STC
+00178c772b: c3                               RET
+
+00178c772c: 49 6e 76 61 6c 69 64 20 70 61 72 74 69 74 69 6f   Invalid.partitio
+00178c773c: 6e 20 74 61 00 fc 09 00 00 04 00 00 72 20 6c 6f   n.ta........r.lo
+00178c774c: 61 64 69 6e 67 20 6f 70 65 72 61 74 69 6e 67 20   ading.operating.
+00178c775c: 73 79 73 74 65 6d 00 4d 69 73 73 69 6e 67 20 6f   system.Missing.o
+00178c776c: 70 65 72 61 74 69 6e 67 20 73 79 73 74 65 6d 00   perating.system.
+00178c777c: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00178c778c: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00178c779c: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00178c77ac: 00 00 00 00 00 00 00 00 00 2c 44 63               .........,Dc
+
+===== Partition Table #1 =====
+Boot flag: 0x80 (Bootable)
+Partition type: 0x7 (NTFS)
+Starting Sector (LBA): 0x3f (63)
+Starting CHS: Cylinder: 0 Head: 1 Sector: 1
+Ending CHS: Cylinder: 1023 Head: 254 Sector: 63
+Size in sectors: 0x1838dae (25398702)
+
+===== Partition Table #2 =====
+Boot flag: 0x0 
+Partition type: 0x0 (Empty)
+Starting Sector (LBA): 0x0 (0)
+Starting CHS: Cylinder: 0 Head: 0 Sector: 0
+Ending CHS: Cylinder: 0 Head: 0 Sector: 0
+Size in sectors: 0x0 (0)
+
+===== Partition Table #3 =====
+Boot flag: 0x0 
+Partition type: 0x0 (Empty)
+Starting Sector (LBA): 0x0 (0)
+Starting CHS: Cylinder: 0 Head: 0 Sector: 0
+Ending CHS: Cylinder: 0 Head: 0 Sector: 0
+Size in sectors: 0x0 (0)
+
+===== Partition Table #4 =====
+Boot flag: 0x0 
+Partition type: 0x0 (Empty)
+Starting Sector (LBA): 0x0 (0)
+Starting CHS: Cylinder: 0 Head: 0 Sector: 0
+Ending CHS: Cylinder: 0 Head: 0 Sector: 0
+Size in sectors: 0x0 (0)
+
+***************************************************************************
+
+***************************************************************************
+Potential MBR at physical offset: 0x19222046
+Disk Signature: 57-77-f2-87
+Bootcode md5: 1919c11d6fc1842d5bc136d909ea5008
+Bootcode (FULL) md5: e1657fe9b63b3cbfd67abedb84aa4143
+Disassembly of Bootable Code:
+0019222046: df77c1                           FBSTP TBYTE [BX-0x3f]
+0019222049: a3de77                           MOV [0x77de], AX
+001922204c: d3bfdf77                         SAR WORD [BX+0x77df], CL
+0019222050: 99                               CWD
+0019222051: 4b                               DEC BX
+0019222052: de7735                           FIDIV WORD [BX+0x35]
+0019222055: 4b                               DEC BX
+0019222056: de7767                           FIDIV WORD [BX+0x67]
+0019222059: 4b                               DEC BX
+001922205a: de77d7                           FIDIV WORD [BX-0x29]
+001922205d: 73dd                             JAE 0xfff6
+001922205f: 77fc                             JA 0x17
+0019222061: d4e0                             AAM 0xe0
+0019222063: 77e4                             JA 0x3
+0019222065: 1e                               PUSH DS
+0019222066: de77e7                           FIDIV WORD [BX-0x19]
+0019222069: 56                               PUSH SI
+001922206a: de779b                           FIDIV WORD [BX-0x65]
+001922206d: 58                               POP AX
+001922206e: de7717                           FIDIV WORD [BX+0x17]
+0019222071: 1e                               PUSH DS
+0019222072: de77fb                           FIDIV WORD [BX-0x5]
+0019222075: df                               DB 0xdf
+0019222076: de77b6                           FIDIV WORD [BX-0x4a]
+0019222079: 79dd                             JNS 0x12
+001922207b: 77e5                             JA 0x1c
+001922207d: 4a                               DEC DX
+001922207e: de770d                           FIDIV WORD [BX+0xd]
+0019222081: 4b                               DEC BX
+0019222082: de77db                           FIDIV WORD [BX-0x25]
+0019222085: 79dd                             JNS 0x1e
+0019222087: 775e                             JA 0xa1
+0019222089: 4e                               DEC SI
+001922208a: df77ab                           FBSTP TBYTE [BX-0x55]
+001922208d: 74dd                             JZ 0x26
+001922208f: 774e                             JA 0x99
+0019222091: 74dd                             JZ 0x2a
+0019222093: 7739                             JA 0x88
+0019222095: 5b                               POP BX
+0019222096: de7737                           FIDIV WORD [BX+0x37]
+0019222099: 44                               INC SP
+001922209a: df7709                           FBSTP TBYTE [BX+0x9]
+001922209d: f2dd774c                         FNSAVE [BX+0x4c]
+00192220a1: 7ddd                             JGE 0x3a
+00192220a3: 7773                             JA 0xd2
+00192220a5: 7edf                             JLE 0x40
+00192220a7: 7748                             JA 0xab
+00192220a9: 7edf                             JLE 0x44
+00192220ab: 77f9                             JA 0x60
+00192220ad: 7cdd                             JL 0x46
+00192220af: 7713                             JA 0x7e
+00192220b1: 4c                               DEC SP
+00192220b2: de7739                           FIDIV WORD [BX+0x39]
+00192220b5: dadd                             FCMOVU ST0, ST5
+00192220b7: 7728                             JA 0x9b
+00192220b9: 73dd                             JAE 0x52
+00192220bb: 77bc                             JA 0x33
+00192220bd: 72dd                             JB 0x56
+00192220bf: 777b                             JA 0xf6
+00192220c1: 79dd                             JNS 0x5a
+00192220c3: 779f                             JA 0x1e
+00192220c5: 6add                             PUSH -0x23
+00192220c7: 77ef                             JA 0x72
+00192220c9: 6f                               OUTS DX, WORD [SI]
+00192220ca: dd77c9                           FNSAVE [BX-0x37]
+00192220cd: 7bdd                             JNP 0x66
+00192220cf: 777b                             JA 0x106
+00192220d1: 55                               PUSH BP
+00192220d2: de775c                           FIDIV WORD [BX+0x5c]
+00192220d5: 77dd                             JA 0x6e
+00192220d7: 7757                             JA 0xea
+00192220d9: d7                               XLAT BYTE [BX+AL]
+00192220da: dd7717                           FNSAVE [BX+0x17]
+00192220dd: 6c                               INS BYTE [ES:DI], DX
+00192220de: dd7700                           FNSAVE [BX+0x0]
+00192220e1: 0000                             ADD [BX+SI], AL
+00192220e3: 00602b                           ADD [BX+SI+0x2b], AH
+00192220e6: b276                             MOV DL, 0x76
+00192220e8: ea38b27600                       JMP FAR 0x76:0xb238
+00192220ed: 0000                             ADD [BX+SI], AL
+00192220ef: 00a09f80                         ADD [BX+SI-0x7f61], AH
+00192220f3: 7c1a                             JL 0xc9
+00192220f5: 1e                               PUSH DS
+00192220f6: 807c6a3e                         CMP BYTE [SI+0x6a], 0x3e
+00192220fa: 867cfd                           XCHG [SI-0x3], BH
+00192220fd: 49                               DEC CX
+00192220fe: 847ca7                           TEST [SI-0x59], BH
+0019222101: 4b                               DEC BX
+0019222102: 837cb897                         CMP WORD [SI-0x48], -0x69
+0019222106: 807ce917                         CMP BYTE [SI-0x17], 0x17
+001922210a: 807c999a                         CMP BYTE [SI-0x67], 0x9a
+001922210e: 807cdbae                         CMP BYTE [SI-0x25], 0xae
+0019222112: 807c30ae                         CMP BYTE [SI+0x30], 0xae
+0019222116: 807c10fe                         CMP BYTE [SI+0x10], 0xfe
+001922211a: 90                               NOP
+001922211b: 7cf5                             JL 0xcc
+001922211d: ae                               SCASB
+001922211e: 807ceea3                         CMP BYTE [SI-0x12], 0xa3
+0019222122: 807cb7a4                         CMP BYTE [SI-0x49], 0xa4
+0019222126: 807c2e93                         CMP BYTE [SI+0x2e], 0x93
+001922212a: 807cb099                         CMP BYTE [SI-0x50], 0x99
+001922212e: 807cd79b                         CMP BYTE [SI-0x29], 0x9b
+0019222132: 807c7b99                         CMP BYTE [SI+0x7b], 0x99
+0019222136: 807c01fe                         CMP BYTE [SI+0x1], 0xfe
+001922213a: 90                               NOP
+001922213b: 7c85                             JL 0x7c
+001922213d: de807c1d                         FIADD WORD [BX+SI+0x1d7c]
+0019222141: 9a807cbf99                       CALL FAR 0x99bf:0x7c80
+0019222146: 807c2613                         CMP BYTE [SI+0x26], 0x13
+001922214a: 817c819f80                       CMP WORD [SI-0x7f], 0x809f
+001922214f: 7c5a                             JL 0x165
+0019222151: 13917c6e                         ADC DX, [BX+DI+0x6e7c]
+0019222155: ac                               LODSB
+0019222156: 807c0010                         CMP BYTE [SI+0x0], 0x10
+001922215a: 90                               NOP
+001922215b: 7ce0                             JL 0xf7
+001922215d: 10907c0a                         ADC [BX+SI+0xa7c], DL
+0019222161: 98                               CBW
+0019222162: 807cf697                         CMP BYTE [SI-0xa], 0x97
+0019222166: 807c0000                         CMP BYTE [SI+0x0], 0x0
+001922216a: 0000                             ADD [BX+SI], AL
+001922216c: 31f9                             XOR CX, DI
+001922216e: c24d94                           RET 0x944d
+0019222171: 7ec3                             JLE 0xf0
+0019222173: 4d                               DEC BP
+0019222174: fa                               CLI
+0019222175: 27                               DAA
+0019222176: c14d945c                         ROR WORD [DI-0x6c], 0x5c
+001922217a: c24d61                           RET 0x614d
+001922217d: 7ec3                             JLE 0xfc
+001922217f: 4d                               DEC BP
+0019222180: 2f                               DAS
+0019222181: 80c34d                           ADD BL, 0x4d
+0019222184: cc                               INT 3
+0019222185: 7fc3                             JG 0x104
+0019222187: 4d                               DEC BP
+0019222188: bb6ac3                           MOV BX, 0xc36a
+001922218b: 4d                               DEC BP
+001922218c: bd67c3                           MOV BP, 0xc367
+001922218f: 4d                               DEC BP
+0019222190: e37e                             JCXZ 0x1ca
+0019222192: c3                               RET
+
+0019222193: 4d e6 81 c3 4d b8 7e c3 4d 3d d1 c0 4d 6b 80 c3   M...M.~.M=..Mk..
+00192221a3: 4d 07 c4 c1 4d 1b c2 c1 4d 30 fa c3 4d b3 1b c3   M...M...M0..M...
+00192221b3: 4d 67 9d c2 4d d8 23 c5 4d 6d 26 c1 4d 00 00 00   Mg..M.#.Mm&.M...
+00192221c3: 00 0e 8a 86 5b 00 7a 86 5b 1f 14 87 5b 00 00 00   ....[.z.[...[...
+00192221d3: 00 ba 86 91 7c 0d f6 90 7c 95 12 90 7c 00 00 00   ....|...|...|...
+00192221e3: 00 7e 05 50 77 12 de 4f 77 44 d0 4f 77 98 ca 50   .~.Pw..OwD.Ow..P
+00192221f3: 77 e9 3e 52 77 4c e5 4f 77 62 c7                  w.>RwL.Owb.
+
+===== Partition Table #1 =====
+Boot flag: 0x5a 
+Partition type: 0x8 (Invalid)
+Starting Sector (LBA): 0x7752fcb6 (2001927350)
+Starting CHS: Cylinder: 375 Head: 85 Sector: 17
+Ending CHS: Cylinder: 375 Head: 221 Sector: 15
+Size in sectors: 0x774fd060 (2001719392)
+
+===== Partition Table #2 =====
+Boot flag: 0x0 
+Partition type: 0xfd (Invalid)
+Starting Sector (LBA): 0x7714306e (1997811822)
+Starting CHS: Cylinder: 0 Head: 0 Sector: 0
+Ending CHS: Cylinder: 119 Head: 76 Sector: 18
+Size in sectors: 0x77164f39 (1997950777)
+
+===== Partition Table #3 =====
+Boot flag: 0x19 
+Partition type: 0x8d (Invalid)
+Starting Sector (LBA): 0x77124950 (1997687120)
+Starting CHS: Cylinder: 119 Head: 79 Sector: 22
+Ending CHS: Cylinder: 119 Head: 79 Sector: 18
+Size in sectors: 0x771248f0 (1997687024)
+
+===== Partition Table #4 =====
+Boot flag: 0x80 (Bootable)
+Partition type: 0xa5 (FreeBSD)
+Starting Sector (LBA): 0x7712ac39 (1997712441)
+Starting CHS: Cylinder: 119 Head: 72 Sector: 18
+Ending CHS: Cylinder: 119 Head: 79 Sector: 18
+Size in sectors: 0x77124ba2 (1997687714)
+
+***************************************************************************
+
+***************************************************************************
+Potential MBR at physical offset: 0x19eae002
+Disk Signature: 60-77-da-21
+Bootcode md5: d78276f56f8ec8d4f8cca375e4534366
+Bootcode (FULL) md5: 328323b8b2f8e2505e3a304439606778
+Disassembly of Bootable Code:
+0019eae002: c3                               RET
+
+0019eae003: 77 f8 4d c3 77 c3 c0 c2 77 d6 bb c1 77 7a d4 c1   w.M.w...w...wz..
+0019eae013: 77 7c f9 c5 77 a0 d0 c1 77 67 6d c3 77 80 fc c5   w|..w...wgm.w...
+0019eae023: 77 76 fa c3 77 f3 c1 c1 77 b0 de c1 77 1c 0b c4   wv..w...w...w...
+0019eae033: 77 36 d0 c1 77 16 de c1 77 10 f3 c5 77 40 24 c6   w6..w...w...w@$.
+0019eae043: 77 a3 fa c2 77 4b ec c3 77 ea f0 c2 77 03 03 c3   w...wK..w...w...
+0019eae053: 77 8d ed c2 77 23 1f c4 77 70 6f c4 77 5b 22 c4   w...w#..wpo.w[".
+0019eae063: 77 f0 75 c4 77 8a ff c3 77 bb 6a c4 77 e5 6b c3   w.u.w...w.j.w.k.
+0019eae073: 77 2b dc c1 77 22 d1 c1 77 0a d1 c1 77 f2 d0 c1   w+..w"..w...w...
+0019eae083: 77 b7 d7 c1 77 c1 c3 c1 77 bc f2 c1 77 19 a5 c3   w...w...w...w...
+0019eae093: 77 d8 23 c6 77 25 f1 c1 77 67 9d c3 77 ae 2d c3   w.#.w%..wg..w.-.
+0019eae0a3: 77 bd 67 c4 77 f9 80 c4 77 ed 9c c2 77 fd 9c c2   w.g.w...w...w...
+0019eae0b3: 77 81 7f c4 77 c5 d8 c1 77 96 c8 c1 77 77 c8 c1   w...w...w...ww..
+0019eae0c3: 77 7c cd c1 77 5d cd c1 77 60 7c c4 77 ed c3 c1   w|..w]..w`|.w...
+0019eae0d3: 77 37 c4 c2 77 1b c2 c2 77 07 c4 c2 77 0d 5f c3   w7..w...w...w._.
+0019eae0e3: 77 eb bc c1 77 2f 80 c4 77 05 bb c1 77 1a bc c1   w...w/..w...w...
+0019eae0f3: 77 b0 72 c4 77 d6 d1 c1 77 bf d0 c1 77 b8 7e c4   w.r.w...w...w.~.
+0019eae103: 77 e3 ce c1 77 e7 ff c3 77 11 d7 c1 77 51 4e c3   w...w...w...wQN.
+0019eae113: 77 00 00 00 00 c5 ab 92 7c 2d f6 90 7c 94 2c 90   w.......|-..|.,.
+0019eae123: 7c 00 00 00 00 e1 14 51 77 7b ef 4f 77 e9 3e 52   |......Qw{.Ow.>R
+0019eae133: 77 4c e5 4f 77 60 d0 4f 77 44 d0 4f 77 1a ee 57   wL.Ow`.OwD.Ow..W
+0019eae143: 77 b6 fc 52 77 1d c8 5d 77 2a 56 54 77 98 ca 50   w..Rw..]w*VTw..P
+0019eae153: 77 8c 09 52 77 c5 56 51 77 7e 05 50 77 39 9f 52   w..Rw.VQw~.Pw9.R
+0019eae163: 77 20 e8 53 77 33 bb 52 77 2c fa 53 77 31 ef 4f   w..Sw3.Rw,.Sw1.O
+0019eae173: 77 c0 d6 52 77 71 ea 50 77 94 73 50 77 f2 87 51   w..Rwq.Pw.sPw..Q
+0019eae183: 77 46 ee 4f 77 06 51 52 77 53 2a 50 77 12 de 4f   wF.Ow.QRwS*Pw..O
+0019eae193: 77 ac 00 53 77 27 97 51 77 04 41 51 77 04 2b 53   w..Sw'.Qw.AQw.+S
+0019eae1a3: 77 aa 4a 5e 77 80 5e 50 77 5a 55 51 77 d2 21 60   w.J^w.^PwZUQw.!`
+0019eae1b3: 77 6d 22 60 77 1d 22                              wm"`w."
+
+===== Partition Table #1 =====
+Boot flag: 0xf4 
+Partition type: 0x0 (Empty)
+Starting Sector (LBA): 0x77124c35 (1997687861)
+Starting CHS: Cylinder: 375 Head: 215 Sector: 18
+Ending CHS: Cylinder: 0 Head: 0 Sector: 0
+Size in sectors: 0x77143365 (1997812581)
+
+===== Partition Table #2 =====
+Boot flag: 0x80 (Bootable)
+Partition type: 0x1b (Hidden FAT32,CHS)
+Starting Sector (LBA): 0x77124ba2 (1997687714)
+Starting CHS: Cylinder: 119 Head: 72 Sector: 18
+Ending CHS: Cylinder: 119 Head: 76 Sector: 18
+Size in sectors: 0x77124b39 (1997687609)
+
+===== Partition Table #3 =====
+Boot flag: 0x39 
+Partition type: 0xfd (Invalid)
+Starting Sector (LBA): 0x7712ab93 (1997712275)
+Starting CHS: Cylinder: 119 Head: 172 Sector: 18
+Ending CHS: Cylinder: 119 Head: 76 Sector: 18
+Size in sectors: 0x7712ab10 (1997712144)
+
+===== Partition Table #4 =====
+Boot flag: 0xf0 
+Partition type: 0xbb (Boot Wizard hidden)
+Starting Sector (LBA): 0x77124fa5 (1997688741)
+Starting CHS: Cylinder: 119 Head: 72 Sector: 18
+Ending CHS: Cylinder: 119 Head: 107 Sector: 18
+Size in sectors: 0x77124950 (1997687120)
+
+***************************************************************************
+
+***************************************************************************
+Potential MBR at physical offset: 0x1a8e8046
+Disk Signature: 57-77-f2-87
+Bootcode md5: b20b14f4631c2c642aa9dbf7877dd8ce
+Bootcode (FULL) md5: 03360d17489c550ae76610fc0824fae5
+Disassembly of Bootable Code:
+001a8e8046: df77e1                           FBSTP TBYTE [BX-0x1f]
+001a8e8049: a3de77                           MOV [0x77de], AX
+001a8e804c: 03c0                             ADD AX, AX
+001a8e804e: df77b9                           FBSTP TBYTE [BX-0x47]
+001a8e8051: 4b                               DEC BX
+001a8e8052: de7755                           FIDIV WORD [BX+0x55]
+001a8e8055: 4b                               DEC BX
+001a8e8056: de7787                           FIDIV WORD [BX-0x79]
+001a8e8059: 4b                               DEC BX
+001a8e805a: de77e7                           FIDIV WORD [BX-0x19]
+001a8e805d: 73dd                             JAE 0xfff6
+001a8e805f: 772c                             JA 0x47
+001a8e8061: d5e0                             AAD 0xe0
+001a8e8063: 77f4                             JA 0x13
+001a8e8065: 1e                               PUSH DS
+001a8e8066: de7707                           FIDIV WORD [BX+0x7]
+001a8e8069: 57                               PUSH DI
+001a8e806a: de77bb                           FIDIV WORD [BX-0x45]
+001a8e806d: 58                               POP AX
+001a8e806e: de7727                           FIDIV WORD [BX+0x27]
+001a8e8071: 1e                               PUSH DS
+001a8e8072: de771b                           FIDIV WORD [BX+0x1b]
+001a8e8075: e0de                             LOOPNZ 0xf
+001a8e8077: 77c6                             JA 0xfff9
+001a8e8079: 79dd                             JNS 0x12
+001a8e807b: 7705                             JA 0x3c
+001a8e807d: 4b                               DEC BX
+001a8e807e: de772d                           FIDIV WORD [BX+0x2d]
+001a8e8081: 4b                               DEC BX
+001a8e8082: de77eb                           FIDIV WORD [BX-0x15]
+001a8e8085: 79dd                             JNS 0x1e
+001a8e8087: 778e                             JA 0xffd1
+001a8e8089: 4e                               DEC SI
+001a8e808a: df77bb                           FBSTP TBYTE [BX-0x45]
+001a8e808d: 74dd                             JZ 0x26
+001a8e808f: 775e                             JA 0xa9
+001a8e8091: 74dd                             JZ 0x2a
+001a8e8093: 7759                             JA 0xa8
+001a8e8095: 5b                               POP BX
+001a8e8096: de7757                           FIDIV WORD [BX+0x57]
+001a8e8099: 44                               INC SP
+001a8e809a: df7719                           FBSTP TBYTE [BX+0x19]
+001a8e809d: f2dd775c                         FNSAVE [BX+0x5c]
+001a8e80a1: 7ddd                             JGE 0x3a
+001a8e80a3: 77a3                             JA 0x2
+001a8e80a5: 7edf                             JLE 0x40
+001a8e80a7: 7778                             JA 0xdb
+001a8e80a9: 7edf                             JLE 0x44
+001a8e80ab: 7709                             JA 0x70
+001a8e80ad: 7ddd                             JGE 0x46
+001a8e80af: 7733                             JA 0x9e
+001a8e80b1: 4c                               DEC SP
+001a8e80b2: de7749                           FIDIV WORD [BX+0x49]
+001a8e80b5: dadd                             FCMOVU ST0, ST5
+001a8e80b7: 7738                             JA 0xab
+001a8e80b9: 73dd                             JAE 0x52
+001a8e80bb: 77cc                             JA 0x43
+001a8e80bd: 72dd                             JB 0x56
+001a8e80bf: 778b                             JA 0x6
+001a8e80c1: 79dd                             JNS 0x5a
+001a8e80c3: 77af                             JA 0x2e
+001a8e80c5: 6add                             PUSH -0x23
+001a8e80c7: 77ff                             JA 0x82
+001a8e80c9: 6f                               OUTS DX, WORD [SI]
+001a8e80ca: dd77d9                           FNSAVE [BX-0x27]
+001a8e80cd: 7bdd                             JNP 0x66
+001a8e80cf: 779b                             JA 0x26
+001a8e80d1: 55                               PUSH BP
+001a8e80d2: de776c                           FIDIV WORD [BX+0x6c]
+001a8e80d5: 77dd                             JA 0x6e
+001a8e80d7: 7767                             JA 0xfa
+001a8e80d9: d7                               XLAT BYTE [BX+AL]
+001a8e80da: dd7727                           FNSAVE [BX+0x27]
+001a8e80dd: 6c                               INS BYTE [ES:DI], DX
+001a8e80de: dd7700                           FNSAVE [BX+0x0]
+001a8e80e1: 0000                             ADD [BX+SI], AL
+001a8e80e3: 00552c                           ADD [DI+0x2c], DL
+001a8e80e6: b276                             MOV DL, 0x76
+001a8e80e8: df39                             FISTP QWORD [BX+DI]
+001a8e80ea: b276                             MOV DL, 0x76
+001a8e80ec: 0000                             ADD [BX+SI], AL
+001a8e80ee: 0000                             ADD [BX+SI], AL
+001a8e80f0: b09f                             MOV AL, 0x9f
+001a8e80f2: 807c1a1e                         CMP BYTE [SI+0x1a], 0x1e
+001a8e80f6: 807cca3f                         CMP BYTE [SI-0x36], 0x3f
+001a8e80fa: 867c5d                           XCHG [SI+0x5d], BH
+001a8e80fd: 49                               DEC CX
+001a8e80fe: 847cbf                           TEST [SI-0x41], BH
+001a8e8101: 4b                               DEC BX
+001a8e8102: 837cd097                         CMP WORD [SI-0x30], -0x69
+001a8e8106: 807ce917                         CMP BYTE [SI-0x17], 0x17
+001a8e810a: 807ca99a                         CMP BYTE [SI-0x57], 0x9a
+001a8e810e: 807cebae                         CMP BYTE [SI-0x15], 0xae
+001a8e8112: 807c40ae                         CMP BYTE [SI+0x40], 0xae
+001a8e8116: 807c30fe                         CMP BYTE [SI+0x30], 0xfe
+001a8e811a: 90                               NOP
+001a8e811b: 7c05                             JL 0xdc
+001a8e811d: af                               SCASW
+001a8e811e: 807cfea3                         CMP BYTE [SI-0x2], 0xa3
+001a8e8122: 807cc7a4                         CMP BYTE [SI-0x39], 0xa4
+001a8e8126: 807c4a93                         CMP BYTE [SI+0x4a], 0x93
+001a8e812a: 807cc099                         CMP BYTE [SI-0x40], 0x99
+001a8e812e: 807ce79b                         CMP BYTE [SI-0x19], 0x9b
+001a8e8132: 807c8b99                         CMP BYTE [SI-0x75], 0x99
+001a8e8136: 807c21fe                         CMP BYTE [SI+0x21], 0xfe
+001a8e813a: 90                               NOP
+001a8e813b: 7c95                             JL 0x8c
+001a8e813d: de807c2d                         FIADD WORD [BX+SI+0x2d7c]
+001a8e8141: 9a807ccf99                       CALL FAR 0x99cf:0x7c80
+001a8e8146: 807c3613                         CMP BYTE [SI+0x36], 0x13
+001a8e814a: 817c919f80                       CMP WORD [SI-0x6f], 0x809f
+001a8e814f: 7c7a                             JL 0x185
+001a8e8151: 13917c7e                         ADC DX, [BX+DI+0x7e7c]
+001a8e8155: ac                               LODSB
+001a8e8156: 807c0010                         CMP BYTE [SI+0x0], 0x10
+001a8e815a: 90                               NOP
+001a8e815b: 7ce0                             JL 0xf7
+001a8e815d: 10907c1a                         ADC [BX+SI+0x1a7c], DL
+001a8e8161: 98                               CBW
+001a8e8162: 807c0698                         CMP BYTE [SI+0x6], 0x98
+001a8e8166: 807c0000                         CMP BYTE [SI+0x0], 0x0
+001a8e816a: 0000                             ADD [BX+SI], AL
+001a8e816c: 31f9                             XOR CX, DI
+001a8e816e: c3                               RET
+
+001a8e816f: 77 94 7e c4 77 fa 27 c2 77 94 5c c3 77 61 7e c4   w.~.w.'.w.\.wa~.
+001a8e817f: 77 2f 80 c4 77 cc 7f c4 77 bb 6a c4 77 bd 67 c4   w/..w...w.j.w.g.
+001a8e818f: 77 e3 7e c4 77 e6 81 c4 77 b8 7e c4 77 3d d1 c1   w.~.w...w.~.w=..
+001a8e819f: 77 6b 80 c4 77 07 c4 c2 77 1b c2 c2 77 30 fa c4   wk..w...w...w0..
+001a8e81af: 77 b3 1b c4 77 67 9d c3 77 d8 23 c6 77 6d 26 c2   w...wg..w.#.wm&.
+001a8e81bf: 77 00 00 00 00 0e 8a 86 5b 00 7a 86 5b fa 12 87   w.......[.z.[...
+001a8e81cf: 5b 00 00 00 00 da 86 91 7c 2d f6 90 7c 95 12 90   [.......|-..|...
+001a8e81df: 7c 00 00 00 00 7e 05 50 77 12 de 4f 77 44 d0 4f   |....~.Pw..OwD.O
+001a8e81ef: 77 98 ca 50 77 e9 3e 52 77 4c e5 4f 77 62 c7      w..Pw.>RwL.Owb.
+
+===== Partition Table #1 =====
+Boot flag: 0x5a 
+Partition type: 0x8 (Invalid)
+Starting Sector (LBA): 0x7752fcb6 (2001927350)
+Starting CHS: Cylinder: 375 Head: 85 Sector: 17
+Ending CHS: Cylinder: 375 Head: 221 Sector: 15
+Size in sectors: 0x774fd060 (2001719392)
+
+===== Partition Table #2 =====
+Boot flag: 0x0 
+Partition type: 0xfd (Invalid)
+Starting Sector (LBA): 0x7714306e (1997811822)
+Starting CHS: Cylinder: 0 Head: 0 Sector: 0
+Ending CHS: Cylinder: 119 Head: 76 Sector: 18
+Size in sectors: 0x77164f39 (1997950777)
+
+===== Partition Table #3 =====
+Boot flag: 0x19 
+Partition type: 0x8d (Invalid)
+Starting Sector (LBA): 0x77124950 (1997687120)
+Starting CHS: Cylinder: 119 Head: 79 Sector: 22
+Ending CHS: Cylinder: 119 Head: 79 Sector: 18
+Size in sectors: 0x771248f0 (1997687024)
+
+===== Partition Table #4 =====
+Boot flag: 0x80 (Bootable)
+Partition type: 0xa5 (FreeBSD)
+Starting Sector (LBA): 0x7712ac39 (1997712441)
+Starting CHS: Cylinder: 119 Head: 72 Sector: 18
+Ending CHS: Cylinder: 119 Head: 79 Sector: 18
+Size in sectors: 0x77124ba2 (1997687714)
+
+***************************************************************************
+
+***************************************************************************
+Potential MBR at physical offset: 0x1aa91002
+Disk Signature: 60-77-da-21
+Bootcode md5: d78276f56f8ec8d4f8cca375e4534366
+Bootcode (FULL) md5: 328323b8b2f8e2505e3a304439606778
+Disassembly of Bootable Code:
+001aa91002: c3                               RET
+
+001aa91003: 77 f8 4d c3 77 c3 c0 c2 77 d6 bb c1 77 7a d4 c1   w.M.w...w...wz..
+001aa91013: 77 7c f9 c5 77 a0 d0 c1 77 67 6d c3 77 80 fc c5   w|..w...wgm.w...
+001aa91023: 77 76 fa c3 77 f3 c1 c1 77 b0 de c1 77 1c 0b c4   wv..w...w...w...
+001aa91033: 77 36 d0 c1 77 16 de c1 77 10 f3 c5 77 40 24 c6   w6..w...w...w@$.
+001aa91043: 77 a3 fa c2 77 4b ec c3 77 ea f0 c2 77 03 03 c3   w...wK..w...w...
+001aa91053: 77 8d ed c2 77 23 1f c4 77 70 6f c4 77 5b 22 c4   w...w#..wpo.w[".
+001aa91063: 77 f0 75 c4 77 8a ff c3 77 bb 6a c4 77 e5 6b c3   w.u.w...w.j.w.k.
+001aa91073: 77 2b dc c1 77 22 d1 c1 77 0a d1 c1 77 f2 d0 c1   w+..w"..w...w...
+001aa91083: 77 b7 d7 c1 77 c1 c3 c1 77 bc f2 c1 77 19 a5 c3   w...w...w...w...
+001aa91093: 77 d8 23 c6 77 25 f1 c1 77 67 9d c3 77 ae 2d c3   w.#.w%..wg..w.-.
+001aa910a3: 77 bd 67 c4 77 f9 80 c4 77 ed 9c c2 77 fd 9c c2   w.g.w...w...w...
+001aa910b3: 77 81 7f c4 77 c5 d8 c1 77 96 c8 c1 77 77 c8 c1   w...w...w...ww..
+001aa910c3: 77 7c cd c1 77 5d cd c1 77 60 7c c4 77 ed c3 c1   w|..w]..w`|.w...
+001aa910d3: 77 37 c4 c2 77 1b c2 c2 77 07 c4 c2 77 0d 5f c3   w7..w...w...w._.
+001aa910e3: 77 eb bc c1 77 2f 80 c4 77 05 bb c1 77 1a bc c1   w...w/..w...w...
+001aa910f3: 77 b0 72 c4 77 d6 d1 c1 77 bf d0 c1 77 b8 7e c4   w.r.w...w...w.~.
+001aa91103: 77 e3 ce c1 77 e7 ff c3 77 11 d7 c1 77 51 4e c3   w...w...w...wQN.
+001aa91113: 77 00 00 00 00 c5 ab 92 7c 2d f6 90 7c 94 2c 90   w.......|-..|.,.
+001aa91123: 7c 00 00 00 00 e1 14 51 77 7b ef 4f 77 e9 3e 52   |......Qw{.Ow.>R
+001aa91133: 77 4c e5 4f 77 60 d0 4f 77 44 d0 4f 77 1a ee 57   wL.Ow`.OwD.Ow..W
+001aa91143: 77 b6 fc 52 77 1d c8 5d 77 2a 56 54 77 98 ca 50   w..Rw..]w*VTw..P
+001aa91153: 77 8c 09 52 77 c5 56 51 77 7e 05 50 77 39 9f 52   w..Rw.VQw~.Pw9.R
+001aa91163: 77 20 e8 53 77 33 bb 52 77 2c fa 53 77 31 ef 4f   w..Sw3.Rw,.Sw1.O
+001aa91173: 77 c0 d6 52 77 71 ea 50 77 94 73 50 77 f2 87 51   w..Rwq.Pw.sPw..Q
+001aa91183: 77 46 ee 4f 77 06 51 52 77 53 2a 50 77 12 de 4f   wF.Ow.QRwS*Pw..O
+001aa91193: 77 ac 00 53 77 27 97 51 77 04 41 51 77 04 2b 53   w..Sw'.Qw.AQw.+S
+001aa911a3: 77 aa 4a 5e 77 80 5e 50 77 5a 55 51 77 d2 21 60   w.J^w.^PwZUQw.!`
+001aa911b3: 77 6d 22 60 77 1d 22                              wm"`w."
+
+===== Partition Table #1 =====
+Boot flag: 0xf4 
+Partition type: 0x0 (Empty)
+Starting Sector (LBA): 0x77124c35 (1997687861)
+Starting CHS: Cylinder: 375 Head: 215 Sector: 18
+Ending CHS: Cylinder: 0 Head: 0 Sector: 0
+Size in sectors: 0x77143365 (1997812581)
+
+===== Partition Table #2 =====
+Boot flag: 0x80 (Bootable)
+Partition type: 0x1b (Hidden FAT32,CHS)
+Starting Sector (LBA): 0x77124ba2 (1997687714)
+Starting CHS: Cylinder: 119 Head: 72 Sector: 18
+Ending CHS: Cylinder: 119 Head: 76 Sector: 18
+Size in sectors: 0x77124b39 (1997687609)
+
+===== Partition Table #3 =====
+Boot flag: 0x39 
+Partition type: 0xfd (Invalid)
+Starting Sector (LBA): 0x7712ab93 (1997712275)
+Starting CHS: Cylinder: 119 Head: 172 Sector: 18
+Ending CHS: Cylinder: 119 Head: 76 Sector: 18
+Size in sectors: 0x7712ab10 (1997712144)
+
+===== Partition Table #4 =====
+Boot flag: 0xf0 
+Partition type: 0xbb (Boot Wizard hidden)
+Starting Sector (LBA): 0x77124fa5 (1997688741)
+Starting CHS: Cylinder: 119 Head: 72 Sector: 18
+Ending CHS: Cylinder: 119 Head: 107 Sector: 18
+Size in sectors: 0x77124950 (1997687120)
+
+***************************************************************************
+
+***************************************************************************
+Potential MBR at physical offset: 0x1cad2002
+Disk Signature: 60-77-da-21
+Bootcode md5: d78276f56f8ec8d4f8cca375e4534366
+Bootcode (FULL) md5: 328323b8b2f8e2505e3a304439606778
+Disassembly of Bootable Code:
+001cad2002: c3                               RET
+
+001cad2003: 77 f8 4d c3 77 c3 c0 c2 77 d6 bb c1 77 7a d4 c1   w.M.w...w...wz..
+001cad2013: 77 7c f9 c5 77 a0 d0 c1 77 67 6d c3 77 80 fc c5   w|..w...wgm.w...
+001cad2023: 77 76 fa c3 77 f3 c1 c1 77 b0 de c1 77 1c 0b c4   wv..w...w...w...
+001cad2033: 77 36 d0 c1 77 16 de c1 77 10 f3 c5 77 40 24 c6   w6..w...w...w@$.
+001cad2043: 77 a3 fa c2 77 4b ec c3 77 ea f0 c2 77 03 03 c3   w...wK..w...w...
+001cad2053: 77 8d ed c2 77 23 1f c4 77 70 6f c4 77 5b 22 c4   w...w#..wpo.w[".
+001cad2063: 77 f0 75 c4 77 8a ff c3 77 bb 6a c4 77 e5 6b c3   w.u.w...w.j.w.k.
+001cad2073: 77 2b dc c1 77 22 d1 c1 77 0a d1 c1 77 f2 d0 c1   w+..w"..w...w...
+001cad2083: 77 b7 d7 c1 77 c1 c3 c1 77 bc f2 c1 77 19 a5 c3   w...w...w...w...
+001cad2093: 77 d8 23 c6 77 25 f1 c1 77 67 9d c3 77 ae 2d c3   w.#.w%..wg..w.-.
+001cad20a3: 77 bd 67 c4 77 f9 80 c4 77 ed 9c c2 77 fd 9c c2   w.g.w...w...w...
+001cad20b3: 77 81 7f c4 77 c5 d8 c1 77 96 c8 c1 77 77 c8 c1   w...w...w...ww..
+001cad20c3: 77 7c cd c1 77 5d cd c1 77 60 7c c4 77 ed c3 c1   w|..w]..w`|.w...
+001cad20d3: 77 37 c4 c2 77 1b c2 c2 77 07 c4 c2 77 0d 5f c3   w7..w...w...w._.
+001cad20e3: 77 eb bc c1 77 2f 80 c4 77 05 bb c1 77 1a bc c1   w...w/..w...w...
+001cad20f3: 77 b0 72 c4 77 d6 d1 c1 77 bf d0 c1 77 b8 7e c4   w.r.w...w...w.~.
+001cad2103: 77 e3 ce c1 77 e7 ff c3 77 11 d7 c1 77 51 4e c3   w...w...w...wQN.
+001cad2113: 77 00 00 00 00 c5 ab 92 7c 2d f6 90 7c 94 2c 90   w.......|-..|.,.
+001cad2123: 7c 00 00 00 00 e1 14 51 77 7b ef 4f 77 e9 3e 52   |......Qw{.Ow.>R
+001cad2133: 77 4c e5 4f 77 60 d0 4f 77 44 d0 4f 77 1a ee 57   wL.Ow`.OwD.Ow..W
+001cad2143: 77 b6 fc 52 77 1d c8 5d 77 2a 56 54 77 98 ca 50   w..Rw..]w*VTw..P
+001cad2153: 77 8c 09 52 77 c5 56 51 77 7e 05 50 77 39 9f 52   w..Rw.VQw~.Pw9.R
+001cad2163: 77 20 e8 53 77 33 bb 52 77 2c fa 53 77 31 ef 4f   w..Sw3.Rw,.Sw1.O
+001cad2173: 77 c0 d6 52 77 71 ea 50 77 94 73 50 77 f2 87 51   w..Rwq.Pw.sPw..Q
+001cad2183: 77 46 ee 4f 77 06 51 52 77 53 2a 50 77 12 de 4f   wF.Ow.QRwS*Pw..O
+001cad2193: 77 ac 00 53 77 27 97 51 77 04 41 51 77 04 2b 53   w..Sw'.Qw.AQw.+S
+001cad21a3: 77 aa 4a 5e 77 80 5e 50 77 5a 55 51 77 d2 21 60   w.J^w.^PwZUQw.!`
+001cad21b3: 77 6d 22 60 77 1d 22                              wm"`w."
+
+===== Partition Table #1 =====
+Boot flag: 0xf4 
+Partition type: 0x0 (Empty)
+Starting Sector (LBA): 0x77124c35 (1997687861)
+Starting CHS: Cylinder: 375 Head: 215 Sector: 18
+Ending CHS: Cylinder: 0 Head: 0 Sector: 0
+Size in sectors: 0x77143365 (1997812581)
+
+===== Partition Table #2 =====
+Boot flag: 0x80 (Bootable)
+Partition type: 0x1b (Hidden FAT32,CHS)
+Starting Sector (LBA): 0x77124ba2 (1997687714)
+Starting CHS: Cylinder: 119 Head: 72 Sector: 18
+Ending CHS: Cylinder: 119 Head: 76 Sector: 18
+Size in sectors: 0x77124b39 (1997687609)
+
+===== Partition Table #3 =====
+Boot flag: 0x39 
+Partition type: 0xfd (Invalid)
+Starting Sector (LBA): 0x7712ab93 (1997712275)
+Starting CHS: Cylinder: 119 Head: 172 Sector: 18
+Ending CHS: Cylinder: 119 Head: 76 Sector: 18
+Size in sectors: 0x7712ab10 (1997712144)
+
+===== Partition Table #4 =====
+Boot flag: 0xf0 
+Partition type: 0xbb (Boot Wizard hidden)
+Starting Sector (LBA): 0x77124fa5 (1997688741)
+Starting CHS: Cylinder: 119 Head: 72 Sector: 18
+Ending CHS: Cylinder: 119 Head: 107 Sector: 18
+Size in sectors: 0x77124950 (1997687120)
+
+***************************************************************************
+
+***************************************************************************
+Potential MBR at physical offset: 0x1d48b046
+Disk Signature: 57-77-f2-87
+Bootcode md5: b20b14f4631c2c642aa9dbf7877dd8ce
+Bootcode (FULL) md5: 03360d17489c550ae76610fc0824fae5
+Disassembly of Bootable Code:
+001d48b046: df77e1                           FBSTP TBYTE [BX-0x1f]
+001d48b049: a3de77                           MOV [0x77de], AX
+001d48b04c: 03c0                             ADD AX, AX
+001d48b04e: df77b9                           FBSTP TBYTE [BX-0x47]
+001d48b051: 4b                               DEC BX
+001d48b052: de7755                           FIDIV WORD [BX+0x55]
+001d48b055: 4b                               DEC BX
+001d48b056: de7787                           FIDIV WORD [BX-0x79]
+001d48b059: 4b                               DEC BX
+001d48b05a: de77e7                           FIDIV WORD [BX-0x19]
+001d48b05d: 73dd                             JAE 0xfff6
+001d48b05f: 772c                             JA 0x47
+001d48b061: d5e0                             AAD 0xe0
+001d48b063: 77f4                             JA 0x13
+001d48b065: 1e                               PUSH DS
+001d48b066: de7707                           FIDIV WORD [BX+0x7]
+001d48b069: 57                               PUSH DI
+001d48b06a: de77bb                           FIDIV WORD [BX-0x45]
+001d48b06d: 58                               POP AX
+001d48b06e: de7727                           FIDIV WORD [BX+0x27]
+001d48b071: 1e                               PUSH DS
+001d48b072: de771b                           FIDIV WORD [BX+0x1b]
+001d48b075: e0de                             LOOPNZ 0xf
+001d48b077: 77c6                             JA 0xfff9
+001d48b079: 79dd                             JNS 0x12
+001d48b07b: 7705                             JA 0x3c
+001d48b07d: 4b                               DEC BX
+001d48b07e: de772d                           FIDIV WORD [BX+0x2d]
+001d48b081: 4b                               DEC BX
+001d48b082: de77eb                           FIDIV WORD [BX-0x15]
+001d48b085: 79dd                             JNS 0x1e
+001d48b087: 778e                             JA 0xffd1
+001d48b089: 4e                               DEC SI
+001d48b08a: df77bb                           FBSTP TBYTE [BX-0x45]
+001d48b08d: 74dd                             JZ 0x26
+001d48b08f: 775e                             JA 0xa9
+001d48b091: 74dd                             JZ 0x2a
+001d48b093: 7759                             JA 0xa8
+001d48b095: 5b                               POP BX
+001d48b096: de7757                           FIDIV WORD [BX+0x57]
+001d48b099: 44                               INC SP
+001d48b09a: df7719                           FBSTP TBYTE [BX+0x19]
+001d48b09d: f2dd775c                         FNSAVE [BX+0x5c]
+001d48b0a1: 7ddd                             JGE 0x3a
+001d48b0a3: 77a3                             JA 0x2
+001d48b0a5: 7edf                             JLE 0x40
+001d48b0a7: 7778                             JA 0xdb
+001d48b0a9: 7edf                             JLE 0x44
+001d48b0ab: 7709                             JA 0x70
+001d48b0ad: 7ddd                             JGE 0x46
+001d48b0af: 7733                             JA 0x9e
+001d48b0b1: 4c                               DEC SP
+001d48b0b2: de7749                           FIDIV WORD [BX+0x49]
+001d48b0b5: dadd                             FCMOVU ST0, ST5
+001d48b0b7: 7738                             JA 0xab
+001d48b0b9: 73dd                             JAE 0x52
+001d48b0bb: 77cc                             JA 0x43
+001d48b0bd: 72dd                             JB 0x56
+001d48b0bf: 778b                             JA 0x6
+001d48b0c1: 79dd                             JNS 0x5a
+001d48b0c3: 77af                             JA 0x2e
+001d48b0c5: 6add                             PUSH -0x23
+001d48b0c7: 77ff                             JA 0x82
+001d48b0c9: 6f                               OUTS DX, WORD [SI]
+001d48b0ca: dd77d9                           FNSAVE [BX-0x27]
+001d48b0cd: 7bdd                             JNP 0x66
+001d48b0cf: 779b                             JA 0x26
+001d48b0d1: 55                               PUSH BP
+001d48b0d2: de776c                           FIDIV WORD [BX+0x6c]
+001d48b0d5: 77dd                             JA 0x6e
+001d48b0d7: 7767                             JA 0xfa
+001d48b0d9: d7                               XLAT BYTE [BX+AL]
+001d48b0da: dd7727                           FNSAVE [BX+0x27]
+001d48b0dd: 6c                               INS BYTE [ES:DI], DX
+001d48b0de: dd7700                           FNSAVE [BX+0x0]
+001d48b0e1: 0000                             ADD [BX+SI], AL
+001d48b0e3: 00552c                           ADD [DI+0x2c], DL
+001d48b0e6: b276                             MOV DL, 0x76
+001d48b0e8: df39                             FISTP QWORD [BX+DI]
+001d48b0ea: b276                             MOV DL, 0x76
+001d48b0ec: 0000                             ADD [BX+SI], AL
+001d48b0ee: 0000                             ADD [BX+SI], AL
+001d48b0f0: b09f                             MOV AL, 0x9f
+001d48b0f2: 807c1a1e                         CMP BYTE [SI+0x1a], 0x1e
+001d48b0f6: 807cca3f                         CMP BYTE [SI-0x36], 0x3f
+001d48b0fa: 867c5d                           XCHG [SI+0x5d], BH
+001d48b0fd: 49                               DEC CX
+001d48b0fe: 847cbf                           TEST [SI-0x41], BH
+001d48b101: 4b                               DEC BX
+001d48b102: 837cd097                         CMP WORD [SI-0x30], -0x69
+001d48b106: 807ce917                         CMP BYTE [SI-0x17], 0x17
+001d48b10a: 807ca99a                         CMP BYTE [SI-0x57], 0x9a
+001d48b10e: 807cebae                         CMP BYTE [SI-0x15], 0xae
+001d48b112: 807c40ae                         CMP BYTE [SI+0x40], 0xae
+001d48b116: 807c30fe                         CMP BYTE [SI+0x30], 0xfe
+001d48b11a: 90                               NOP
+001d48b11b: 7c05                             JL 0xdc
+001d48b11d: af                               SCASW
+001d48b11e: 807cfea3                         CMP BYTE [SI-0x2], 0xa3
+001d48b122: 807cc7a4                         CMP BYTE [SI-0x39], 0xa4
+001d48b126: 807c4a93                         CMP BYTE [SI+0x4a], 0x93
+001d48b12a: 807cc099                         CMP BYTE [SI-0x40], 0x99
+001d48b12e: 807ce79b                         CMP BYTE [SI-0x19], 0x9b
+001d48b132: 807c8b99                         CMP BYTE [SI-0x75], 0x99
+001d48b136: 807c21fe                         CMP BYTE [SI+0x21], 0xfe
+001d48b13a: 90                               NOP
+001d48b13b: 7c95                             JL 0x8c
+001d48b13d: de807c2d                         FIADD WORD [BX+SI+0x2d7c]
+001d48b141: 9a807ccf99                       CALL FAR 0x99cf:0x7c80
+001d48b146: 807c3613                         CMP BYTE [SI+0x36], 0x13
+001d48b14a: 817c919f80                       CMP WORD [SI-0x6f], 0x809f
+001d48b14f: 7c7a                             JL 0x185
+001d48b151: 13917c7e                         ADC DX, [BX+DI+0x7e7c]
+001d48b155: ac                               LODSB
+001d48b156: 807c0010                         CMP BYTE [SI+0x0], 0x10
+001d48b15a: 90                               NOP
+001d48b15b: 7ce0                             JL 0xf7
+001d48b15d: 10907c1a                         ADC [BX+SI+0x1a7c], DL
+001d48b161: 98                               CBW
+001d48b162: 807c0698                         CMP BYTE [SI+0x6], 0x98
+001d48b166: 807c0000                         CMP BYTE [SI+0x0], 0x0
+001d48b16a: 0000                             ADD [BX+SI], AL
+001d48b16c: 31f9                             XOR CX, DI
+001d48b16e: c3                               RET
+
+001d48b16f: 77 94 7e c4 77 fa 27 c2 77 94 5c c3 77 61 7e c4   w.~.w.'.w.\.wa~.
+001d48b17f: 77 2f 80 c4 77 cc 7f c4 77 bb 6a c4 77 bd 67 c4   w/..w...w.j.w.g.
+001d48b18f: 77 e3 7e c4 77 e6 81 c4 77 b8 7e c4 77 3d d1 c1   w.~.w...w.~.w=..
+001d48b19f: 77 6b 80 c4 77 07 c4 c2 77 1b c2 c2 77 30 fa c4   wk..w...w...w0..
+001d48b1af: 77 b3 1b c4 77 67 9d c3 77 d8 23 c6 77 6d 26 c2   w...wg..w.#.wm&.
+001d48b1bf: 77 00 00 00 00 0e 8a 86 5b 00 7a 86 5b fa 12 87   w.......[.z.[...
+001d48b1cf: 5b 00 00 00 00 da 86 91 7c 2d f6 90 7c 95 12 90   [.......|-..|...
+001d48b1df: 7c 00 00 00 00 7e 05 50 77 12 de 4f 77 44 d0 4f   |....~.Pw..OwD.O
+001d48b1ef: 77 98 ca 50 77 e9 3e 52 77 4c e5 4f 77 62 c7      w..Pw.>RwL.Owb.
+
+===== Partition Table #1 =====
+Boot flag: 0x5a 
+Partition type: 0x8 (Invalid)
+Starting Sector (LBA): 0x7752fcb6 (2001927350)
+Starting CHS: Cylinder: 375 Head: 85 Sector: 17
+Ending CHS: Cylinder: 375 Head: 221 Sector: 15
+Size in sectors: 0x774fd060 (2001719392)
+
+===== Partition Table #2 =====
+Boot flag: 0x0 
+Partition type: 0xfd (Invalid)
+Starting Sector (LBA): 0x7714306e (1997811822)
+Starting CHS: Cylinder: 0 Head: 0 Sector: 0
+Ending CHS: Cylinder: 119 Head: 76 Sector: 18
+Size in sectors: 0x77164f39 (1997950777)
+
+===== Partition Table #3 =====
+Boot flag: 0x19 
+Partition type: 0x8d (Invalid)
+Starting Sector (LBA): 0x77124950 (1997687120)
+Starting CHS: Cylinder: 119 Head: 79 Sector: 22
+Ending CHS: Cylinder: 119 Head: 79 Sector: 18
+Size in sectors: 0x771248f0 (1997687024)
+
+===== Partition Table #4 =====
+Boot flag: 0x80 (Bootable)
+Partition type: 0xa5 (FreeBSD)
+Starting Sector (LBA): 0x7712ac39 (1997712441)
+Starting CHS: Cylinder: 119 Head: 72 Sector: 18
+Ending CHS: Cylinder: 119 Head: 79 Sector: 18
+Size in sectors: 0x77124ba2 (1997687714)
+
+***************************************************************************
+
+***************************************************************************
+Potential MBR at physical offset: 0x1f19b002
+Disk Signature: 60-77-da-21
+Bootcode md5: d78276f56f8ec8d4f8cca375e4534366
+Bootcode (FULL) md5: 328323b8b2f8e2505e3a304439606778
+Disassembly of Bootable Code:
+001f19b002: c3                               RET
+
+001f19b003: 77 f8 4d c3 77 c3 c0 c2 77 d6 bb c1 77 7a d4 c1   w.M.w...w...wz..
+001f19b013: 77 7c f9 c5 77 a0 d0 c1 77 67 6d c3 77 80 fc c5   w|..w...wgm.w...
+001f19b023: 77 76 fa c3 77 f3 c1 c1 77 b0 de c1 77 1c 0b c4   wv..w...w...w...
+001f19b033: 77 36 d0 c1 77 16 de c1 77 10 f3 c5 77 40 24 c6   w6..w...w...w@$.
+001f19b043: 77 a3 fa c2 77 4b ec c3 77 ea f0 c2 77 03 03 c3   w...wK..w...w...
+001f19b053: 77 8d ed c2 77 23 1f c4 77 70 6f c4 77 5b 22 c4   w...w#..wpo.w[".
+001f19b063: 77 f0 75 c4 77 8a ff c3 77 bb 6a c4 77 e5 6b c3   w.u.w...w.j.w.k.
+001f19b073: 77 2b dc c1 77 22 d1 c1 77 0a d1 c1 77 f2 d0 c1   w+..w"..w...w...
+001f19b083: 77 b7 d7 c1 77 c1 c3 c1 77 bc f2 c1 77 19 a5 c3   w...w...w...w...
+001f19b093: 77 d8 23 c6 77 25 f1 c1 77 67 9d c3 77 ae 2d c3   w.#.w%..wg..w.-.
+001f19b0a3: 77 bd 67 c4 77 f9 80 c4 77 ed 9c c2 77 fd 9c c2   w.g.w...w...w...
+001f19b0b3: 77 81 7f c4 77 c5 d8 c1 77 96 c8 c1 77 77 c8 c1   w...w...w...ww..
+001f19b0c3: 77 7c cd c1 77 5d cd c1 77 60 7c c4 77 ed c3 c1   w|..w]..w`|.w...
+001f19b0d3: 77 37 c4 c2 77 1b c2 c2 77 07 c4 c2 77 0d 5f c3   w7..w...w...w._.
+001f19b0e3: 77 eb bc c1 77 2f 80 c4 77 05 bb c1 77 1a bc c1   w...w/..w...w...
+001f19b0f3: 77 b0 72 c4 77 d6 d1 c1 77 bf d0 c1 77 b8 7e c4   w.r.w...w...w.~.
+001f19b103: 77 e3 ce c1 77 e7 ff c3 77 11 d7 c1 77 51 4e c3   w...w...w...wQN.
+001f19b113: 77 00 00 00 00 c5 ab 92 7c 2d f6 90 7c 94 2c 90   w.......|-..|.,.
+001f19b123: 7c 00 00 00 00 e1 14 51 77 7b ef 4f 77 e9 3e 52   |......Qw{.Ow.>R
+001f19b133: 77 4c e5 4f 77 60 d0 4f 77 44 d0 4f 77 1a ee 57   wL.Ow`.OwD.Ow..W
+001f19b143: 77 b6 fc 52 77 1d c8 5d 77 2a 56 54 77 98 ca 50   w..Rw..]w*VTw..P
+001f19b153: 77 8c 09 52 77 c5 56 51 77 7e 05 50 77 39 9f 52   w..Rw.VQw~.Pw9.R
+001f19b163: 77 20 e8 53 77 33 bb 52 77 2c fa 53 77 31 ef 4f   w..Sw3.Rw,.Sw1.O
+001f19b173: 77 c0 d6 52 77 71 ea 50 77 94 73 50 77 f2 87 51   w..Rwq.Pw.sPw..Q
+001f19b183: 77 46 ee 4f 77 06 51 52 77 53 2a 50 77 12 de 4f   wF.Ow.QRwS*Pw..O
+001f19b193: 77 ac 00 53 77 27 97 51 77 04 41 51 77 04 2b 53   w..Sw'.Qw.AQw.+S
+001f19b1a3: 77 aa 4a 5e 77 80 5e 50 77 5a 55 51 77 d2 21 60   w.J^w.^PwZUQw.!`
+001f19b1b3: 77 6d 22 60 77 1d 22                              wm"`w."
+
+===== Partition Table #1 =====
+Boot flag: 0xf4 
+Partition type: 0x0 (Empty)
+Starting Sector (LBA): 0x77124c35 (1997687861)
+Starting CHS: Cylinder: 375 Head: 215 Sector: 18
+Ending CHS: Cylinder: 0 Head: 0 Sector: 0
+Size in sectors: 0x77143365 (1997812581)
+
+===== Partition Table #2 =====
+Boot flag: 0x80 (Bootable)
+Partition type: 0x1b (Hidden FAT32,CHS)
+Starting Sector (LBA): 0x77124ba2 (1997687714)
+Starting CHS: Cylinder: 119 Head: 72 Sector: 18
+Ending CHS: Cylinder: 119 Head: 76 Sector: 18
+Size in sectors: 0x77124b39 (1997687609)
+
+===== Partition Table #3 =====
+Boot flag: 0x39 
+Partition type: 0xfd (Invalid)
+Starting Sector (LBA): 0x7712ab93 (1997712275)
+Starting CHS: Cylinder: 119 Head: 172 Sector: 18
+Ending CHS: Cylinder: 119 Head: 76 Sector: 18
+Size in sectors: 0x7712ab10 (1997712144)
+
+===== Partition Table #4 =====
+Boot flag: 0xf0 
+Partition type: 0xbb (Boot Wizard hidden)
+Starting Sector (LBA): 0x77124fa5 (1997688741)
+Starting CHS: Cylinder: 119 Head: 72 Sector: 18
+Ending CHS: Cylinder: 119 Head: 107 Sector: 18
+Size in sectors: 0x77124950 (1997687120)
+
+***************************************************************************
+

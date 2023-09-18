@@ -1,0 +1,837 @@
+DataSectionObject 0x822d8740   4      \Device\HarddiskVolume1\WINDOWS\system32\config\software
+SharedCacheMap 0x822d8740   4      \Device\HarddiskVolume1\WINDOWS\system32\config\software
+DataSectionObject 0x821d4b30   4      \Device\HarddiskVolume1\WINDOWS\system32\config\system
+SharedCacheMap 0x821d4b30   4      \Device\HarddiskVolume1\WINDOWS\system32\config\system
+DataSectionObject 0x81dfea30   4      \Device\HarddiskVolume1\WINDOWS\system32\config\default
+SharedCacheMap 0x81dfea30   4      \Device\HarddiskVolume1\WINDOWS\system32\config\default
+DataSectionObject 0x821c39d8   4      \Device\HarddiskVolume1\WINDOWS\system32\config\SAM
+SharedCacheMap 0x821c39d8   4      \Device\HarddiskVolume1\WINDOWS\system32\config\SAM
+DataSectionObject 0x82273268   4      \Device\HarddiskVolume1\Documents and Settings\NetworkService\Local Settings\Application Data\Microsoft\Windows\UsrClass.dat
+SharedCacheMap 0x82273268   4      \Device\HarddiskVolume1\Documents and Settings\NetworkService\Local Settings\Application Data\Microsoft\Windows\UsrClass.dat
+DataSectionObject 0x81d3ff90   4      \Device\HarddiskVolume1\Documents and Settings\Pat\NTUSER.DAT
+SharedCacheMap 0x81d3ff90   4      \Device\HarddiskVolume1\Documents and Settings\Pat\NTUSER.DAT
+DataSectionObject 0x822163c0   4      \Device\HarddiskVolume1\Documents and Settings\LocalService\NTUSER.DAT
+SharedCacheMap 0x822163c0   4      \Device\HarddiskVolume1\Documents and Settings\LocalService\NTUSER.DAT
+DataSectionObject 0x822b8a20   4      \Device\HarddiskVolume1\Documents and Settings\LocalService\Local Settings\Application Data\Microsoft\Windows\UsrClass.dat
+SharedCacheMap 0x822b8a20   4      \Device\HarddiskVolume1\Documents and Settings\LocalService\Local Settings\Application Data\Microsoft\Windows\UsrClass.dat
+DataSectionObject 0x8226d0c0   4      \Device\HarddiskVolume1\Documents and Settings\Pat\Local Settings\Application Data\Microsoft\Windows\UsrClass.dat
+SharedCacheMap 0x8226d0c0   4      \Device\HarddiskVolume1\Documents and Settings\Pat\Local Settings\Application Data\Microsoft\Windows\UsrClass.dat
+DataSectionObject 0x81e33c30   4      \Device\HarddiskVolume1\System Volume Information\_restore{4A51E5CD-3AB4-4411-9E93-FFBB13AC62DB}\RP52\change.log
+SharedCacheMap 0x81e33c30   4      \Device\HarddiskVolume1\System Volume Information\_restore{4A51E5CD-3AB4-4411-9E93-FFBB13AC62DB}\RP52\change.log
+DataSectionObject 0x822c7028   4      \Device\HarddiskVolume1\Documents and Settings\NetworkService\NTUSER.DAT
+SharedCacheMap 0x822c7028   4      \Device\HarddiskVolume1\Documents and Settings\NetworkService\NTUSER.DAT
+DataSectionObject 0x821cc878   4      \Device\HarddiskVolume1\WINDOWS\system32\config\SECURITY
+SharedCacheMap 0x821cc878   4      \Device\HarddiskVolume1\WINDOWS\system32\config\SECURITY
+ImageSectionObject 0x82391920   4      \Device\HarddiskVolume1\WINDOWS\system32\ntdll.dll
+DataSectionObject 0x82391920   4      \Device\HarddiskVolume1\WINDOWS\system32\ntdll.dll
+ImageSectionObject 0x8218a7e8   576    \Device\HarddiskVolume1\WINDOWS\system32\smss.exe
+DataSectionObject 0x8227fb78   640    \Device\HarddiskVolume1\WINDOWS\Fonts\marlett.ttf
+DataSectionObject 0x822d5c40   640    \Device\HarddiskVolume1\WINDOWS\system32\unicode.nls
+DataSectionObject 0x822823c0   640    \Device\HarddiskVolume1\WINDOWS\system32\sortkey.nls
+DataSectionObject 0x822d5820   640    \Device\HarddiskVolume1\WINDOWS\system32\locale.nls
+DataSectionObject 0x822d5340   640    \Device\HarddiskVolume1\WINDOWS\system32\sorttbls.nls
+DataSectionObject 0x822801b0   640    \Device\HarddiskVolume1\WINDOWS\Fonts\trebucbd.ttf
+DataSectionObject 0x8227fd48   640    \Device\HarddiskVolume1\WINDOWS\Fonts\tahoma.ttf
+DataSectionObject 0x8227f028   640    \Device\HarddiskVolume1\WINDOWS\Fonts\tahomabd.ttf
+DataSectionObject 0x82282838   640    \Device\HarddiskVolume1\WINDOWS\system32\ctype.nls
+DataSectionObject 0x822b8f90   640    \Device\HarddiskVolume1\WINDOWS\Fonts\micross.ttf
+DataSectionObject 0x822d34f0   640    \Device\HarddiskVolume1\WINDOWS\Fonts\vgasys.fon
+DataSectionObject 0x822358d8   640    \Device\HarddiskVolume1\WINDOWS\Fonts\framdit.ttf
+DataSectionObject 0x822d1718   640    \Device\HarddiskVolume1\WINDOWS\Fonts\vgaoem.fon
+ImageSectionObject 0x82379de8   640    \Device\HarddiskVolume1\WINDOWS\system32\csrss.exe
+DataSectionObject 0x81bf4d30   640    \Device\HarddiskVolume1\WINDOWS\Fonts\times.ttf
+DataSectionObject 0x8226d968   640    \Device\HarddiskVolume1\WINDOWS\Fonts\arial.ttf
+DataSectionObject 0x81cbd6b0   640    \Device\HarddiskVolume1\WINDOWS\Fonts\arialbd.ttf
+ImageSectionObject 0x82266f68   640    \Device\HarddiskVolume1\WINDOWS\system32\csrsrv.dll
+ImageSectionObject 0x822720c8   640    \Device\HarddiskVolume1\WINDOWS\system32\basesrv.dll
+ImageSectionObject 0x822826d0   640    \Device\HarddiskVolume1\WINDOWS\system32\winsrv.dll
+DataSectionObject 0x822826d0   640    \Device\HarddiskVolume1\WINDOWS\system32\winsrv.dll
+ImageSectionObject 0x822ed5b0   640    \Device\HarddiskVolume1\WINDOWS\system32\gdi32.dll
+DataSectionObject 0x822ed5b0   640    \Device\HarddiskVolume1\WINDOWS\system32\gdi32.dll
+ImageSectionObject 0x821dce78   640    \Device\HarddiskVolume1\WINDOWS\system32\advapi32.dll
+DataSectionObject 0x821dce78   640    \Device\HarddiskVolume1\WINDOWS\system32\advapi32.dll
+ImageSectionObject 0x8223c748   640    \Device\HarddiskVolume1\WINDOWS\system32\apphelp.dll
+DataSectionObject 0x8223c748   640    \Device\HarddiskVolume1\WINDOWS\system32\apphelp.dll
+ImageSectionObject 0x822f2058   640    \Device\HarddiskVolume1\WINDOWS\system32\version.dll
+DataSectionObject 0x822f2058   640    \Device\HarddiskVolume1\WINDOWS\system32\version.dll
+ImageSectionObject 0x822f2878   640    \Device\HarddiskVolume1\WINDOWS\system32\rpcrt4.dll
+DataSectionObject 0x822f2878   640    \Device\HarddiskVolume1\WINDOWS\system32\rpcrt4.dll
+ImageSectionObject 0x822e9ad8   640    \Device\HarddiskVolume1\WINDOWS\system32\kernel32.dll
+DataSectionObject 0x822e9ad8   640    \Device\HarddiskVolume1\WINDOWS\system32\kernel32.dll
+ImageSectionObject 0x822f0ba0   640    \Device\HarddiskVolume1\WINDOWS\system32\secur32.dll
+DataSectionObject 0x822f0ba0   640    \Device\HarddiskVolume1\WINDOWS\system32\secur32.dll
+ImageSectionObject 0x822f2258   640    \Device\HarddiskVolume1\WINDOWS\system32\user32.dll
+DataSectionObject 0x822f2258   640    \Device\HarddiskVolume1\WINDOWS\system32\user32.dll
+ImageSectionObject 0x8230a0b0   640    \Device\HarddiskVolume1\WINDOWS\system32\sxs.dll
+DataSectionObject 0x81e114f4   640    None
+ImageSectionObject 0x8239ff90   664    \Device\HarddiskVolume1\WINDOWS\system32\profmap.dll
+ImageSectionObject 0x821cc730   664    \Device\HarddiskVolume1\WINDOWS\system32\WgaLogon.dll
+ImageSectionObject 0x823a18b0   664    \Device\HarddiskVolume1\WINDOWS\system32\winlogon.exe
+DataSectionObject 0x823a18b0   664    \Device\HarddiskVolume1\WINDOWS\system32\winlogon.exe
+ImageSectionObject 0x822fd258   664    \Device\HarddiskVolume1\WINDOWS\system32\odbcint.dll
+DataSectionObject 0x822fd258   664    \Device\HarddiskVolume1\WINDOWS\system32\odbcint.dll
+ImageSectionObject 0x8218baf0   664    \Device\HarddiskVolume1\WINDOWS\system32\uxtheme.dll
+DataSectionObject 0x8218baf0   664    \Device\HarddiskVolume1\WINDOWS\system32\uxtheme.dll
+DataSectionObject 0x81e72830   664    \Device\HarddiskVolume1\WINDOWS\system32\msxml3r.dll
+ImageSectionObject 0x821d4a70   664    \Device\HarddiskVolume1\WINDOWS\system32\xpsp2res.dll
+DataSectionObject 0x821d4a70   664    \Device\HarddiskVolume1\WINDOWS\system32\xpsp2res.dll
+ImageSectionObject 0x821cd9e8   664    \Device\HarddiskVolume1\WINDOWS\system32\dimsntfy.dll
+ImageSectionObject 0x822f9a10   664    \Device\HarddiskVolume1\WINDOWS\system32\netapi32.dll
+DataSectionObject 0x822f9a10   664    \Device\HarddiskVolume1\WINDOWS\system32\netapi32.dll
+ImageSectionObject 0x82310268   664    \Device\HarddiskVolume1\WINDOWS\system32\ws2_32.dll
+DataSectionObject 0x82310268   664    \Device\HarddiskVolume1\WINDOWS\system32\ws2_32.dll
+ImageSectionObject 0x822fa3d0   664    \Device\HarddiskVolume1\WINDOWS\system32\ws2help.dll
+DataSectionObject 0x822fa3d0   664    \Device\HarddiskVolume1\WINDOWS\system32\ws2help.dll
+ImageSectionObject 0x822f1a18   664    \Device\HarddiskVolume1\WINDOWS\system32\comctl32.dll
+DataSectionObject 0x822f1a18   664    \Device\HarddiskVolume1\WINDOWS\system32\comctl32.dll
+ImageSectionObject 0x821ca648   664    \Device\HarddiskVolume1\WINDOWS\system32\rsaenh.dll
+DataSectionObject 0x821ca648   664    \Device\HarddiskVolume1\WINDOWS\system32\rsaenh.dll
+ImageSectionObject 0x821d22a8   664    \Device\HarddiskVolume1\WINDOWS\system32\avgrsstx.dll
+ImageSectionObject 0x8230b770   664    \Device\HarddiskVolume1\WINDOWS\system32\odbc32.dll
+ImageSectionObject 0x821c38c8   664    \Device\HarddiskVolume1\WINDOWS\system32\winscard.dll
+ImageSectionObject 0x822f0f28   664    \Device\HarddiskVolume1\WINDOWS\system32\mpr.dll
+DataSectionObject 0x822f0f28   664    \Device\HarddiskVolume1\WINDOWS\system32\mpr.dll
+ImageSectionObject 0x8224ebc8   664    \Device\HarddiskVolume1\WINDOWS\system32\mprui.dll
+ImageSectionObject 0x8217f168   664    \Device\HarddiskVolume1\WINDOWS\system32\samlib.dll
+ImageSectionObject 0x82180118   664    \Device\HarddiskVolume1\WINDOWS\system32\netui2.dll
+ImageSectionObject 0x821f7b78   664    \Device\HarddiskVolume1\WINDOWS\system32\netmsg.dll
+ImageSectionObject 0x822e5f90   664    \Device\HarddiskVolume1\WINDOWS\system32\ntlanman.dll
+ImageSectionObject 0x82183028   664    \Device\HarddiskVolume1\WINDOWS\system32\netui0.dll
+ImageSectionObject 0x81dd9278   664    \Device\HarddiskVolume1\WINDOWS\system32\netui1.dll
+ImageSectionObject 0x82181028   664    \Device\HarddiskVolume1\WINDOWS\system32\netrap.dll
+ImageSectionObject 0x821cd340   664    \Device\HarddiskVolume1\WINDOWS\system32\winspool.drv
+DataSectionObject 0x821cd340   664    \Device\HarddiskVolume1\WINDOWS\system32\winspool.drv
+ImageSectionObject 0x8230bb70   664    \Device\HarddiskVolume1\WINDOWS\system32\MSCTFIME.IME
+DataSectionObject 0x8230bb70   664    \Device\HarddiskVolume1\WINDOWS\system32\MSCTFIME.IME
+ImageSectionObject 0x821d5028   664    \Device\HarddiskVolume1\WINDOWS\system32\wbem\wbemprox.dll
+ImageSectionObject 0x8224b780   664    \Device\HarddiskVolume1\WINDOWS\system32\wbem\wbemsvc.dll
+ImageSectionObject 0x821d9390   664    \Device\HarddiskVolume1\WINDOWS\system32\msxml3.dll
+DataSectionObject 0x821d9390   664    \Device\HarddiskVolume1\WINDOWS\system32\msxml3.dll
+ImageSectionObject 0x82203740   664    \Device\HarddiskVolume1\WINDOWS\system32\wbem\wbemcomn.dll
+ImageSectionObject 0x821a7138   664    \Device\HarddiskVolume1\WINDOWS\system32\wbem\fastprox.dll
+ImageSectionObject 0x8237f760   664    \Device\HarddiskVolume1\WINDOWS\system32\authz.dll
+ImageSectionObject 0x82311760   664    \Device\HarddiskVolume1\WINDOWS\system32\nddeapi.dll
+ImageSectionObject 0x8224a7a8   664    \Device\HarddiskVolume1\WINDOWS\system32\userenv.dll
+DataSectionObject 0x8224a7a8   664    \Device\HarddiskVolume1\WINDOWS\system32\userenv.dll
+ImageSectionObject 0x8230b370   664    \Device\HarddiskVolume1\WINDOWS\system32\winsta.dll
+ImageSectionObject 0x82381768   664    \Device\HarddiskVolume1\WINDOWS\system32\msgina.dll
+ImageSectionObject 0x821cd928   664    \Device\HarddiskVolume1\WINDOWS\system32\wlnotify.dll
+ImageSectionObject 0x81dcace0   664    \Device\HarddiskVolume1\WINDOWS\system32\drprov.dll
+ImageSectionObject 0x821d9028   664    \Device\HarddiskVolume1\WINDOWS\system32\davclnt.dll
+ImageSectionObject 0x8218af90   664    \Device\HarddiskVolume1\WINDOWS\system32\msvcp60.dll
+ImageSectionObject 0x8230c2e8   664    \Device\HarddiskVolume1\WINDOWS\system32\imm32.dll
+DataSectionObject 0x8230c2e8   664    \Device\HarddiskVolume1\WINDOWS\system32\imm32.dll
+ImageSectionObject 0x82310958   664    \Device\HarddiskVolume1\WINDOWS\system32\comdlg32.dll
+ImageSectionObject 0x821cdaa8   664    \Device\HarddiskVolume1\WINDOWS\system32\cscdll.dll
+ImageSectionObject 0x8217ee80   664    \Device\HarddiskVolume1\WINDOWS\system32\cryptdll.dll
+DataSectionObject 0x8217ee80   664    \Device\HarddiskVolume1\WINDOWS\system32\cryptdll.dll
+ImageSectionObject 0x82180f90   664    \Device\HarddiskVolume1\WINDOWS\system32\ntdsapi.dll
+ImageSectionObject 0x8230fd30   664    \Device\HarddiskVolume1\WINDOWS\system32\psapi.dll
+DataSectionObject 0x8230fd30   664    \Device\HarddiskVolume1\WINDOWS\system32\psapi.dll
+ImageSectionObject 0x822faac0   664    \Device\HarddiskVolume1\WINDOWS\system32\regapi.dll
+ImageSectionObject 0x82303d88   664    \Device\HarddiskVolume1\WINDOWS\system32\sfc.dll
+ImageSectionObject 0x8218bdf0   664    \Device\HarddiskVolume1\WINDOWS\system32\winmm.dll
+DataSectionObject 0x8218bdf0   664    \Device\HarddiskVolume1\WINDOWS\system32\winmm.dll
+ImageSectionObject 0x821d8738   664    \Device\HarddiskVolume1\WINDOWS\system32\atl.dll
+DataSectionObject 0x821d8738   664    \Device\HarddiskVolume1\WINDOWS\system32\atl.dll
+ImageSectionObject 0x823029c0   664    \Device\HarddiskVolume1\WINDOWS\system32\wintrust.dll
+DataSectionObject 0x823029c0   664    \Device\HarddiskVolume1\WINDOWS\system32\wintrust.dll
+ImageSectionObject 0x822e9028   664    \Device\HarddiskVolume1\WINDOWS\system32\imagehlp.dll
+DataSectionObject 0x822e9028   664    \Device\HarddiskVolume1\WINDOWS\system32\imagehlp.dll
+ImageSectionObject 0x822e6668   664    \Device\HarddiskVolume1\WINDOWS\system32\sfc_os.dll
+ImageSectionObject 0x823042f8   664    \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83\comctl32.dll
+DataSectionObject 0x823042f8   664    \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83\comctl32.dll
+ImageSectionObject 0x821c1b30   664    \Device\HarddiskVolume1\WINDOWS\system32\wtsapi32.dll
+ImageSectionObject 0x821afac8   664    \Device\HarddiskVolume1\WINDOWS\system32\iphlpapi.dll
+DataSectionObject 0x821afac8   664    \Device\HarddiskVolume1\WINDOWS\system32\iphlpapi.dll
+ImageSectionObject 0x822112f8   664    \Device\HarddiskVolume1\WINDOWS\system32\mprapi.dll
+ImageSectionObject 0x8237dd88   664    \Device\HarddiskVolume1\WINDOWS\system32\adsldpc.dll
+ImageSectionObject 0x821d8990   664    \Device\HarddiskVolume1\WINDOWS\system32\rtutils.dll
+DataSectionObject 0x821d8990   664    \Device\HarddiskVolume1\WINDOWS\system32\rtutils.dll
+ImageSectionObject 0x8217f9f0   664    \Device\HarddiskVolume1\WINDOWS\system32\dnsapi.dll
+DataSectionObject 0x8217f9f0   664    \Device\HarddiskVolume1\WINDOWS\system32\dnsapi.dll
+ImageSectionObject 0x822f0648   664    \Device\HarddiskVolume1\WINDOWS\system32\oleaut32.dll
+DataSectionObject 0x822f0648   664    \Device\HarddiskVolume1\WINDOWS\system32\oleaut32.dll
+ImageSectionObject 0x822f1c20   664    \Device\HarddiskVolume1\WINDOWS\system32\wldap32.dll
+DataSectionObject 0x822f1c20   664    \Device\HarddiskVolume1\WINDOWS\system32\wldap32.dll
+ImageSectionObject 0x821cc330   664    \Device\HarddiskVolume1\WINDOWS\system32\clbcatq.dll
+DataSectionObject 0x821cc330   664    \Device\HarddiskVolume1\WINDOWS\system32\clbcatq.dll
+ImageSectionObject 0x821d9670   664    \Device\HarddiskVolume1\WINDOWS\system32\comres.dll
+DataSectionObject 0x821d9670   664    \Device\HarddiskVolume1\WINDOWS\system32\comres.dll
+ImageSectionObject 0x822f2a70   664    \Device\HarddiskVolume1\WINDOWS\system32\ole32.dll
+DataSectionObject 0x822f2a70   664    \Device\HarddiskVolume1\WINDOWS\system32\ole32.dll
+ImageSectionObject 0x821c0c88   664    \Device\HarddiskVolume1\WINDOWS\system32\ntmarta.dll
+ImageSectionObject 0x822f1390   664    \Device\HarddiskVolume1\WINDOWS\system32\msvcrt.dll
+DataSectionObject 0x822f1390   664    \Device\HarddiskVolume1\WINDOWS\system32\msvcrt.dll
+ImageSectionObject 0x8237c828   664    \Device\HarddiskVolume1\WINDOWS\system32\crypt32.dll
+DataSectionObject 0x8237c828   664    \Device\HarddiskVolume1\WINDOWS\system32\crypt32.dll
+ImageSectionObject 0x822f9d88   664    \Device\HarddiskVolume1\WINDOWS\system32\setupapi.dll
+ImageSectionObject 0x821ece58   664    \Device\HarddiskVolume1\WINDOWS\system32\shsvcs.dll
+ImageSectionObject 0x8217b028   664    \Device\HarddiskVolume1\WINDOWS\system32\cscui.dll
+DataSectionObject 0x8217b028   664    \Device\HarddiskVolume1\WINDOWS\system32\cscui.dll
+ImageSectionObject 0x822fa748   664    \Device\HarddiskVolume1\WINDOWS\system32\msasn1.dll
+DataSectionObject 0x822fa748   664    \Device\HarddiskVolume1\WINDOWS\system32\msasn1.dll
+ImageSectionObject 0x821a0cd0   664    \Device\HarddiskVolume1\WINDOWS\system32\msv1_0.dll
+DataSectionObject 0x821a0cd0   664    \Device\HarddiskVolume1\WINDOWS\system32\msv1_0.dll
+ImageSectionObject 0x82398f90   664    \Device\HarddiskVolume1\WINDOWS\system32\activeds.dll
+ImageSectionObject 0x822f1848   664    \Device\HarddiskVolume1\WINDOWS\system32\shlwapi.dll
+DataSectionObject 0x822f1848   664    \Device\HarddiskVolume1\WINDOWS\system32\shlwapi.dll
+ImageSectionObject 0x822f2678   664    \Device\HarddiskVolume1\WINDOWS\system32\shell32.dll
+DataSectionObject 0x822f2678   664    \Device\HarddiskVolume1\WINDOWS\system32\shell32.dll
+DataSectionObject 0x823101d0   708    \Device\HarddiskVolume1\WINDOWS\system32\config\AppEvent.Evt
+SharedCacheMap 0x823101d0   708    \Device\HarddiskVolume1\WINDOWS\system32\config\AppEvent.Evt
+DataSectionObject 0x82313f90   708    \Device\HarddiskVolume1\WINDOWS\system32\config\Internet.evt
+DataSectionObject 0x82313df0   708    \Device\HarddiskVolume1\WINDOWS\system32\config\SecEvent.Evt
+DataSectionObject 0x823d4718   708    \Device\HarddiskVolume1\WINDOWS\system32\config\SysEvent.Evt
+SharedCacheMap 0x823d4718   708    \Device\HarddiskVolume1\WINDOWS\system32\config\SysEvent.Evt
+ImageSectionObject 0x82183310   708    \Device\HarddiskVolume1\WINDOWS\system32\services.exe
+ImageSectionObject 0x8218b998   708    \Device\HarddiskVolume1\WINDOWS\system32\ncobjapi.dll
+ImageSectionObject 0x821ab6b8   708    \Device\HarddiskVolume1\WINDOWS\AppPatch\AcAdProc.dll
+ImageSectionObject 0x8217ed20   708    \Device\HarddiskVolume1\WINDOWS\system32\shimeng.dll
+DataSectionObject 0x8217ed20   708    \Device\HarddiskVolume1\WINDOWS\system32\shimeng.dll
+ImageSectionObject 0x822bdf90   708    \Device\HarddiskVolume1\WINDOWS\system32\cabinet.dll
+ImageSectionObject 0x821d48e8   708    \Device\HarddiskVolume1\WINDOWS\system32\eventlog.dll
+ImageSectionObject 0x8218a750   708    \Device\HarddiskVolume1\WINDOWS\system32\scesrv.dll
+ImageSectionObject 0x821acc18   708    \Device\HarddiskVolume1\WINDOWS\system32\umpnpmgr.dll
+ImageSectionObject 0x821826b0   720    \Device\HarddiskVolume1\WINDOWS\system32\lsass.exe
+ImageSectionObject 0x82182540   720    \Device\HarddiskVolume1\WINDOWS\system32\lsasrv.dll
+ImageSectionObject 0x8219af20   720    \Device\HarddiskVolume1\WINDOWS\system32\msprivs.dll
+ImageSectionObject 0x8218bf90   720    \Device\HarddiskVolume1\WINDOWS\AppPatch\AcGenral.dll
+DataSectionObject 0x8218bf90   720    \Device\HarddiskVolume1\WINDOWS\AppPatch\AcGenral.dll
+ImageSectionObject 0x821d3ab8   720    \Device\HarddiskVolume1\WINDOWS\system32\hnetcfg.dll
+DataSectionObject 0x821d3ab8   720    \Device\HarddiskVolume1\WINDOWS\system32\hnetcfg.dll
+ImageSectionObject 0x81db5460   720    \Device\HarddiskVolume1\WINDOWS\system32\dssenh.dll
+DataSectionObject 0x81db5460   720    \Device\HarddiskVolume1\WINDOWS\system32\dssenh.dll
+ImageSectionObject 0x821d4738   720    \Device\HarddiskVolume1\WINDOWS\system32\mswsock.dll
+DataSectionObject 0x821d4738   720    \Device\HarddiskVolume1\WINDOWS\system32\mswsock.dll
+ImageSectionObject 0x821d39f8   720    \Device\HarddiskVolume1\WINDOWS\system32\wshtcpip.dll
+DataSectionObject 0x821d39f8   720    \Device\HarddiskVolume1\WINDOWS\system32\wshtcpip.dll
+ImageSectionObject 0x8217ef90   720    \Device\HarddiskVolume1\WINDOWS\system32\samsrv.dll
+ImageSectionObject 0x821a4f90   720    \Device\HarddiskVolume1\WINDOWS\system32\kerberos.dll
+ImageSectionObject 0x821c1a60   720    \Device\HarddiskVolume1\WINDOWS\system32\scecli.dll
+ImageSectionObject 0x821ccf90   720    \Device\HarddiskVolume1\WINDOWS\system32\ipsecsvc.dll
+ImageSectionObject 0x822b85c0   720    \Device\HarddiskVolume1\WINDOWS\system32\winipsec.dll
+ImageSectionObject 0x821abca0   720    \Device\HarddiskVolume1\WINDOWS\system32\pstorsvc.dll
+ImageSectionObject 0x821ab580   720    \Device\HarddiskVolume1\WINDOWS\system32\psbase.dll
+ImageSectionObject 0x821b9340   720    \Device\HarddiskVolume1\WINDOWS\system32\netlogon.dll
+ImageSectionObject 0x821b1eb8   720    \Device\HarddiskVolume1\WINDOWS\system32\oakley.dll
+ImageSectionObject 0x821cc1c8   720    \Device\HarddiskVolume1\WINDOWS\system32\w32time.dll
+ImageSectionObject 0x8219da00   720    \Device\HarddiskVolume1\WINDOWS\system32\schannel.dll
+DataSectionObject 0x8219da00   720    \Device\HarddiskVolume1\WINDOWS\system32\schannel.dll
+ImageSectionObject 0x8218bc88   720    \Device\HarddiskVolume1\WINDOWS\system32\msacm32.dll
+DataSectionObject 0x8218bc88   720    \Device\HarddiskVolume1\WINDOWS\system32\msacm32.dll
+ImageSectionObject 0x821caa40   720    \Device\HarddiskVolume1\WINDOWS\system32\wdigest.dll
+ImageSectionObject 0x821c0f90   876    \Device\HarddiskVolume1\WINDOWS\system32\svchost.exe
+ImageSectionObject 0x82271b28   876    \Device\HarddiskVolume1\WINDOWS\system32\termsrv.dll
+ImageSectionObject 0x821cd280   876    \Device\HarddiskVolume1\WINDOWS\system32\icaapi.dll
+ImageSectionObject 0x821803f8   876    \Device\HarddiskVolume1\WINDOWS\system32\mstlsapi.dll
+ImageSectionObject 0x821bfc60   876    \Device\HarddiskVolume1\WINDOWS\system32\rpcss.dll
+DataSectionObject 0x821bfc60   876    \Device\HarddiskVolume1\WINDOWS\system32\rpcss.dll
+ImageSectionObject 0x821d3448   956    \Device\HarddiskVolume1\WINDOWS\system32\winrnr.dll
+DataSectionObject 0x821d3448   956    \Device\HarddiskVolume1\WINDOWS\system32\winrnr.dll
+ImageSectionObject 0x821d3388   956    \Device\HarddiskVolume1\WINDOWS\system32\rasadhlp.dll
+DataSectionObject 0x821d3388   956    \Device\HarddiskVolume1\WINDOWS\system32\rasadhlp.dll
+ImageSectionObject 0xe2283474   956    None
+DataSectionObject 0xe2283474   956    None
+DataSectionObject 0x821ca508   1052   \Device\HarddiskVolume1\WINDOWS\SchedLgU.Txt
+SharedCacheMap 0x821ca508   1052   \Device\HarddiskVolume1\WINDOWS\SchedLgU.Txt
+DataSectionObject 0x81be5e80   1052   \Device\HarddiskVolume1\$Extend\$ObjId
+SharedCacheMap 0x81be5e80   1052   \Device\HarddiskVolume1\$Extend\$ObjId
+DataSectionObject 0x82199250   1052   \Device\HarddiskVolume1\System Volume Information\tracking.log
+SharedCacheMap 0x82199250   1052   \Device\HarddiskVolume1\System Volume Information\tracking.log
+DataSectionObject 0x8218cef0   1052   \Device\HarddiskVolume1\WINDOWS\WindowsUpdate.log
+SharedCacheMap 0x8218cef0   1052   \Device\HarddiskVolume1\WINDOWS\WindowsUpdate.log
+DataSectionObject 0x822331f8   1052   \Device\HarddiskVolume1\WINDOWS\system32\wbem\Repository\FS\MAPPING1.MAP
+SharedCacheMap 0x822331f8   1052   \Device\HarddiskVolume1\WINDOWS\system32\wbem\Repository\FS\MAPPING1.MAP
+DataSectionObject 0x81e673f0   1052   \Device\HarddiskVolume1\WINDOWS\system32\wbem\Repository\FS\MAPPING2.MAP
+SharedCacheMap 0x81e673f0   1052   \Device\HarddiskVolume1\WINDOWS\system32\wbem\Repository\FS\MAPPING2.MAP
+DataSectionObject 0x81ddf1e8   1052   \Device\HarddiskVolume1\WINDOWS\system32\wbem\Repository\FS\MAPPING.VER
+SharedCacheMap 0x81ddf1e8   1052   \Device\HarddiskVolume1\WINDOWS\system32\wbem\Repository\FS\MAPPING.VER
+DataSectionObject 0x81e34db8   1052   \Device\HarddiskVolume1\WINDOWS\system32\wbem\Repository\FS\INDEX.MAP
+SharedCacheMap 0x81e34db8   1052   \Device\HarddiskVolume1\WINDOWS\system32\wbem\Repository\FS\INDEX.MAP
+DataSectionObject 0x81d9c918   1052   \Device\HarddiskVolume1\WINDOWS\system32\wbem\Repository\FS\OBJECTS.MAP
+SharedCacheMap 0x81d9c918   1052   \Device\HarddiskVolume1\WINDOWS\system32\wbem\Repository\FS\OBJECTS.MAP
+DataSectionObject 0x82232e98   1052   \Device\HarddiskVolume1\WINDOWS\system32\wbem\Repository\FS\OBJECTS.DATA
+SharedCacheMap 0x82232e98   1052   \Device\HarddiskVolume1\WINDOWS\system32\wbem\Repository\FS\OBJECTS.DATA
+DataSectionObject 0x81ddef90   1052   \Device\HarddiskVolume1\WINDOWS\system32\wbem\Repository\FS\INDEX.BTR
+SharedCacheMap 0x81ddef90   1052   \Device\HarddiskVolume1\WINDOWS\system32\wbem\Repository\FS\INDEX.BTR
+ImageSectionObject 0x82231a78   1052   \Device\HarddiskVolume1\WINDOWS\system32\normaliz.dll
+DataSectionObject 0x82231a78   1052   \Device\HarddiskVolume1\WINDOWS\system32\normaliz.dll
+ImageSectionObject 0x822f1e50   1052   \Device\HarddiskVolume1\WINDOWS\system32\wininet.dll
+DataSectionObject 0x822f1e50   1052   \Device\HarddiskVolume1\WINDOWS\system32\wininet.dll
+ImageSectionObject 0x821d8588   1052   \Device\HarddiskVolume1\WINDOWS\system32\dot3api.dll
+ImageSectionObject 0x821ffe68   1052   \Device\HarddiskVolume1\WINDOWS\system32\iertutil.dll
+DataSectionObject 0x821ffe68   1052   \Device\HarddiskVolume1\WINDOWS\system32\iertutil.dll
+ImageSectionObject 0x82260af8   1052   \Device\HarddiskVolume1\WINDOWS\system32\wbem\wmiprvsd.dll
+ImageSectionObject 0x81defa48   1052   \Device\HarddiskVolume1\WINDOWS\system32\wuaueng.dll
+ImageSectionObject 0x81db5d00   1052   \Device\HarddiskVolume1\WINDOWS\system32\wuauserv.dll
+ImageSectionObject 0x81daf8b0   1052   \Device\HarddiskVolume1\WINDOWS\system32\wscsvc.dll
+ImageSectionObject 0x82226388   1052   \Device\HarddiskVolume1\WINDOWS\system32\winhttp.dll
+ImageSectionObject 0x81dbee78   1052   \Device\HarddiskVolume1\WINDOWS\system32\wbem\wmisvc.dll
+ImageSectionObject 0x81e7b028   1052   \Device\HarddiskVolume1\WINDOWS\system32\unimdm.tsp
+ImageSectionObject 0x81dddeb8   1052   \Device\HarddiskVolume1\WINDOWS\system32\wuapi.dll
+DataSectionObject 0x81dddeb8   1052   \Device\HarddiskVolume1\WINDOWS\system32\wuapi.dll
+ImageSectionObject 0x81e0b168   1052   \Device\HarddiskVolume1\WINDOWS\system32\kmddsp.tsp
+ImageSectionObject 0x81d8e028   1052   \Device\HarddiskVolume1\WINDOWS\system32\ndptsp.tsp
+ImageSectionObject 0x81e7d028   1052   \Device\HarddiskVolume1\WINDOWS\system32\ipconf.tsp
+ImageSectionObject 0x81e4d8b0   1052   \Device\HarddiskVolume1\WINDOWS\system32\h323.tsp
+ImageSectionObject 0x81ded488   1052   \Device\HarddiskVolume1\WINDOWS\system32\hidphone.tsp
+ImageSectionObject 0x821d84a8   1052   \Device\HarddiskVolume1\WINDOWS\system32\esent.dll
+ImageSectionObject 0x82255988   1052   \Device\HarddiskVolume1\WINDOWS\system32\onex.dll
+ImageSectionObject 0x82313c60   1052   \Device\HarddiskVolume1\WINDOWS\system32\eappprxy.dll
+ImageSectionObject 0x8223f8d0   1052   \Device\HarddiskVolume1\WINDOWS\system32\mspatcha.dll
+ImageSectionObject 0x81ddec08   1052   \Device\HarddiskVolume1\WINDOWS\system32\wbem\ncprov.dll
+ImageSectionObject 0x8237e1b8   1052   \Device\HarddiskVolume1\WINDOWS\system32\mfcsubs.dll
+ImageSectionObject 0x81dd8480   1052   \Device\HarddiskVolume1\WINDOWS\system32\ipnathlp.dll
+ImageSectionObject 0x8219df90   1052   \Device\HarddiskVolume1\WINDOWS\system32\hid.dll
+ImageSectionObject 0x821ef3d8   1052   \Device\HarddiskVolume1\WINDOWS\system32\audiosrv.dll
+ImageSectionObject 0x81bd6bf8   1052   \Device\HarddiskVolume1\WINDOWS\system32\catsrvut.dll
+ImageSectionObject 0x8226a850   1052   \Device\HarddiskVolume1\WINDOWS\system32\catsrv.dll
+ImageSectionObject 0x81e4dd00   1052   \Device\HarddiskVolume1\WINDOWS\system32\wsock32.dll
+DataSectionObject 0x81e4dd00   1052   \Device\HarddiskVolume1\WINDOWS\system32\wsock32.dll
+ImageSectionObject 0x821a8028   1052   \Device\HarddiskVolume1\WINDOWS\system32\powrprof.dll
+ImageSectionObject 0x821d8800   1052   \Device\HarddiskVolume1\WINDOWS\system32\eapolqec.dll
+ImageSectionObject 0x821d8660   1052   \Device\HarddiskVolume1\WINDOWS\system32\qutil.dll
+ImageSectionObject 0x81de9558   1052   \Device\HarddiskVolume1\WINDOWS\system32\sens.dll
+DataSectionObject 0x81de9558   1052   \Device\HarddiskVolume1\WINDOWS\system32\sens.dll
+ImageSectionObject 0x81e06028   1052   \Device\HarddiskVolume1\WINDOWS\system32\uniplat.dll
+ImageSectionObject 0x821d8eb8   1052   \Device\HarddiskVolume1\WINDOWS\system32\rasppp.dll
+ImageSectionObject 0x81de5788   1052   \Device\HarddiskVolume1\WINDOWS\system32\ntlsapi.dll
+ImageSectionObject 0x821d8028   1052   \Device\HarddiskVolume1\WINDOWS\system32\dot3dlg.dll
+ImageSectionObject 0x82382440   1052   \Device\HarddiskVolume1\WINDOWS\system32\wzcsapi.dll
+ImageSectionObject 0x81de4d20   1052   \Device\HarddiskVolume1\WINDOWS\system32\rasqec.dll
+ImageSectionObject 0x81e00168   1052   \Device\HarddiskVolume1\WINDOWS\system32\tapisrv.dll
+ImageSectionObject 0x81db3a70   1052   \Device\HarddiskVolume1\WINDOWS\system32\seclogon.dll
+ImageSectionObject 0x8217f298   1052   \Device\HarddiskVolume1\WINDOWS\system32\eappcfg.dll
+ImageSectionObject 0x81e73c88   1052   \Device\HarddiskVolume1\WINDOWS\system32\wbem\wbemcons.dll
+DataSectionObject 0x81e73c88   1052   \Device\HarddiskVolume1\WINDOWS\system32\wbem\wbemcons.dll
+ImageSectionObject 0x8219d200   1052   \Device\HarddiskVolume1\WINDOWS\system32\srvsvc.dll
+ImageSectionObject 0x821aa028   1052   \Device\HarddiskVolume1\WINDOWS\system32\msidle.dll
+ImageSectionObject 0x821fad08   1052   \Device\HarddiskVolume1\WINDOWS\pchealth\helpctr\binaries\pchsvc.dll
+ImageSectionObject 0x82180558   1052   \Device\HarddiskVolume1\WINDOWS\system32\ssdpapi.dll
+ImageSectionObject 0x821a9028   1052   \Device\HarddiskVolume1\WINDOWS\system32\dmserver.dll
+ImageSectionObject 0x82189028   1052   \Device\HarddiskVolume1\WINDOWS\system32\ersvc.dll
+ImageSectionObject 0x821cdb90   1052   \Device\HarddiskVolume1\WINDOWS\system32\trkwks.dll
+ImageSectionObject 0x81dcfe98   1052   \Device\HarddiskVolume1\WINDOWS\system32\wbem\wmiutils.dll
+ImageSectionObject 0x821ed6a8   1052   \Device\HarddiskVolume1\WINDOWS\system32\cryptui.dll
+DataSectionObject 0x821ed6a8   1052   \Device\HarddiskVolume1\WINDOWS\system32\cryptui.dll
+ImageSectionObject 0x822af380   1052   \Device\HarddiskVolume1\WINDOWS\system32\vssapi.dll
+ImageSectionObject 0x821cc028   1052   \Device\HarddiskVolume1\WINDOWS\system32\srsvc.dll
+ImageSectionObject 0x81ddfdf8   1052   \Device\HarddiskVolume1\WINDOWS\system32\colbact.dll
+ImageSectionObject 0x81dda9a8   1052   \Device\HarddiskVolume1\WINDOWS\system32\mtxclu.dll
+ImageSectionObject 0x81e34f90   1052   \Device\HarddiskVolume1\WINDOWS\system32\resutils.dll
+ImageSectionObject 0x8226feb8   1052   \Device\HarddiskVolume1\WINDOWS\system32\wbem\esscli.dll
+ImageSectionObject 0x82224e00   1052   \Device\HarddiskVolume1\WINDOWS\system32\wbem\repdrvfs.dll
+ImageSectionObject 0x8225ea38   1052   \Device\HarddiskVolume1\WINDOWS\system32\wbem\wbemess.dll
+ImageSectionObject 0x81dae028   1052   \Device\HarddiskVolume1\WINDOWS\system32\netcfgx.dll
+ImageSectionObject 0x81e01028   1052   \Device\HarddiskVolume1\WINDOWS\system32\rastapi.dll
+ImageSectionObject 0x82216c80   1052   \Device\HarddiskVolume1\WINDOWS\system32\wbem\wbemcore.dll
+ImageSectionObject 0x821d3028   1052   \Device\HarddiskVolume1\WINDOWS\system32\netshell.dll
+ImageSectionObject 0x81de07e8   1052   \Device\HarddiskVolume1\WINDOWS\system32\comsvcs.dll
+ImageSectionObject 0x81de1980   1052   \Device\HarddiskVolume1\WINDOWS\system32\rasdlg.dll
+ImageSectionObject 0x821d88c8   1052   \Device\HarddiskVolume1\WINDOWS\system32\wmi.dll
+ImageSectionObject 0x82188108   1052   \Device\HarddiskVolume1\WINDOWS\system32\rastls.dll
+ImageSectionObject 0x821a6028   1052   \Device\HarddiskVolume1\WINDOWS\system32\raschap.dll
+ImageSectionObject 0x821d2028   1052   \Device\HarddiskVolume1\WINDOWS\system32\credui.dll
+ImageSectionObject 0x821fcf00   1052   \Device\HarddiskVolume1\WINDOWS\system32\cryptsvc.dll
+ImageSectionObject 0x81dd9c38   1052   \Device\HarddiskVolume1\WINDOWS\system32\clusapi.dll
+ImageSectionObject 0x81dbd298   1052   \Device\HarddiskVolume1\WINDOWS\system32\browser.dll
+ImageSectionObject 0x821daaf0   1052   \Device\HarddiskVolume1\WINDOWS\system32\upnp.dll
+ImageSectionObject 0x821edf00   1052   \Device\HarddiskVolume1\WINDOWS\system32\wkssvc.dll
+ImageSectionObject 0x82393288   1052   \Device\HarddiskVolume1\WINDOWS\system32\rasapi32.dll
+DataSectionObject 0x82393288   1052   \Device\HarddiskVolume1\WINDOWS\system32\rasapi32.dll
+ImageSectionObject 0x8217a028   1052   \Device\HarddiskVolume1\WINDOWS\system32\rasman.dll
+DataSectionObject 0x8217a028   1052   \Device\HarddiskVolume1\WINDOWS\system32\rasman.dll
+ImageSectionObject 0x8217d028   1052   \Device\HarddiskVolume1\WINDOWS\system32\tapi32.dll
+DataSectionObject 0x8217d028   1052   \Device\HarddiskVolume1\WINDOWS\system32\tapi32.dll
+ImageSectionObject 0x8219b028   1052   \Device\HarddiskVolume1\WINDOWS\system32\schedsvc.dll
+ImageSectionObject 0x82279bd8   1052   \Device\HarddiskVolume1\WINDOWS\system32\es.dll
+ImageSectionObject 0x823814f0   1052   \Device\HarddiskVolume1\WINDOWS\system32\certcli.dll
+ImageSectionObject 0x821d4028   1052   \Device\HarddiskVolume1\WINDOWS\system32\netman.dll
+ImageSectionObject 0x822f2458   1052   \Device\HarddiskVolume1\WINDOWS\system32\urlmon.dll
+DataSectionObject 0x822f2458   1052   \Device\HarddiskVolume1\WINDOWS\system32\urlmon.dll
+ImageSectionObject 0x821d32c8   1052   \Device\HarddiskVolume1\WINDOWS\system32\dhcpcsvc.dll
+ImageSectionObject 0x81dbd6e8   1052   \Device\HarddiskVolume1\WINDOWS\system32\msi.dll
+ImageSectionObject 0x821d8a58   1052   \Device\HarddiskVolume1\WINDOWS\system32\wzcsvc.dll
+ImageSectionObject 0x81d94028   1052   \Device\HarddiskVolume1\WINDOWS\system32\rasmans.dll
+ImageSectionObject 0x821d3148   1112   \Device\HarddiskVolume1\WINDOWS\system32\dnsrslvr.dll
+DataSectionObject 0x82200e90   1232   \Device\HarddiskVolume1\Documents and Settings\All Users\Application Data\avg9\Chjw\cm-0-p.dat
+DataSectionObject 0x81be6028   1232   \Device\HarddiskVolume1\Documents and Settings\All Users\Application Data\avg9\Chjw\cm-1-p.dat
+DataSectionObject 0x82272428   1232   \Device\HarddiskVolume1\Documents and Settings\All Users\Application Data\avg9\Chjw\cm-2-p.dat
+DataSectionObject 0x81d61b78   1232   \Device\HarddiskVolume1\Documents and Settings\All Users\Application Data\avg9\Chjw\cm-2-i.dat
+DataSectionObject 0x822f6f90   1232   \Device\HarddiskVolume1\$AVG\$CHJW\avgcchmi.dat
+DataSectionObject 0x81e5a758   1232   \Device\HarddiskVolume1\$AVG\$CHJW\avgcchfi.dat
+DataSectionObject 0x82266c70   1232   \Device\HarddiskVolume1\$AVG\$CHJW\avgcchmf.dat
+DataSectionObject 0x81bcd198   1232   \Device\HarddiskVolume1\$AVG\$CHJW\avgcchff.dat
+DataSectionObject 0x82240e58   1232   \Device\HarddiskVolume1\Documents and Settings\All Users\Application Data\avg9\Log\avgchjwsrv.log
+SharedCacheMap 0x82240e58   1232   \Device\HarddiskVolume1\Documents and Settings\All Users\Application Data\avg9\Log\avgchjwsrv.log
+DataSectionObject 0x81c88a40   1232   \Device\HarddiskVolume1\Documents and Settings\All Users\Application Data\avg9\Log\avgchjw.log
+SharedCacheMap 0x81c88a40   1232   \Device\HarddiskVolume1\Documents and Settings\All Users\Application Data\avg9\Log\avgchjw.log
+ImageSectionObject 0x821d21e8   1232   \Device\HarddiskVolume1\Program Files\AVG\AVG9\avgchsvx.exe
+ImageSectionObject 0x821d8cb0   1232   \Device\HarddiskVolume1\Program Files\AVG\AVG9\avgclitx.dll
+DataSectionObject 0x821d8cb0   1232   \Device\HarddiskVolume1\Program Files\AVG\AVG9\avgclitx.dll
+ImageSectionObject 0x821d9788   1232   \Device\HarddiskVolume1\Program Files\AVG\AVG9\avglogx.dll
+DataSectionObject 0x821d9788   1232   \Device\HarddiskVolume1\Program Files\AVG\AVG9\avglogx.dll
+ImageSectionObject 0x821d8d78   1232   \Device\HarddiskVolume1\Program Files\AVG\AVG9\avgchjwx.dll
+ImageSectionObject 0x821d7330   1232   \Device\HarddiskVolume1\Program Files\AVG\AVG9\avgcertx.dll
+ImageSectionObject 0x821cc448   1232   \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.4053_x-ww_e6967989\msvcr80.dll
+DataSectionObject 0x821cc448   1232   \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.4053_x-ww_e6967989\msvcr80.dll
+DataSectionObject 0x8226cd48   1240   \Device\HarddiskVolume1\Documents and Settings\All Users\Application Data\avg9\Log\avgrs.log
+SharedCacheMap 0x8226cd48   1240   \Device\HarddiskVolume1\Documents and Settings\All Users\Application Data\avg9\Log\avgrs.log
+ImageSectionObject 0x821d95a8   1240   \Device\HarddiskVolume1\Program Files\AVG\AVG9\avgcclix.dll
+ImageSectionObject 0x821d2128   1240   \Device\HarddiskVolume1\Program Files\AVG\AVG9\avgrsx.exe
+ImageSectionObject 0xe307d520   1240   None
+ImageSectionObject 0x821d8b20   1284   \Device\HarddiskVolume1\WINDOWS\system32\lmhsvc.dll
+ImageSectionObject 0x821d8190   1284   \Device\HarddiskVolume1\WINDOWS\system32\ssdpsrv.dll
+ImageSectionObject 0x82254e50   1284   \Device\HarddiskVolume1\WINDOWS\system32\regsvc.dll
+ImageSectionObject 0x821d8be8   1436   \Device\HarddiskVolume1\Program Files\AVG\AVG9\avgcsrvx.exe
+ImageSectionObject 0x821d83b8   1436   \Device\HarddiskVolume1\Program Files\AVG\AVG9\avgcorex.dll
+ImageSectionObject 0x821d7658   1436   \Device\HarddiskVolume1\Program Files\AVG\AVG9\avgcrlpx.dll
+ImageSectionObject 0x821d71a0   1436   \Device\HarddiskVolume1\Program Files\AVG\AVG9\avgchclx.dll
+ImageSectionObject 0x821ac028   1792   \Device\HarddiskVolume1\WINDOWS\system32\spoolsv.exe
+ImageSectionObject 0x81de9d20   1792   \Device\HarddiskVolume1\WINDOWS\system32\spoolss.dll
+ImageSectionObject 0x81daeb18   1792   \Device\HarddiskVolume1\WINDOWS\system32\tcpmon.dll
+ImageSectionObject 0x821a8260   1792   \Device\HarddiskVolume1\WINDOWS\system32\tcpmib.dll
+ImageSectionObject 0x81de9320   1792   \Device\HarddiskVolume1\WINDOWS\system32\mgmtapi.dll
+ImageSectionObject 0x8219d6d8   1792   \Device\HarddiskVolume1\WINDOWS\system32\snmpapi.dll
+ImageSectionObject 0x821abdd0   1792   \Device\HarddiskVolume1\WINDOWS\system32\wsnmp32.dll
+ImageSectionObject 0x82217c90   1792   \Device\HarddiskVolume1\WINDOWS\system32\usbmon.dll
+ImageSectionObject 0x81df1978   1792   \Device\HarddiskVolume1\WINDOWS\system32\cnbjmon.dll
+ImageSectionObject 0x81df0460   1792   \Device\HarddiskVolume1\WINDOWS\system32\pjlmon.dll
+ImageSectionObject 0x81deed20   1792   \Device\HarddiskVolume1\WINDOWS\system32\localspl.dll
+ImageSectionObject 0x82212cd8   1792   \Device\HarddiskVolume1\WINDOWS\system32\inetpp.dll
+ImageSectionObject 0x8217e9f8   1792   \Device\HarddiskVolume1\WINDOWS\system32\win32spl.dll
+DataSectionObject 0x821ac650   496    \Device\HarddiskVolume1\Documents and Settings\LocalService\Local Settings\Temporary Internet Files\Content.IE5\index.dat
+DataSectionObject 0x822ba330   496    \Device\HarddiskVolume1\Documents and Settings\LocalService\Cookies\index.dat
+DataSectionObject 0x81df9cc0   496    \Device\HarddiskVolume1\Documents and Settings\LocalService\Local Settings\History\History.IE5\index.dat
+ImageSectionObject 0x82213918   496    \Device\HarddiskVolume1\WINDOWS\system32\webclnt.dll
+DataSectionObject 0x821f9e98   360    \Device\HarddiskVolume1\Documents and Settings\All Users\Application Data\avg9\Log\avgwd.log
+SharedCacheMap 0x821f9e98   360    \Device\HarddiskVolume1\Documents and Settings\All Users\Application Data\avg9\Log\avgwd.log
+DataSectionObject 0x81c5eec0   360    \Device\HarddiskVolume1\Documents and Settings\All Users\Application Data\avg9\Log\avgsched.log
+SharedCacheMap 0x81c5eec0   360    \Device\HarddiskVolume1\Documents and Settings\All Users\Application Data\avg9\Log\avgsched.log
+DataSectionObject 0x81bbe348   360    \Device\HarddiskVolume1\Documents and Settings\All Users\Application Data\avg9\Log\avgcore.log
+SharedCacheMap 0x81bbe348   360    \Device\HarddiskVolume1\Documents and Settings\All Users\Application Data\avg9\Log\avgcore.log
+ImageSectionObject 0x8220e2d8   360    \Device\HarddiskVolume1\Program Files\AVG\AVG9\avgwdsvc.exe
+ImageSectionObject 0x821a6110   360    \Device\HarddiskVolume1\Program Files\AVG\AVG9\avgcfgx.dll
+DataSectionObject 0x821a6110   360    \Device\HarddiskVolume1\Program Files\AVG\AVG9\avgcfgx.dll
+ImageSectionObject 0x82217660   360    \Device\HarddiskVolume1\Program Files\AVG\AVG9\avgamnot.dll
+ImageSectionObject 0x81de1cd8   360    \Device\HarddiskVolume1\Program Files\AVG\AVG9\avglngx.dll
+ImageSectionObject 0x81dafcf0   360    \Device\HarddiskVolume1\Program Files\AVG\AVG9\avgwd.dll
+ImageSectionObject 0x81df69a8   360    \Device\HarddiskVolume1\Program Files\AVG\AVG9\avgsched.dll
+ImageSectionObject 0x822af188   360    \Device\HarddiskVolume1\WINDOWS\system32\sensapi.dll
+DataSectionObject 0x822af188   360    \Device\HarddiskVolume1\WINDOWS\system32\sensapi.dll
+ImageSectionObject 0x81dd7460   360    \Device\HarddiskVolume1\Program Files\AVG\AVG9\avgwdwsc.dll
+DataSectionObject 0x81d618b8   608    \Device\HarddiskVolume1\WINDOWS\Temp\Perflib_Perfdata_260.dat
+ImageSectionObject 0x821ed930   608    \Device\HarddiskVolume1\Program Files\Java\jre6\bin\jqs.exe
+ImageSectionObject 0x821ac140   608    \Device\HarddiskVolume1\WINDOWS\system32\odbcbcp.dll
+ImageSectionObject 0x81de82c0   608    \Device\HarddiskVolume1\WINDOWS\system32\perfos.dll
+ImageSectionObject 0x81de4028   608    \Device\HarddiskVolume1\WINDOWS\system32\perfdisk.dll
+ImageSectionObject 0x82183188   608    \Device\HarddiskVolume1\WINDOWS\system32\pdh.dll
+ImageSectionObject 0x82184940   608    \Device\HarddiskVolume1\Program Files\Java\jre6\bin\msvcr71.dll
+DataSectionObject 0x82184940   608    \Device\HarddiskVolume1\Program Files\Java\jre6\bin\msvcr71.dll
+ImageSectionObject 0x821ccce8   756    \Device\HarddiskVolume1\Program Files\RealVNC\VNC4\winvnc4.exe
+DataSectionObject 0x821ccce8   756    \Device\HarddiskVolume1\Program Files\RealVNC\VNC4\winvnc4.exe
+DataSectionObject 0x82221f28   1416   \Device\HarddiskVolume1\Documents and Settings\Pat\Local Settings\Temporary Internet Files\Content.IE5\index.dat
+DataSectionObject 0x81c01028   1416   \Device\HarddiskVolume1\Documents and Settings\Pat\Cookies\index.dat
+DataSectionObject 0x81c10d80   1416   \Device\HarddiskVolume1\Documents and Settings\Pat\Local Settings\History\History.IE5\index.dat
+ImageSectionObject 0x81dc57b8   1416   \Device\HarddiskVolume1\WINDOWS\explorer.exe
+DataSectionObject 0x81dc57b8   1416   \Device\HarddiskVolume1\WINDOWS\explorer.exe
+DataSectionObject 0x81d45960   1416   \Device\HarddiskVolume1\WINDOWS\system32\en-US\urlmon.dll.mui
+DataSectionObject 0x8225c028   1416   \Device\HarddiskVolume1\WINDOWS\system32\en-US\ieframe.dll.mui
+ImageSectionObject 0x81df7e98   1416   \Device\HarddiskVolume1\WINDOWS\system32\webcheck.dll
+ImageSectionObject 0x81c02d20   1416   \Device\HarddiskVolume1\Program Files\Common Files\Adobe\Acrobat\ActiveX\pdfshell.dll
+DataSectionObject 0x81c02d20   1416   \Device\HarddiskVolume1\Program Files\Common Files\Adobe\Acrobat\ActiveX\pdfshell.dll
+DataSectionObject 0x81d23ab8   1416   \Device\HarddiskVolume1\WINDOWS\Resources\Themes\Luna\Shell\NormalColor\shellstyle.dll
+ImageSectionObject 0x8237a910   1416   \Device\HarddiskVolume1\WINDOWS\system32\ieframe.dll
+DataSectionObject 0x8237a910   1416   \Device\HarddiskVolume1\WINDOWS\system32\ieframe.dll
+ImageSectionObject 0x82250e50   1416   \Device\HarddiskVolume1\WINDOWS\system32\twext.dll
+DataSectionObject 0x82250e50   1416   \Device\HarddiskVolume1\WINDOWS\system32\twext.dll
+ImageSectionObject 0x81df9eb8   1416   \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.GdiPlus_6595b64144ccf1df_1.0.6001.22319_x-ww_f0b4c2df\GdiPlus.dll
+DataSectionObject 0x81df9eb8   1416   \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.GdiPlus_6595b64144ccf1df_1.0.6001.22319_x-ww_f0b4c2df\GdiPlus.dll
+ImageSectionObject 0x821d6f90   1416   \Device\HarddiskVolume1\WINDOWS\system32\browseui.dll
+DataSectionObject 0x821d6f90   1416   \Device\HarddiskVolume1\WINDOWS\system32\browseui.dll
+ImageSectionObject 0x821a0dd0   1416   \Device\HarddiskVolume1\WINDOWS\system32\themeui.dll
+ImageSectionObject 0x81e36d00   1416   \Device\HarddiskVolume1\WINDOWS\system32\msutb.dll
+ImageSectionObject 0x81e00a78   1416   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\shlxthdl\shlxthdl.dll
+DataSectionObject 0x81e00a78   1416   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\shlxthdl\shlxthdl.dll
+ImageSectionObject 0x81da1dd8   1416   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\shlxthdl\stlport_vc7145.dll
+DataSectionObject 0x81da1dd8   1416   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\shlxthdl\stlport_vc7145.dll
+ImageSectionObject 0x81d0d3e0   1416   \Device\HarddiskVolume1\Program Files\AVG\AVG9\avgse.dll
+DataSectionObject 0x81d0d3e0   1416   \Device\HarddiskVolume1\Program Files\AVG\AVG9\avgse.dll
+ImageSectionObject 0x8220e1b8   1416   \Device\HarddiskVolume1\WINDOWS\system32\duser.dll
+ImageSectionObject 0x81ccc988   1416   \Device\HarddiskVolume1\WINDOWS\system32\browselc.dll
+DataSectionObject 0x81ccc988   1416   \Device\HarddiskVolume1\WINDOWS\system32\browselc.dll
+ImageSectionObject 0x81c5b358   1416   \Device\HarddiskVolume1\WINDOWS\system32\shdoclc.dll
+DataSectionObject 0x81c5b358   1416   \Device\HarddiskVolume1\WINDOWS\system32\shdoclc.dll
+ImageSectionObject 0x8219bf90   1416   \Device\HarddiskVolume1\WINDOWS\system32\MSCTF.dll
+DataSectionObject 0x8219bf90   1416   \Device\HarddiskVolume1\WINDOWS\system32\MSCTF.dll
+ImageSectionObject 0x81df48b0   1416   \Device\HarddiskVolume1\WINDOWS\system32\batmeter.dll
+ImageSectionObject 0x81df72c0   1416   \Device\HarddiskVolume1\WINDOWS\system32\mlang.dll
+DataSectionObject 0x81df72c0   1416   \Device\HarddiskVolume1\WINDOWS\system32\mlang.dll
+ImageSectionObject 0x81dece98   1416   \Device\HarddiskVolume1\WINDOWS\system32\stobject.dll
+ImageSectionObject 0x821d2428   1416   \Device\HarddiskVolume1\WINDOWS\system32\msimg32.dll
+DataSectionObject 0x821d2428   1416   \Device\HarddiskVolume1\WINDOWS\system32\msimg32.dll
+ImageSectionObject 0x81dfd528   1416   \Device\HarddiskVolume1\WINDOWS\system32\ntshrui.dll
+DataSectionObject 0x81dfd528   1416   \Device\HarddiskVolume1\WINDOWS\system32\ntshrui.dll
+ImageSectionObject 0x81ddc460   1416   \Device\HarddiskVolume1\WINDOWS\system32\linkinfo.dll
+ImageSectionObject 0x81e2ddf8   1416   \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.4053_x-ww_e6967989\msvcp80.dll
+DataSectionObject 0x81e2ddf8   1416   \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.4053_x-ww_e6967989\msvcp80.dll
+ImageSectionObject 0x81de5c28   1416   \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.VC90.CRT_1fc8b3b9a1e18e3b_9.0.21022.8_x-ww_d08d0375\msvcr90.dll
+DataSectionObject 0x81de5c28   1416   \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.VC90.CRT_1fc8b3b9a1e18e3b_9.0.21022.8_x-ww_d08d0375\msvcr90.dll
+ImageSectionObject 0x81dbea48   1416   \Device\HarddiskVolume1\WINDOWS\system32\shdocvw.dll
+DataSectionObject 0x81dbea48   1416   \Device\HarddiskVolume1\WINDOWS\system32\shdocvw.dll
+DataSectionObject 0x81d4f350   2044   \Device\HarddiskVolume1\Documents and Settings\All Users\Application Data\avg9\emc\Log\emc.log
+SharedCacheMap 0x81d4f350   2044   \Device\HarddiskVolume1\Documents and Settings\All Users\Application Data\avg9\emc\Log\emc.log
+ImageSectionObject 0x81de99a8   2044   \Device\HarddiskVolume1\Program Files\AVG\AVG9\avgemc.exe
+ImageSectionObject 0x81e28b10   2044   \Device\HarddiskVolume1\Program Files\AVG\AVG9\libsasl.dll
+ImageSectionObject 0x81dd97e8   2044   \Device\HarddiskVolume1\Program Files\AVG\AVG9\avgapix.dll
+ImageSectionObject 0x81dde388   2044   \Device\HarddiskVolume1\Program Files\AVG\AVG9\avgscanx.dll
+ImageSectionObject 0x81dd7d00   2044   \Device\HarddiskVolume1\Program Files\AVG\AVG9\avgmvflx.dll
+ImageSectionObject 0x81ddf8d0   2044   \Device\HarddiskVolume1\Program Files\AVG\AVG9\avgsrmx.dll
+ImageSectionObject 0x81df4d00   2044   \Device\HarddiskVolume1\Program Files\AVG\AVG9\avgvvx.dll
+ImageSectionObject 0x81df8480   2044   \Device\HarddiskVolume1\Program Files\AVG\AVG9\saslcrammd5.dll
+ImageSectionObject 0x81df5570   2044   \Device\HarddiskVolume1\Program Files\AVG\AVG9\sasllogin.dll
+ImageSectionObject 0x81ded9a0   2044   \Device\HarddiskVolume1\Program Files\AVG\AVG9\saslplain.dll
+ImageSectionObject 0x81df77e8   2044   \Device\HarddiskVolume1\Program Files\AVG\AVG9\sasldigestmd5.dll
+DataSectionObject 0x82247d18   196    \Device\HarddiskVolume1\Documents and Settings\All Users\Application Data\avg9\Log\avgns.log
+SharedCacheMap 0x82247d18   196    \Device\HarddiskVolume1\Documents and Settings\All Users\Application Data\avg9\Log\avgns.log
+ImageSectionObject 0x81dddb40   196    \Device\HarddiskVolume1\Program Files\AVG\AVG9\avgnsx.exe
+ImageSectionObject 0x81bd6e78   196    \Device\HarddiskVolume1\Program Files\AVG\AVG9\avglvex.dll
+ImageSectionObject 0x81de67c8   196    \Device\HarddiskVolume1\Program Files\AVG\AVG9\avgxpl.dll
+ImageSectionObject 0x81dd6e98   1648   \Device\HarddiskVolume1\WINDOWS\system32\hkcmd.exe
+ImageSectionObject 0x81dd78b0   1648   \Device\HarddiskVolume1\WINDOWS\system32\hccutils.dll
+ImageSectionObject 0x81dd59a8   1648   \Device\HarddiskVolume1\WINDOWS\system32\igfxdev.dll
+ImageSectionObject 0x81df2a68   1648   \Device\HarddiskVolume1\WINDOWS\system32\igfxres.dll
+ImageSectionObject 0x81dd5558   1648   \Device\HarddiskVolume1\WINDOWS\system32\igfxsrvc.dll
+ImageSectionObject 0x81dcd350   1648   \Device\HarddiskVolume1\WINDOWS\system32\igfxhk.dll
+ImageSectionObject 0x81dd6a48   1164   \Device\HarddiskVolume1\Program Files\Java\jre6\bin\jusched.exe
+ImageSectionObject 0x81dce390   1276   \Device\HarddiskVolume1\Program Files\Brownie\BrStsWnd.exe
+ImageSectionObject 0x81df9a48   1276   \Device\HarddiskVolume1\WINDOWS\system32\hhctrl.ocx
+DataSectionObject 0x81cd4158   120    \Device\HarddiskVolume1\Documents and Settings\All Users\Application Data\avg9\Log\avgui.log
+SharedCacheMap 0x81cd4158   120    \Device\HarddiskVolume1\Documents and Settings\All Users\Application Data\avg9\Log\avgui.log
+ImageSectionObject 0x81e0ac10   120    \Device\HarddiskVolume1\Program Files\AVG\AVG9\avgtray.exe
+ImageSectionObject 0x81dfa8b0   120    \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.VC80.MFCLOC_1fc8b3b9a1e18e3b_8.0.50727.4053_x-ww_0ccc058c\mfc80ENU.dll
+ImageSectionObject 0x81dfc8b0   120    \Device\HarddiskVolume1\WINDOWS\system32\msvfw32.dll
+ImageSectionObject 0x821a80f0   120    \Device\HarddiskVolume1\Program Files\AVG\AVG9\avguires.dll
+ImageSectionObject 0x81dfad00   120    \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.VC80.MFC_1fc8b3b9a1e18e3b_8.0.50727.4053_x-ww_b77cec8e\mfc80u.dll
+ImageSectionObject 0x81dfcd00   1664   \Device\HarddiskVolume1\WINDOWS\system32\ctfmon.exe
+ImageSectionObject 0x81d808b8   824    \Device\HarddiskVolume1\Program Files\Messenger\msmsgs.exe
+DataSectionObject 0x81d808b8   824    \Device\HarddiskVolume1\Program Files\Messenger\msmsgs.exe
+SharedCacheMap 0x81d808b8   824    \Device\HarddiskVolume1\Program Files\Messenger\msmsgs.exe
+ImageSectionObject 0x81df7b60   824    \Device\HarddiskVolume1\WINDOWS\system32\xpob2res.dll
+ImageSectionObject 0x81d42028   824    \Device\HarddiskVolume1\Program Files\Messenger\msgsc.dll
+DataSectionObject 0x81d42028   824    \Device\HarddiskVolume1\Program Files\Messenger\msgsc.dll
+ImageSectionObject 0x81de7530   2092   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\program\soffice.exe
+DataSectionObject 0x81de7530   2092   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\program\soffice.exe
+DataSectionObject 0x821f1158   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\help\en\scalc.ht
+DataSectionObject 0x81c02c40   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\help\en\scalc.db
+DataSectionObject 0x81cd0e78   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\share\config\images.zip
+SharedCacheMap 0x81cd0e78   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\share\config\images.zip
+DataSectionObject 0x81db3c28   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\share\config\images_brand.zip
+SharedCacheMap 0x81db3c28   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\share\config\images_brand.zip
+DataSectionObject 0x81cced08   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\share\uno_packages\cache\uno_packages.db
+SharedCacheMap 0x81cced08   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\share\uno_packages\cache\uno_packages.db
+DataSectionObject 0x81e72978   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\share\uno_packages\cache\registry\com.sun.star.comp.deployment.configuration.PackageRegistryBackend\registered_packages.db
+SharedCacheMap 0x81e72978   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\share\uno_packages\cache\registry\com.sun.star.comp.deployment.configuration.PackageRegistryBackend\registered_packages.db
+DataSectionObject 0x8226f0d8   2132   \Device\HarddiskVolume1\Documents and Settings\Pat\Application Data\OpenOffice.org\3\user\uno_packages\cache\uno_packages.db
+SharedCacheMap 0x8226f0d8   2132   \Device\HarddiskVolume1\Documents and Settings\Pat\Application Data\OpenOffice.org\3\user\uno_packages\cache\uno_packages.db
+DataSectionObject 0x82229ec0   2132   \Device\HarddiskVolume1\Documents and Settings\Pat\Application Data\OpenOffice.org\3\user\uno_packages\cache\registry\com.sun.star.comp.deployment.configuration.PackageRegistryBackend\registered_packages.db
+SharedCacheMap 0x82229ec0   2132   \Device\HarddiskVolume1\Documents and Settings\Pat\Application Data\OpenOffice.org\3\user\uno_packages\cache\registry\com.sun.star.comp.deployment.configuration.PackageRegistryBackend\registered_packages.db
+DataSectionObject 0x8222ac78   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\resource\deploymenten-US.res
+SharedCacheMap 0x8222ac78   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\resource\deploymenten-US.res
+DataSectionObject 0x8219f838   2132   \Device\HarddiskVolume1\Documents and Settings\Pat\Application Data\OpenOffice.org\3\user\uno_packages\cache\log.txt
+SharedCacheMap 0x8219f838   2132   \Device\HarddiskVolume1\Documents and Settings\Pat\Application Data\OpenOffice.org\3\user\uno_packages\cache\log.txt
+DataSectionObject 0x81c9ed18   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\resource\svxen-US.res
+SharedCacheMap 0x81c9ed18   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\resource\svxen-US.res
+DataSectionObject 0x81c36218   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\resource\scen-US.res
+SharedCacheMap 0x81c36218   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\resource\scen-US.res
+DataSectionObject 0x81bdeef0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\resource\svten-US.res
+SharedCacheMap 0x81bdeef0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\resource\svten-US.res
+DataSectionObject 0x821f0788   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\resource\vclen-US.res
+SharedCacheMap 0x821f0788   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\resource\vclen-US.res
+DataSectionObject 0x821f3a98   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\resource\sfxen-US.res
+SharedCacheMap 0x821f3a98   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\resource\sfxen-US.res
+DataSectionObject 0x821f3028   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\resource\ofaen-US.res
+SharedCacheMap 0x821f3028   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\resource\ofaen-US.res
+DataSectionObject 0x821f4248   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\resource\fween-US.res
+SharedCacheMap 0x821f4248   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\resource\fween-US.res
+DataSectionObject 0x821f5498   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\resource\sben-US.res
+SharedCacheMap 0x821f5498   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\resource\sben-US.res
+DataSectionObject 0x821f5698   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\program\resource\oooen-US.res
+SharedCacheMap 0x821f5698   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\program\resource\oooen-US.res
+DataSectionObject 0x81bdb448   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\resource\stten-US.res
+SharedCacheMap 0x81bdb448   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\resource\stten-US.res
+DataSectionObject 0x8223d028   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\services.rdb
+DataSectionObject 0x81c0da08   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\URE\misc\services.rdb
+DataSectionObject 0x821fc028   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\oovbaapi.rdb
+DataSectionObject 0x82307e10   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\offapi.rdb
+DataSectionObject 0x8220e440   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\URE\misc\types.rdb
+ImageSectionObject 0x81de4888   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\program\soffice.bin
+DataSectionObject 0x81de4888   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\program\soffice.bin
+ImageSectionObject 0x81d62e00   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\drawinglayermi.dll
+DataSectionObject 0x81d62e00   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\drawinglayermi.dll
+ImageSectionObject 0x821f3ca0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\nsldap32v50.dll
+DataSectionObject 0x821f3ca0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\nsldap32v50.dll
+ImageSectionObject 0x821d3dd0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\URE\bin\jvmfwk3.dll
+DataSectionObject 0x821d3dd0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\URE\bin\jvmfwk3.dll
+ImageSectionObject 0x82225af0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\vclmi.dll
+DataSectionObject 0x82225af0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\vclmi.dll
+ImageSectionObject 0x81cd79a0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\xomi.dll
+DataSectionObject 0x81cd79a0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\xomi.dll
+ImageSectionObject 0x822d9418   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\scfiltmi.dll
+DataSectionObject 0x822d9418   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\scfiltmi.dll
+ImageSectionObject 0x81de6530   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\URE\bin\uwinapi.dll
+DataSectionObject 0x81de6530   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\URE\bin\uwinapi.dll
+ImageSectionObject 0x8226b5c0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\sfxmi.dll
+DataSectionObject 0x8226b5c0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\sfxmi.dll
+ImageSectionObject 0x8219d770   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\tlmi.dll
+DataSectionObject 0x8219d770   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\tlmi.dll
+ImageSectionObject 0x81dc6450   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\uuimi.dll
+DataSectionObject 0x81dc6450   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\uuimi.dll
+ImageSectionObject 0x8217e960   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\svtmi.dll
+DataSectionObject 0x8217e960   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\svtmi.dll
+ImageSectionObject 0x821d9da0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\tkmi.dll
+DataSectionObject 0x821d9da0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\tkmi.dll
+ImageSectionObject 0x81d0ef90   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\svxmi.dll
+DataSectionObject 0x81d0ef90   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\svxmi.dll
+ImageSectionObject 0x821c12a0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\vos3MSC.dll
+DataSectionObject 0x821c12a0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\vos3MSC.dll
+ImageSectionObject 0x8224bc70   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\basegfxmi.dll
+DataSectionObject 0x8224bc70   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\basegfxmi.dll
+ImageSectionObject 0x8224bd58   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\program\libxml2.dll
+DataSectionObject 0x8224bd58   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\program\libxml2.dll
+ImageSectionObject 0x8217fe98   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\saxmi.dll
+DataSectionObject 0x8217fe98   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\saxmi.dll
+ImageSectionObject 0x822307b0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\ooxmi.dll
+DataSectionObject 0x822307b0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\ooxmi.dll
+ImageSectionObject 0x821fc908   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\dbtoolsmi.dll
+DataSectionObject 0x821fc908   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\dbtoolsmi.dll
+ImageSectionObject 0x822e1280   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\icuuc40.dll
+DataSectionObject 0x822e1280   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\icuuc40.dll
+ImageSectionObject 0x81daf460   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\oooimprovementmi.dll
+ImageSectionObject 0x8226a300   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\icudt40.dll
+DataSectionObject 0x8226a300   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\icudt40.dll
+ImageSectionObject 0x82213f90   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\icuin40.dll
+DataSectionObject 0x82213f90   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\icuin40.dll
+ImageSectionObject 0x8223f538   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\xcrmi.dll
+DataSectionObject 0x8223f538   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\xcrmi.dll
+ImageSectionObject 0x81bd3538   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\formi.dll
+DataSectionObject 0x81bd3538   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\formi.dll
+ImageSectionObject 0x81dcda88   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\foruimi.dll
+DataSectionObject 0x81dcda88   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\foruimi.dll
+ImageSectionObject 0x81d88f90   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\lngmi.dll
+DataSectionObject 0x81d88f90   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\lngmi.dll
+ImageSectionObject 0x821dc180   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\xstor.dll
+DataSectionObject 0x821dc180   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\xstor.dll
+ImageSectionObject 0x81de4438   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\URE\bin\sal3.dll
+DataSectionObject 0x81de4438   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\URE\bin\sal3.dll
+ImageSectionObject 0x81df1620   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\sofficeapp.dll
+DataSectionObject 0x81df1620   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\sofficeapp.dll
+ImageSectionObject 0x81daa370   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\URE\bin\stlport_vc7145.dll
+DataSectionObject 0x81daa370   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\URE\bin\stlport_vc7145.dll
+ImageSectionObject 0x81df2558   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\ucbhelper4MSC.dll
+DataSectionObject 0x81df2558   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\ucbhelper4MSC.dll
+ImageSectionObject 0x81de91b0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\utlmi.dll
+DataSectionObject 0x81de91b0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\utlmi.dll
+ImageSectionObject 0x81e0f028   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\URE\bin\unsafe_uno_uno.dll
+DataSectionObject 0x81e0f028   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\URE\bin\unsafe_uno_uno.dll
+ImageSectionObject 0x81bc3e80   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\updchk.uno.dll
+DataSectionObject 0x81bc3e80   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\updchk.uno.dll
+ImageSectionObject 0x81be6e80   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\updatefeed.uno.dll
+DataSectionObject 0x81be6e80   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\updatefeed.uno.dll
+ImageSectionObject 0x81de79a8   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\ucpfile1.dll
+ImageSectionObject 0x821d9d08   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\unoxmlmi.dll
+DataSectionObject 0x821d9d08   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\unoxmlmi.dll
+ImageSectionObject 0x81bce300   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\ucpexpand1.uno.dll
+DataSectionObject 0x81bce300   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\ucpexpand1.uno.dll
+ImageSectionObject 0x81cfed38   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\ucpchelp1.dll
+DataSectionObject 0x81cfed38   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\ucpchelp1.dll
+ImageSectionObject 0x82180490   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\svlmi.dll
+DataSectionObject 0x82180490   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\svlmi.dll
+ImageSectionObject 0x81e08168   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\sysmgr1.uno.dll
+DataSectionObject 0x81e08168   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\sysmgr1.uno.dll
+ImageSectionObject 0x81e7a668   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\ucb1.dll
+ImageSectionObject 0x81bfacd8   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\sysdtrans.dll
+DataSectionObject 0x81bfacd8   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\sysdtrans.dll
+ImageSectionObject 0x82276298   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\svtmisc.uno.dll
+DataSectionObject 0x82276298   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\svtmisc.uno.dll
+ImageSectionObject 0x821a0ad0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\URE\bin\store3.dll
+DataSectionObject 0x821a0ad0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\URE\bin\store3.dll
+ImageSectionObject 0x81d89028   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\URE\bin\stocservices.uno.dll
+DataSectionObject 0x81d89028   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\URE\bin\stocservices.uno.dll
+ImageSectionObject 0x8223f470   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\sotmi.dll
+DataSectionObject 0x8223f470   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\sotmi.dll
+ImageSectionObject 0x8224d968   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\spellmi.dll
+DataSectionObject 0x8224d968   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\spellmi.dll
+ImageSectionObject 0x81ddb7e8   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\URE\bin\salhelper3MSC.dll
+DataSectionObject 0x81ddb7e8   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\URE\bin\salhelper3MSC.dll
+ImageSectionObject 0x821abe98   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\sbmi.dll
+DataSectionObject 0x821abe98   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\sbmi.dll
+ImageSectionObject 0x82226250   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\scdmi.dll
+DataSectionObject 0x82226250   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\scdmi.dll
+ImageSectionObject 0x81c93a58   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\scmi.dll
+DataSectionObject 0x81c93a58   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\scmi.dll
+ImageSectionObject 0x81e0e028   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\sax.uno.dll
+DataSectionObject 0x81e0e028   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\sax.uno.dll
+ImageSectionObject 0x8219d4a0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\URE\bin\msci_uno.dll
+DataSectionObject 0x8219d4a0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\URE\bin\msci_uno.dll
+ImageSectionObject 0x81d88028   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\URE\bin\purpenvhelper3MSC.dll
+DataSectionObject 0x81d88028   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\URE\bin\purpenvhelper3MSC.dll
+ImageSectionObject 0x821d9e68   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\URE\bin\reg3.dll
+DataSectionObject 0x821d9e68   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\URE\bin\reg3.dll
+ImageSectionObject 0x82225570   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\URE\bin\reflection.uno.dll
+DataSectionObject 0x82225570   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\URE\bin\reflection.uno.dll
+ImageSectionObject 0x81db4398   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\oleautobridge.uno.dll
+ImageSectionObject 0x8225a978   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\package2.dll
+DataSectionObject 0x8225a978   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\package2.dll
+ImageSectionObject 0x81d8ddd8   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\libdb42.dll
+DataSectionObject 0x81d8ddd8   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\libdb42.dll
+ImageSectionObject 0x81e0d168   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\localebe1.uno.dll
+DataSectionObject 0x81e0d168   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\localebe1.uno.dll
+ImageSectionObject 0x81d9e468   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\localedata_en.dll
+DataSectionObject 0x81d9e468   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\localedata_en.dll
+ImageSectionObject 0x821fb4d8   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\localedata_es.dll
+DataSectionObject 0x821fb4d8   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\localedata_es.dll
+ImageSectionObject 0x81c16f90   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\localedata_euro.dll
+DataSectionObject 0x81c16f90   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\localedata_euro.dll
+ImageSectionObject 0x8221d028   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\localedata_others.dll
+DataSectionObject 0x8221d028   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\localedata_others.dll
+ImageSectionObject 0x8218f4b0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\mcnttype.dll
+DataSectionObject 0x8218f4b0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\mcnttype.dll
+ImageSectionObject 0x81bcedd0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\libxslt.dll
+DataSectionObject 0x81bcedd0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\libxslt.dll
+ImageSectionObject 0x822cff28   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\lnthmi.dll
+DataSectionObject 0x822cff28   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\lnthmi.dll
+ImageSectionObject 0x821f0028   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\ldapbe2.uno.dll
+DataSectionObject 0x821f0028   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\ldapbe2.uno.dll
+ImageSectionObject 0x8219eef8   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\libcurl.dll
+DataSectionObject 0x8219eef8   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\libcurl.dll
+ImageSectionObject 0x8224cd48   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\i18nisolang1MSC.dll
+DataSectionObject 0x8224cd48   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\i18nisolang1MSC.dll
+ImageSectionObject 0x8217fdd0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\i18nutilMSC.dll
+DataSectionObject 0x8217fdd0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\i18nutilMSC.dll
+ImageSectionObject 0x82217d58   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\jmi_g.dll
+DataSectionObject 0x82217d58   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\jmi_g.dll
+ImageSectionObject 0x821b2e98   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\URE\bin\jvmaccess3MSC.dll
+DataSectionObject 0x821b2e98   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\URE\bin\jvmaccess3MSC.dll
+ImageSectionObject 0x81d9fdd0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\URE\bin\introspection.uno.dll
+DataSectionObject 0x81d9fdd0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\URE\bin\introspection.uno.dll
+ImageSectionObject 0x821a5e88   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\i18npool.uno.dll
+DataSectionObject 0x821a5e88   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\i18npool.uno.dll
+ImageSectionObject 0x81df08b0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\URE\bin\cppuhelper3MSC.dll
+DataSectionObject 0x81df08b0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\URE\bin\cppuhelper3MSC.dll
+ImageSectionObject 0x81dd21a8   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\fwemi.dll
+DataSectionObject 0x81dd21a8   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\fwemi.dll
+ImageSectionObject 0x81dd2110   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\fwimi.dll
+DataSectionObject 0x81dd2110   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\fwimi.dll
+ImageSectionObject 0x81deddf8   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\fwlmi.dll
+ImageSectionObject 0x81c2b9c8   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\gomi.dll
+DataSectionObject 0x81c2b9c8   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\gomi.dll
+ImageSectionObject 0x821f7f90   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\helplinkermi.dll
+DataSectionObject 0x821f7f90   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\helplinkermi.dll
+ImageSectionObject 0x8237e118   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\hyphenmi.dll
+DataSectionObject 0x8237e118   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\hyphenmi.dll
+ImageSectionObject 0x81db3640   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\fwkmi.dll
+ImageSectionObject 0x8227f840   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\emsermi.dll
+ImageSectionObject 0x81c58ea8   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\filterconfig1.dll
+DataSectionObject 0x81c58ea8   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\filterconfig1.dll
+ImageSectionObject 0x82204a40   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\frmmi.dll
+DataSectionObject 0x82204a40   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\frmmi.dll
+ImageSectionObject 0x81d53538   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\fsstorage.uno.dll
+DataSectionObject 0x81d53538   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\fsstorage.uno.dll
+ImageSectionObject 0x8225b340   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\ftransl.dll
+DataSectionObject 0x8225b340   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\ftransl.dll
+ImageSectionObject 0x821a9350   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\fpicker.uno.dll
+DataSectionObject 0x821a9350   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\fpicker.uno.dll
+ImageSectionObject 0x81c11cb8   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\fps.dll
+DataSectionObject 0x81c11cb8   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\fps.dll
+ImageSectionObject 0x822c2228   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\fileacc.dll
+DataSectionObject 0x822c2228   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\fileacc.dll
+ImageSectionObject 0x82256300   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\evtatt.dll
+DataSectionObject 0x82256300   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\evtatt.dll
+ImageSectionObject 0x82312a20   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\dnd.dll
+DataSectionObject 0x82312a20   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\dnd.dll
+ImageSectionObject 0x81be0398   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\deploymentmi.uno.dll
+DataSectionObject 0x81be0398   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\deploymentmi.uno.dll
+ImageSectionObject 0x81c18510   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\deploymentmiscmi.dll
+DataSectionObject 0x81c18510   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\deploymentmiscmi.dll
+ImageSectionObject 0x81df0d00   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\comphelp4MSC.dll
+DataSectionObject 0x81df0d00   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\comphelp4MSC.dll
+ImageSectionObject 0x81dad6a0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\URE\bin\cppu3.dll
+DataSectionObject 0x81dad6a0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\URE\bin\cppu3.dll
+ImageSectionObject 0x81d8c028   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\configmgr2.uno.dll
+DataSectionObject 0x81d8c028   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\configmgr2.uno.dll
+ImageSectionObject 0x821f6408   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\cppcanvasmi.dll
+DataSectionObject 0x821f6408   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\cppcanvasmi.dll
+ImageSectionObject 0x822033a8   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\URE\bin\bootstrap.uno.dll
+DataSectionObject 0x822033a8   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\URE\bin\bootstrap.uno.dll
+ImageSectionObject 0x8217e258   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\canvastoolsmi.dll
+DataSectionObject 0x8217e258   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\canvastoolsmi.dll
+ImageSectionObject 0x81e0d0d0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\behelper.uno.dll
+DataSectionObject 0x81e0d0d0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\behelper.uno.dll
+ImageSectionObject 0x81d82dd0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\avmediami.dll
+DataSectionObject 0x81d82dd0   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\avmediami.dll
+ImageSectionObject 0x81d5cb90   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\aggmi.dll
+DataSectionObject 0x81d5cb90   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\aggmi.dll
+ImageSectionObject 0x81dd3b40   2132   \Device\HarddiskVolume1\WINDOWS\system32\usp10.dll
+ImageSectionObject 0x821f4440   2132   \Device\HarddiskVolume1\Program Files\OpenOffice.org 3\Basis\program\msvcr71.dll
+ImageSectionObject 0x821a0eb8   2404   \Device\HarddiskVolume1\Program Files\Brownie\BRNIPMON.exe
+ImageSectionObject 0x8219fc30   2404   \Device\HarddiskVolume1\WINDOWS\system32\BROSNMP.DLL
+ImageSectionObject 0x8227d2c8   2632   \Device\HarddiskVolume1\WINDOWS\system32\alg.exe
+DataSectionObject 0x81be96a0   3020   \Device\HarddiskVolume1\Documents and Settings\Pat\Local Settings\Application Data\Identities\{7FF1C7E8-BC54-46F1-B011-DD6F0E92CE76}\Microsoft\Outlook Express\Folders.dbx
+DataSectionObject 0x81be8540   3020   \Device\HarddiskVolume1\Documents and Settings\Pat\Local Settings\Application Data\Identities\{7FF1C7E8-BC54-46F1-B011-DD6F0E92CE76}\Microsoft\Outlook Express\Offline.dbx
+DataSectionObject 0x82283c80   3020   \Device\HarddiskVolume1\Documents and Settings\Pat\Local Settings\Application Data\Identities\{7FF1C7E8-BC54-46F1-B011-DD6F0E92CE76}\Microsoft\Outlook Express\Inbox.dbx
+DataSectionObject 0x8217f028   3020   \Device\HarddiskVolume1\Documents and Settings\Pat\Local Settings\Application Data\Identities\{7FF1C7E8-BC54-46F1-B011-DD6F0E92CE76}\Microsoft\Outlook Express\Pop3uidl.dbx
+ImageSectionObject 0x81dc5328   3020   \Device\HarddiskVolume1\WINDOWS\system32\msls31.dll
+DataSectionObject 0x81dc5328   3020   \Device\HarddiskVolume1\WINDOWS\system32\msls31.dll
+ImageSectionObject 0x82186b30   3020   \Device\HarddiskVolume1\Program Files\Outlook Express\msimn.exe
+DataSectionObject 0x82186b30   3020   \Device\HarddiskVolume1\Program Files\Outlook Express\msimn.exe
+ImageSectionObject 0x822d4f50   3020   \Device\HarddiskVolume1\WINDOWS\system32\inetres.dll
+DataSectionObject 0x822d4f50   3020   \Device\HarddiskVolume1\WINDOWS\system32\inetres.dll
+ImageSectionObject 0x81d429b8   3020   \Device\HarddiskVolume1\Program Files\Outlook Express\msoeres.dll
+DataSectionObject 0x81d429b8   3020   \Device\HarddiskVolume1\Program Files\Outlook Express\msoeres.dll
+DataSectionObject 0x8225c6c8   3020   \Device\HarddiskVolume1\WINDOWS\system32\c_28591.nls
+DataSectionObject 0x81c1d868   3020   \Device\HarddiskVolume1\WINDOWS\system32\en-US\wininet.dll.mui
+ImageSectionObject 0x822064f8   3020   \Device\HarddiskVolume1\Program Files\Common Files\System\wab32res.dll
+DataSectionObject 0x822064f8   3020   \Device\HarddiskVolume1\Program Files\Common Files\System\wab32res.dll
+ImageSectionObject 0x822536a0   3020   \Device\HarddiskVolume1\WINDOWS\system32\dxtrans.dll
+DataSectionObject 0x822536a0   3020   \Device\HarddiskVolume1\WINDOWS\system32\dxtrans.dll
+DataSectionObject 0x82381270   3020   \Device\HarddiskVolume1\WINDOWS\system32\en-US\mshtml.dll.mui
+ImageSectionObject 0x81d642b0   3020   \Device\HarddiskVolume1\WINDOWS\system32\dxtmsft.dll
+DataSectionObject 0x81d642b0   3020   \Device\HarddiskVolume1\WINDOWS\system32\dxtmsft.dll
+ImageSectionObject 0x82235318   3020   \Device\HarddiskVolume1\WINDOWS\system32\jscript.dll
+DataSectionObject 0x82235318   3020   \Device\HarddiskVolume1\WINDOWS\system32\jscript.dll
+ImageSectionObject 0x81daa028   3020   \Device\HarddiskVolume1\WINDOWS\system32\mshtml.dll
+DataSectionObject 0x81daa028   3020   \Device\HarddiskVolume1\WINDOWS\system32\mshtml.dll
+ImageSectionObject 0x81e0c548   3020   \Device\HarddiskVolume1\Program Files\Common Files\System\wab32.dll
+DataSectionObject 0x81e0c548   3020   \Device\HarddiskVolume1\Program Files\Common Files\System\wab32.dll
+ImageSectionObject 0x8218fbf0   3020   \Device\HarddiskVolume1\Program Files\Outlook Express\msoe.dll
+DataSectionObject 0x8218fbf0   3020   \Device\HarddiskVolume1\Program Files\Outlook Express\msoe.dll
+ImageSectionObject 0x81c832f0   3020   \Device\HarddiskVolume1\WINDOWS\system32\pstorec.dll
+DataSectionObject 0x81c832f0   3020   \Device\HarddiskVolume1\WINDOWS\system32\pstorec.dll
+ImageSectionObject 0x821e3630   3020   \Device\HarddiskVolume1\WINDOWS\system32\msoeacct.dll
+DataSectionObject 0x821e3630   3020   \Device\HarddiskVolume1\WINDOWS\system32\msoeacct.dll
+ImageSectionObject 0x821e61b0   3020   \Device\HarddiskVolume1\WINDOWS\system32\msident.dll
+DataSectionObject 0x821e61b0   3020   \Device\HarddiskVolume1\WINDOWS\system32\msident.dll
+ImageSectionObject 0x81d87558   3020   \Device\HarddiskVolume1\WINDOWS\system32\msidntld.dll
+DataSectionObject 0x81d87558   3020   \Device\HarddiskVolume1\WINDOWS\system32\msidntld.dll
+ImageSectionObject 0x81dffe78   3020   \Device\HarddiskVolume1\WINDOWS\system32\acctres.dll
+DataSectionObject 0x81dffe78   3020   \Device\HarddiskVolume1\WINDOWS\system32\acctres.dll
+ImageSectionObject 0x81be3c00   3020   \Device\HarddiskVolume1\Program Files\Common Files\System\directdb.dll
+DataSectionObject 0x81be3c00   3020   \Device\HarddiskVolume1\Program Files\Common Files\System\directdb.dll
+ImageSectionObject 0x82254848   3020   \Device\HarddiskVolume1\WINDOWS\system32\ddrawex.dll
+DataSectionObject 0x82254848   3020   \Device\HarddiskVolume1\WINDOWS\system32\ddrawex.dll
+ImageSectionObject 0x821e1ea8   3020   \Device\HarddiskVolume1\WINDOWS\system32\inetcomm.dll
+DataSectionObject 0x821e1ea8   3020   \Device\HarddiskVolume1\WINDOWS\system32\inetcomm.dll
+ImageSectionObject 0x82254650   3020   \Device\HarddiskVolume1\WINDOWS\system32\ddraw.dll
+ImageSectionObject 0x821c1028   3020   \Device\HarddiskVolume1\WINDOWS\system32\MSIMTF.dll
+DataSectionObject 0x821c1028   3020   \Device\HarddiskVolume1\WINDOWS\system32\MSIMTF.dll
+ImageSectionObject 0x8225c300   3020   \Device\HarddiskVolume1\WINDOWS\system32\dciman32.dll
+ImageSectionObject 0x8217c028   3020   \Device\HarddiskVolume1\WINDOWS\system32\riched20.dll
+DataSectionObject 0x8217c028   3020   \Device\HarddiskVolume1\WINDOWS\system32\riched20.dll
+ImageSectionObject 0x81dd1d00   3020   \Device\HarddiskVolume1\WINDOWS\system32\cryptnet.dll
+ImageSectionObject 0x82218c28   3020   \Device\HarddiskVolume1\WINDOWS\system32\msoert2.dll
+DataSectionObject 0x82218c28   3020   \Device\HarddiskVolume1\WINDOWS\system32\msoert2.dll
+ImageSectionObject 0x81d99370   3880   \Device\HarddiskVolume1\WINDOWS\system32\cmd.exe
+DataSectionObject 0x81d99370   3880   \Device\HarddiskVolume1\WINDOWS\system32\cmd.exe
+ImageSectionObject 0x81da7480   3772   \Device\LanmanRedirector\;Z:000000000000aa0b\192.168.1.1\m57\ram\mdd_1.3.exe

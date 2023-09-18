@@ -1,0 +1,158 @@
+Offset(V)  Sess   Desktop              Thread                         Filter               Flags                Function   Module
+---------- ------ -------------------- ------------------------------ -------------------- -------------------- ---------- ------
+0xbc640168 0      WinSta0\Default      <any>                          WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      <any>                          WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      <any>                          WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      3420 (mdd_1.3.exe 3772)        WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      3420 (mdd_1.3.exe 3772)        WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      3420 (mdd_1.3.exe 3772)        WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      3504 (cmd.exe 3880)            WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      3504 (cmd.exe 3880)            WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      3504 (cmd.exe 3880)            WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      2984 (csrss.exe 640)           WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      2984 (csrss.exe 640)           WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      2984 (csrss.exe 640)           WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      3800 (explorer.exe 1416)       WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      3800 (explorer.exe 1416)       WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      3800 (explorer.exe 1416)       WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      3712 (explorer.exe 1416)       WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      3712 (explorer.exe 1416)       WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      3712 (explorer.exe 1416)       WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      3676 (msimn.exe 3020)          WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      3676 (msimn.exe 3020)          WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      3676 (msimn.exe 3020)          WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      1388 (soffice.bin 2132)        WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      1388 (soffice.bin 2132)        WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      1388 (soffice.bin 2132)        WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      2324 (msimn.exe 3020)          WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      2324 (msimn.exe 3020)          WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      2324 (msimn.exe 3020)          WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      3264 (explorer.exe 1416)       WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      3264 (explorer.exe 1416)       WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      3264 (explorer.exe 1416)       WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      808 (soffice.bin 2132)         WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      808 (soffice.bin 2132)         WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      808 (soffice.bin 2132)         WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      1408 (soffice.bin 2132)        WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      1408 (soffice.bin 2132)        WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      1408 (soffice.bin 2132)        WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      2880 (soffice.bin 2132)        WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      2880 (soffice.bin 2132)        WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      2880 (soffice.bin 2132)        WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      2168 (msimn.exe 3020)          WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      2168 (msimn.exe 3020)          WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      2168 (msimn.exe 3020)          WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      3828 (msmsgs.exe 824)          WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      3828 (msmsgs.exe 824)          WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      3828 (msmsgs.exe 824)          WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      2288 (msimn.exe 3020)          WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      2288 (msimn.exe 3020)          WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      2288 (msimn.exe 3020)          WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      464 (msimn.exe 3020)           WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      464 (msimn.exe 3020)           WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      464 (msimn.exe 3020)           WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      3124 (msimn.exe 3020)          WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      3124 (msimn.exe 3020)          WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      3124 (msimn.exe 3020)          WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      396 (msmsgs.exe 824)           WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      396 (msmsgs.exe 824)           WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      396 (msmsgs.exe 824)           WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      3120 (soffice.bin 2132)        WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      3120 (soffice.bin 2132)        WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      3120 (soffice.bin 2132)        WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      2908 (soffice.bin 2132)        WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      2908 (soffice.bin 2132)        WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      2908 (soffice.bin 2132)        WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      2836 (soffice.bin 2132)        WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      2836 (soffice.bin 2132)        WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      2836 (soffice.bin 2132)        WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      2512 (spoolsv.exe 1792)        WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      2512 (spoolsv.exe 1792)        WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      2512 (spoolsv.exe 1792)        WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      2388 (spoolsv.exe 1792)        WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      2388 (spoolsv.exe 1792)        WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      2388 (spoolsv.exe 1792)        WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      2468 (avgtray.exe 120)         WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      2468 (avgtray.exe 120)         WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      2468 (avgtray.exe 120)         WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      2432 (soffice.bin 2132)        WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      2432 (soffice.bin 2132)        WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      2432 (soffice.bin 2132)        WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      2408 (BRNIPMON.exe 2404)       WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      2408 (BRNIPMON.exe 2404)       WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      2408 (BRNIPMON.exe 2404)       WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      2136 (soffice.bin 2132)        WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      2136 (soffice.bin 2132)        WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      2136 (soffice.bin 2132)        WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      2120 (spoolsv.exe 1792)        WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      2120 (spoolsv.exe 1792)        WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      2120 (spoolsv.exe 1792)        WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      2096 (soffice.exe 2092)        WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      2096 (soffice.exe 2092)        WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      2096 (soffice.exe 2092)        WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      2108 (BrStsWnd.exe 1276)       WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      2108 (BrStsWnd.exe 1276)       WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      2108 (BrStsWnd.exe 1276)       WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      2100 (explorer.exe 1416)       WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      2100 (explorer.exe 1416)       WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      2100 (explorer.exe 1416)       WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      2088 (BrStsWnd.exe 1276)       WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      2088 (BrStsWnd.exe 1276)       WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      2088 (BrStsWnd.exe 1276)       WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      1832 (msmsgs.exe 824)          WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      1832 (msmsgs.exe 824)          WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      1832 (msmsgs.exe 824)          WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      1844 (hkcmd.exe 1648)          WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      1844 (hkcmd.exe 1648)          WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      1844 (hkcmd.exe 1648)          WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      836 (avgtray.exe 120)          WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      836 (avgtray.exe 120)          WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      836 (avgtray.exe 120)          WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      1668 (ctfmon.exe 1664)         WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      1668 (ctfmon.exe 1664)         WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      1668 (ctfmon.exe 1664)         WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      1280 (BrStsWnd.exe 1276)       WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      1280 (BrStsWnd.exe 1276)       WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      1280 (BrStsWnd.exe 1276)       WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      1108 (winvnc4.exe 756)         WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      1108 (winvnc4.exe 756)         WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      1108 (winvnc4.exe 756)         WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      1176 (jusched.exe 1164)        WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      1176 (jusched.exe 1164)        WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      1176 (jusched.exe 1164)        WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      1072 (hkcmd.exe 1648)          WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      1072 (hkcmd.exe 1648)          WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      1072 (hkcmd.exe 1648)          WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      680 (csrss.exe 640)            WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      680 (csrss.exe 640)            WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      680 (csrss.exe 640)            WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      676 (csrss.exe 640)            WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      676 (csrss.exe 640)            WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      676 (csrss.exe 640)            WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      1884 (explorer.exe 1416)       WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      1884 (explorer.exe 1416)       WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      1884 (explorer.exe 1416)       WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      232 (explorer.exe 1416)        WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      232 (explorer.exe 1416)        WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      232 (explorer.exe 1416)        WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      1876 (explorer.exe 1416)       WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      1876 (explorer.exe 1416)       WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      1876 (explorer.exe 1416)       WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      1692 (explorer.exe 1416)       WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      1692 (explorer.exe 1416)       WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      1692 (explorer.exe 1416)       WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      1080 (winvnc4.exe 756)         WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      1080 (winvnc4.exe 756)         WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      1080 (winvnc4.exe 756)         WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      940 (winvnc4.exe 756)          WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      940 (winvnc4.exe 756)          WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      940 (winvnc4.exe 756)          WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      1828 (spoolsv.exe 1792)        WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      1828 (spoolsv.exe 1792)        WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      1828 (spoolsv.exe 1792)        WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      1812 (spoolsv.exe 1792)        WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      1812 (spoolsv.exe 1792)        WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      1812 (spoolsv.exe 1792)        WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L
+0xbc640168 0      WinSta0\Default      1796 (spoolsv.exe 1792)        WH_GETMESSAGE        HF_GLOBAL            0x00011351 0x1L
+0xbc6401a0 0      WinSta0\Default      1796 (spoolsv.exe 1792)        WH_CBT               HF_ANSI, HF_GLOBAL   0x00010e2e 0x1L
+0xbc640130 0      WinSta0\Default      1796 (spoolsv.exe 1792)        WH_SHELL             HF_ANSI, HF_GLOBAL   0x000112b6 0x1L

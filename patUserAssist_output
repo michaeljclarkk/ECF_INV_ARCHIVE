@@ -1,0 +1,1219 @@
+----------------------------
+Registry: \Device\HarddiskVolume1\Documents and Settings\Pat\NTUSER.DAT 
+Path: Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{5E6AB780-7743-11CF-A12B-00AA004AE837}\Count
+Last updated: 2009-12-11 13:28:34 UTC+0000
+
+Subkeys:
+
+Values:
+
+REG_BINARY    UEME_CTLSESSION : Raw Data:
+0x00000000  2e d3 53 0e 21 00 00 00                           ..S.!...
+
+REG_BINARY    UEME_CTLCUACount:ctor : 
+ID:             2
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  02 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_UITOOLBAR  : 
+ID:             32
+Count:          47
+Last updated:   2009-12-10 17:48:35 UTC+0000
+Raw Data:
+0x00000000  20 00 00 00 34 00 00 00 30 9f 61 ff c0 79 ca 01   ....4...0.a..y..
+
+REG_BINARY    UEME_UITOOLBAR:0x1,120 : 
+ID:             32
+Count:          22
+Last updated:   2009-12-10 17:48:35 UTC+0000
+Raw Data:
+0x00000000  20 00 00 00 1b 00 00 00 30 9f 61 ff c0 79 ca 01   ........0.a..y..
+
+REG_BINARY    UEME_UITOOLBAR:0x1,130 : 
+ID:             31
+Count:          15
+Last updated:   2009-12-10 02:03:48 UTC+0000
+Raw Data:
+0x00000000  1f 00 00 00 14 00 00 00 30 60 17 03 3d 79 ca 01   ........0`..=y..
+
+REG_BINARY    UEME_UITOOLBAR:0x1,121 : 
+ID:             22
+Count:          1
+Last updated:   2009-12-03 00:04:59 UTC+0000
+Raw Data:
+0x00000000  16 00 00 00 06 00 00 00 20 4b cc 40 ac 73 ca 01   .........K.@.s..
+
+REG_BINARY    UEME_UITOOLBAR:0x1,133 : 
+ID:             27
+Count:          1
+Last updated:   2009-12-07 16:02:08 UTC+0000
+Raw Data:
+0x00000000  1b 00 00 00 06 00 00 00 c0 75 25 a1 56 77 ca 01   .........u%.Vw..
+
+REG_BINARY    UEME_UITOOLBAR:0x4,7031 : 
+ID:             27
+Count:          2
+Last updated:   2009-12-07 16:04:44 UTC+0000
+Raw Data:
+0x00000000  1b 00 00 00 07 00 00 00 c0 12 bd fd 56 77 ca 01   ............Vw..
+----------------------------
+Registry: \Device\HarddiskVolume1\Documents and Settings\Pat\NTUSER.DAT 
+Path: Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{75048700-EF1F-11D0-9888-006097DEACF9}\Count
+Last updated: 2009-12-11 16:57:05 UTC+0000
+
+Subkeys:
+
+Values:
+
+REG_BINARY    UEME_CTLSESSION : Raw Data:
+0x00000000  2e d3 53 0e 20 00 00 00                           ..S.....
+
+REG_BINARY    UEME_CTLCUACount:ctor : 
+ID:             1
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  01 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPATH    : 
+ID:             32
+Count:          260
+Last updated:   2009-12-11 16:57:05 UTC+0000
+Raw Data:
+0x00000000  20 00 00 00 09 01 00 00 30 40 9c f7 82 7a ca 01   ........0@...z..
+
+REG_BINARY    UEME_RUNPATH:C:\Program Files\Internet Explorer\iexplore.exe : 
+ID:             27
+Count:          2
+Last updated:   2009-12-07 16:07:31 UTC+0000
+Raw Data:
+0x00000000  1b 00 00 00 07 00 00 00 b0 78 80 61 57 77 ca 01   .........x.aWw..
+
+REG_BINARY    UEME_RUNPIDL    : 
+ID:             31
+Count:          80
+Last updated:   2009-12-10 22:09:18 UTC+0000
+Raw Data:
+0x00000000  1f 00 00 00 55 00 00 00 b0 8d 53 6b e5 79 ca 01   ....U.....Sk.y..
+
+REG_BINARY    UEME_RUNPIDL:::{2559A1F4-21D7-11D4-BDAF-00C04F60B9F0} : 
+ID:             3
+Count:          5
+Last updated:   2009-11-13 01:46:36 UTC+0000
+Raw Data:
+0x00000000  03 00 00 00 0a 00 00 00 20 98 d8 22 03 64 ca 01   ...........".d..
+
+REG_BINARY    UEME_RUNPATH:C:\WINDOWS\system32\cmd.exe : 
+ID:             32
+Count:          45
+Last updated:   2009-12-11 16:57:05 UTC+0000
+Raw Data:
+0x00000000  20 00 00 00 32 00 00 00 30 40 9c f7 82 7a ca 01   ....2...0@...z..
+
+REG_BINARY    UEME_RUNPATH:C:\Program Files\Outlook Express\msimn.exe : 
+ID:             32
+Count:          21
+Last updated:   2009-12-11 16:47:16 UTC+0000
+Raw Data:
+0x00000000  20 00 00 00 1a 00 00 00 80 9d 9a 98 81 7a ca 01   .............z..
+
+REG_BINARY    UEME_RUNPIDL:::{2559A1F5-21D7-11D4-BDAF-00C04F60B9F0} : 
+ID:             6
+Count:          1
+Last updated:   2009-11-16 17:30:00 UTC+0000
+Raw Data:
+0x00000000  06 00 00 00 06 00 00 00 60 8f 98 6c e2 66 ca 01   ........`..l.f..
+
+REG_BINARY    UEME_RUNCPL     : 
+ID:             27
+Count:          8
+Last updated:   2009-12-07 18:29:29 UTC+0000
+Raw Data:
+0x00000000  1b 00 00 00 0d 00 00 00 c0 d5 9d 36 6b 77 ca 01   ...........6kw..
+
+REG_BINARY    UEME_RUNCPL:timedate.cpl : 
+ID:             4
+Count:          1
+Last updated:   2009-11-14 00:56:09 UTC+0000
+Raw Data:
+0x00000000  04 00 00 00 06 00 00 00 20 c0 d4 40 c5 64 ca 01   ...........@.d..
+
+REG_BINARY    UEME_RUNPATH:E:\mdd_1.3.exe : 
+ID:             4
+Count:          2
+Last updated:   2009-11-14 01:13:35 UTC+0000
+Raw Data:
+0x00000000  04 00 00 00 07 00 00 00 10 f4 b6 b0 c7 64 ca 01   .............d..
+
+REG_BINARY    UEME_UISCUT     : 
+ID:             32
+Count:          111
+Last updated:   2009-12-11 16:47:16 UTC+0000
+Raw Data:
+0x00000000  20 00 00 00 74 00 00 00 e0 e8 76 98 81 7a ca 01   ....t.....v..z..
+
+REG_BINARY    UEME_RUNPATH:Mozilla Firefox.lnk : 
+ID:             31
+Count:          23
+Last updated:   2009-12-10 16:38:44 UTC+0000
+Raw Data:
+0x00000000  1f 00 00 00 1c 00 00 00 e0 b7 dd 3c b7 79 ca 01   ...........<.y..
+
+REG_BINARY    UEME_RUNPATH:C:\Program Files\Mozilla Firefox\firefox.exe : 
+ID:             31
+Count:          26
+Last updated:   2009-12-10 16:38:44 UTC+0000
+Raw Data:
+0x00000000  1f 00 00 00 1f 00 00 00 a0 67 fa 3c b7 79 ca 01   .........g.<.y..
+
+REG_BINARY    UEME_RUNCPL:SYSDM.CPL : 
+ID:             27
+Count:          2
+Last updated:   2009-12-07 18:29:29 UTC+0000
+Raw Data:
+0x00000000  1b 00 00 00 07 00 00 00 c0 d5 9d 36 6b 77 ca 01   ...........6kw..
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Outlook Express.lnk : 
+ID:             6
+Count:          0
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  06 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPATH:Outlook Express.lnk : 
+ID:             32
+Count:          19
+Last updated:   2009-12-11 16:47:16 UTC+0000
+Raw Data:
+0x00000000  20 00 00 00 18 00 00 00 d0 a3 7b 98 81 7a ca 01   ..........{..z..
+
+REG_BINARY    UEME_RUNPATH:::{871C5380-42A0-1069-A2EA-08002B30309D} : 
+ID:             31
+Count:          20
+Last updated:   2009-12-10 17:49:54 UTC+0000
+Raw Data:
+0x00000000  1f 00 00 00 19 00 00 00 60 0f 2e 2e c1 79 ca 01   ........`....y..
+
+REG_BINARY    UEME_RUNPATH:OpenOffice.org 3.1.lnk : 
+ID:             13
+Count:          4
+Last updated:   2009-11-23 22:12:38 UTC+0000
+Raw Data:
+0x00000000  0d 00 00 00 09 00 00 00 d0 61 13 11 8a 6c ca 01   .........a...l..
+
+REG_BINARY    UEME_RUNPATH:C:\Program Files\OpenOffice.org 3\program\soffice.exe : 
+ID:             13
+Count:          4
+Last updated:   2009-11-23 22:12:46 UTC+0000
+Raw Data:
+0x00000000  0d 00 00 00 09 00 00 00 60 85 00 16 8a 6c ca 01   ........`....l..
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Games\Minesweeper.lnk : 
+ID:             10
+Count:          1
+Last updated:   2009-11-18 22:08:19 UTC+0000
+Raw Data:
+0x00000000  0a 00 00 00 06 00 00 00 10 d4 1b a3 9b 68 ca 01   .............h..
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\2008PatentRollupROUGH.lnk : 
+ID:             6
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  06 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Desktop\Outlook Express.lnk : 
+ID:             31
+Count:          10
+Last updated:   2009-12-10 22:09:18 UTC+0000
+Raw Data:
+0x00000000  1f 00 00 00 0f 00 00 00 b0 8d 53 6b e5 79 ca 01   ..........Sk.y..
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Desktop : 
+ID:             31
+Count:          10
+Last updated:   2009-12-10 22:09:18 UTC+0000
+Raw Data:
+0x00000000  1f 00 00 00 0f 00 00 00 b0 8d 53 6b e5 79 ca 01   ..........Sk.y..
+
+REG_BINARY    UEME_RUNPATH:::{20D04FE0-3AEA-1069-A2D8-08002B30309D} : 
+ID:             31
+Count:          2
+Last updated:   2009-12-10 16:35:32 UTC+0000
+Raw Data:
+0x00000000  1f 00 00 00 07 00 00 00 00 0a c5 ca b6 79 ca 01   .............y..
+
+REG_BINARY    UEME_RUNPATH:C:\WINDOWS\system32\rundll32.exe : 
+ID:             24
+Count:          1
+Last updated:   2009-12-05 02:52:55 UTC+0000
+Raw Data:
+0x00000000  18 00 00 00 06 00 00 00 80 c5 a3 0b 56 75 ca 01   ............Vu..
+
+REG_BINARY    UEME_RUNCPL:desk.cpl : 
+ID:             8
+Count:          1
+Last updated:   2009-11-17 18:51:20 UTC+0000
+Raw Data:
+0x00000000  08 00 00 00 06 00 00 00 60 c6 b4 f3 b6 67 ca 01   ........`....g..
+
+REG_BINARY    UEME_RUNPATH:C:\Python26\pythonw.exe : 
+ID:             8
+Count:          1
+Last updated:   2009-11-17 22:06:55 UTC+0000
+Raw Data:
+0x00000000  08 00 00 00 06 00 00 00 60 9f 1d 46 d2 67 ca 01   ........`..F.g..
+
+REG_BINARY    UEME_RUNPATH:C:\WINDOWS\system32\NOTEPAD.EXE : 
+ID:             31
+Count:          9
+Last updated:   2009-12-10 16:36:31 UTC+0000
+Raw Data:
+0x00000000  1f 00 00 00 0e 00 00 00 50 3d 05 ee b6 79 ca 01   ........P=...y..
+
+REG_BINARY    UEME_RUNPATH:C:\WINDOWS\system32\winmine.exe : 
+ID:             10
+Count:          1
+Last updated:   2009-11-18 22:08:21 UTC+0000
+Raw Data:
+0x00000000  0a 00 00 00 06 00 00 00 50 8b d3 a3 9b 68 ca 01   ........P....h..
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\Hague System.lnk : 
+ID:             10
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  0a 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\pubfreeinf.lnk : 
+ID:             10
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  0a 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\6994854.lnk : 
+ID:             10
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  0a 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPATH:::{450D8FBA-AD25-11D0-98A8-0800361B1103} : 
+ID:             27
+Count:          2
+Last updated:   2009-12-07 16:02:06 UTC+0000
+Raw Data:
+0x00000000  1b 00 00 00 07 00 00 00 a0 a0 02 a0 56 77 ca 01   ............Vw..
+
+REG_BINARY    UEME_RUNPATH:C:\Program Files\OpenOffice.org 3\program\swriter.exe : 
+ID:             13
+Count:          5
+Last updated:   2009-11-23 22:16:33 UTC+0000
+Raw Data:
+0x00000000  0d 00 00 00 0a 00 00 00 60 05 80 9d 8a 6c ca 01   ........`....l..
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\PatentlawTreaty.lnk : 
+ID:             11
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  0b 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\PatentResearch - General.lnk : 
+ID:             11
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  0b 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\From Jessie-Chicken.lnk : 
+ID:             11
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  0b 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\MiscFood.lnk : 
+ID:             11
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  0b 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPATH:Adobe Reader 9.lnk : 
+ID:             23
+Count:          1
+Last updated:   2009-12-05 00:32:56 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 06 00 00 00 f0 b0 7b 7d 42 75 ca 01   ..........{}Bu..
+
+REG_BINARY    UEME_RUNPATH:C:\Program Files\Adobe\Reader 9.0\Reader\AcroRd32.exe : 
+ID:             23
+Count:          1
+Last updated:   2009-12-05 00:32:56 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 06 00 00 00 80 20 a4 7d 42 75 ca 01   ...........}Bu..
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\BudgetNov.lnk : 
+ID:             11
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  0b 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\Budget.lnk : 
+ID:             11
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  0b 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\VANIA.lnk : 
+ID:             11
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  0b 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\Other Patent.lnk : 
+ID:             11
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  0b 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPATH:::{208D2C60-3AEA-1069-A2D7-08002B30309D} : 
+ID:             11
+Count:          1
+Last updated:   2009-11-20 19:35:00 UTC+0000
+Raw Data:
+0x00000000  0b 00 00 00 06 00 00 00 f0 84 5f 8c 18 6a ca 01   .........._..j..
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\Doll_having_delayed_wetting_and_crying_a.lnk : 
+ID:             13
+Count:          0
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  0d 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\AIAA-1997-644-716.lnk : 
+ID:             13
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  0d 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\TATUTTQ_T.lnk : 
+ID:             13
+Count:          0
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  0d 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\_LIMBACH.lnk : 
+ID:             13
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  0d 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\Will1.lnk : 
+ID:             13
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  0d 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPATH:C:\WINDOWS\system32\wupdmgr.exe : 
+ID:             16
+Count:          1
+Last updated:   2009-11-25 03:38:30 UTC+0000
+Raw Data:
+0x00000000  10 00 00 00 06 00 00 00 e0 ef c2 c1 80 6d ca 01   .............m..
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\26-apc-145.lnk : 
+ID:             18
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  12 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\Means_and_method_for_automatic_resonance.lnk : 
+ID:             18
+Count:          0
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  12 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\Patent.Misc.lnk : 
+ID:             18
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  12 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Brother HL-2170W\UnInstall.lnk : 
+ID:             18
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  12 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Brother HL-2170W\HL-2170W Interactive Help.lnk : 
+ID:             18
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  12 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Brother HL-2170W\User's Guides in HTML format.lnk : 
+ID:             18
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  12 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Brother HL-2170W\Driver Help file.lnk : 
+ID:             18
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  12 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\MA.08-11.lnk : 
+ID:             18
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  12 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\String_vibration_transducer_bridge_for_e.lnk : 
+ID:             18
+Count:          0
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  12 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\All Users\Desktop\Mozilla Firefox.lnk : 
+ID:             31
+Count:          6
+Last updated:   2009-12-10 21:14:51 UTC+0000
+Raw Data:
+0x00000000  1f 00 00 00 0b 00 00 00 90 35 e7 cf dd 79 ca 01   .........5...y..
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\All Users\Desktop : 
+ID:             31
+Count:          6
+Last updated:   2009-12-10 21:14:51 UTC+0000
+Raw Data:
+0x00000000  1f 00 00 00 0b 00 00 00 90 35 e7 cf dd 79 ca 01   .........5...y..
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\Quantum_cryptography.lnk : 
+ID:             22
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  16 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\Free_space_quantum_cryptography_system.lnk : 
+ID:             22
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  16 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\72-10-13.lnk : 
+ID:             22
+Count:          0
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  16 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\Method_for_key_distribution_using_quantu.lnk : 
+ID:             22
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  16 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\104416fireextinguishersDFMmetricizedversion2.lnk : 
+ID:             22
+Count:          0
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  16 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\QuantCryptStuff.lnk : 
+ID:             22
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  16 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\PBT_progress_appendix.lnk : 
+ID:             22
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  16 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\AVG 9.0\Uninstall AVG.lnk : 
+ID:             23
+Count:          1
+Last updated:   2009-12-03 18:09:37 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 06 00 00 00 50 f2 a4 c6 43 74 ca 01   ........P...Ct..
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\AVG 9.0\AVG User Interface.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\AVG 9.0\AVG Tray Icon.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\AVG 9.0 : 
+ID:             23
+Count:          2
+Last updated:   2009-12-03 18:09:37 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 07 00 00 00 40 3c a7 c6 43 74 ca 01   ........@<..Ct..
+
+REG_BINARY    UEME_RUNPATH:C:\Program Files\AVG\AVG9\setup.exe : 
+ID:             23
+Count:          1
+Last updated:   2009-12-03 18:09:38 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 06 00 00 00 d0 6f d9 c6 43 74 ca 01   .........o..Ct..
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Mozilla Firefox\Mozilla Firefox.lnk : 
+ID:             23
+Count:          3
+Last updated:   2009-12-04 00:40:48 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 08 00 00 00 60 aa 37 6c 7a 74 ca 01   ........`.7lzt..
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Mozilla Firefox : 
+ID:             23
+Count:          4
+Last updated:   2009-12-04 00:40:48 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 09 00 00 00 60 1b 3a 6c 7a 74 ca 01   ........`.:lzt..
+
+REG_BINARY    UEME_RUNPATH:E:\xpadvancedkeylogger.exe : 
+ID:             23
+Count:          1
+Last updated:   2009-12-03 18:19:01 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 06 00 00 00 50 6b 6c 16 45 74 ca 01   ........Pkl.Et..
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\XP Advanced\XP Advanced Keylogger.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\XP Advanced\Help Online.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\XP Advanced\Homepage.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\XP Advanced\Uninstall XP Advanced Keylogger.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\XP Advanced\Purchase.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories\WordPad.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories\Windows Explorer.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories\Synchronize.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories\Remote Desktop Connection.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories\Program Compatibility Wizard.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories\Paint.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories\Notepad.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories\Calculator.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories\Address Book.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories\System Tools : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories\Entertainment : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories\Communications : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories\Accessibility : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories : 
+ID:             23
+Count:          1
+Last updated:   2009-12-03 18:23:28 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 06 00 00 00 d0 7b f5 b5 45 74 ca 01   .........{..Et..
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories\Communications\Wireless Network Setup Wizard.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories\Communications\New Connection Wizard.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories\Communications\Network Setup Wizard.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories\Communications\Network Connections.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories\Communications\HyperTerminal.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories\Entertainment\Windows Media Player.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories\Entertainment\Volume Control.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories\Entertainment\Sound Recorder.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories\System Tools\System Restore.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories\System Tools\System Information.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories\System Tools\Security Center.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories\System Tools\Scheduled Tasks.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories\System Tools\Internet Explorer (No Add-ons).lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories\System Tools\Disk Defragmenter.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories\System Tools\Disk Cleanup.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories\System Tools\Character Map.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories\System Tools\Backup.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories\System Tools\Activate Windows.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories\Accessibility\Utility Manager.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories\Accessibility\On-Screen Keyboard.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories\Accessibility\Narrator.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories\Accessibility\Magnifier.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Accessories\Accessibility\Accessibility Wizard.lnk : 
+ID:             23
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  17 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2% : 
+ID:             26
+Count:          2
+Last updated:   2009-12-06 16:14:24 UTC+0000
+Raw Data:
+0x00000000  1a 00 00 00 07 00 00 00 20 22 4b 2d 8f 76 ca 01   ........."K-.v..
+
+REG_BINARY    UEME_RUNCPL:"C:\WINDOWS\system32\sysdm.cpl",System : 
+ID:             24
+Count:          1
+Last updated:   2009-12-05 02:21:29 UTC+0000
+Raw Data:
+0x00000000  18 00 00 00 06 00 00 00 90 d6 77 a7 51 75 ca 01   ..........w.Qu..
+
+REG_BINARY    UEME_RUNPATH:C:\WINDOWS\system32\mmc.exe : 
+ID:             27
+Count:          7
+Last updated:   2009-12-07 18:29:33 UTC+0000
+Raw Data:
+0x00000000  1b 00 00 00 0c 00 00 00 50 86 c4 38 6b 77 ca 01   ........P..8kw..
+
+REG_BINARY    UEME_RUNPATH:C:\WINDOWS\system32\odbcad32.exe : 
+ID:             24
+Count:          1
+Last updated:   2009-12-05 02:29:01 UTC+0000
+Raw Data:
+0x00000000  18 00 00 00 06 00 00 00 80 bc e8 b4 52 75 ca 01   ............Ru..
+
+REG_BINARY    UEME_RUNPATH:Z:\ram\windd\32bits_i386\win32dd.exe : 
+ID:             24
+Count:          1
+Last updated:   2009-12-05 02:53:11 UTC+0000
+Raw Data:
+0x00000000  18 00 00 00 06 00 00 00 c0 5f 15 15 56 75 ca 01   ........._..Vu..
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Administrative Tools\Services.lnk : 
+ID:             26
+Count:          1
+Last updated:   2009-12-06 16:11:48 UTC+0000
+Raw Data:
+0x00000000  1a 00 00 00 06 00 00 00 a0 07 7f d0 8e 76 ca 01   .............v..
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Administrative Tools : 
+ID:             26
+Count:          2
+Last updated:   2009-12-06 16:14:24 UTC+0000
+Raw Data:
+0x00000000  1a 00 00 00 07 00 00 00 20 22 4b 2d 8f 76 ca 01   ........."K-.v..
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Administrative Tools\Component Services.lnk : 
+ID:             26
+Count:          1
+Last updated:   2009-12-06 16:14:24 UTC+0000
+Raw Data:
+0x00000000  1a 00 00 00 06 00 00 00 20 22 4b 2d 8f 76 ca 01   ........."K-.v..
+
+REG_BINARY    UEME_RUNCPL:"C:\WINDOWS\system32\nusrmgr.cpl",User Accounts : 
+ID:             26
+Count:          1
+Last updated:   2009-12-06 16:24:50 UTC+0000
+Raw Data:
+0x00000000  1a 00 00 00 06 00 00 00 20 27 6b a2 90 76 ca 01   .........'k..v..
+
+REG_BINARY    UEME_RUNPATH:C:\Program Files\XP Advanced\ToolKeylogger.exe : 
+ID:             27
+Count:          1
+Last updated:   2009-12-07 16:02:16 UTC+0000
+Raw Data:
+0x00000000  1b 00 00 00 06 00 00 00 10 12 d0 a5 56 77 ca 01   ............Vw..
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\Internet Explorer.lnk : 
+ID:             27
+Count:          1
+Last updated:   2009-12-07 16:07:31 UTC+0000
+Raw Data:
+0x00000000  1b 00 00 00 06 00 00 00 c0 2e 7e 61 57 77 ca 01   ..........~aWw..
+
+REG_BINARY    UEME_RUNPATH:C:\Program Files\XP Advanced\unins000.exe : 
+ID:             27
+Count:          1
+Last updated:   2009-12-07 16:19:43 UTC+0000
+Raw Data:
+0x00000000  1b 00 00 00 06 00 00 00 a0 fa d5 15 59 77 ca 01   ............Yw..
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\XP Advanced : 
+ID:             27
+Count:          0
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  1b 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPATH:C:\Documents and Settings\Pat\Desktop\avg_free_stb_all_9_40_cnet.exe : 
+ID:             28
+Count:          2
+Last updated:   2009-12-07 18:43:47 UTC+0000
+Raw Data:
+0x00000000  1c 00 00 00 07 00 00 00 20 19 e0 35 6d 77 ca 01   ...........5mw..
+
+REG_BINARY    UEME_RUNPATH:E:\vnc-4_1_3-x86_win32.exe : 
+ID:             27
+Count:          1
+Last updated:   2009-12-07 18:14:13 UTC+0000
+Raw Data:
+0x00000000  1b 00 00 00 06 00 00 00 20 d6 de 14 69 77 ca 01   ............iw..
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\RealVNC : 
+ID:             27
+Count:          2
+Last updated:   2009-12-07 18:16:55 UTC+0000
+Raw Data:
+0x00000000  1b 00 00 00 07 00 00 00 a0 77 3e 75 69 77 ca 01   .........w>uiw..
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\RealVNC\VNC Viewer 4 : 
+ID:             27
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  1b 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\RealVNC\VNC Server 4 (User-Mode) : 
+ID:             27
+Count:          1
+Last updated:   2009-12-07 18:16:55 UTC+0000
+Raw Data:
+0x00000000  1b 00 00 00 06 00 00 00 a0 77 3e 75 69 77 ca 01   .........w>uiw..
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\RealVNC\VNC Server 4 (Service-Mode) : 
+ID:             27
+Count:          1
+Last updated:   2009-12-07 18:16:43 UTC+0000
+Raw Data:
+0x00000000  1b 00 00 00 06 00 00 00 20 76 49 6e 69 77 ca 01   .........vIniw..
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\RealVNC\VNC Server 4 (Service-Mode)\Unregister VNC Service.lnk : 
+ID:             27
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  1b 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\RealVNC\VNC Server 4 (Service-Mode)\Stop VNC Service.lnk : 
+ID:             27
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  1b 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\RealVNC\VNC Server 4 (Service-Mode)\Start VNC Service.lnk : 
+ID:             27
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  1b 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\RealVNC\VNC Server 4 (Service-Mode)\Register VNC Service.lnk : 
+ID:             27
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  1b 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\RealVNC\VNC Server 4 (Service-Mode)\Configure VNC Service.lnk : 
+ID:             27
+Count:          1
+Last updated:   2009-12-07 18:16:43 UTC+0000
+Raw Data:
+0x00000000  1b 00 00 00 06 00 00 00 20 05 47 6e 69 77 ca 01   ..........Gniw..
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\RealVNC\VNC Server 4 (User-Mode)\Run VNC Server.lnk : 
+ID:             27
+Count:          1
+Last updated:   2009-12-07 18:16:55 UTC+0000
+Raw Data:
+0x00000000  1b 00 00 00 06 00 00 00 a0 06 3c 75 69 77 ca 01   ..........<uiw..
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\RealVNC\VNC Server 4 (User-Mode)\Configure User-Mode Settings.lnk : 
+ID:             27
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  1b 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPATH:C:\Program Files\RealVNC\VNC4\vncconfig.exe : 
+ID:             27
+Count:          1
+Last updated:   2009-12-07 18:16:43 UTC+0000
+Raw Data:
+0x00000000  1b 00 00 00 06 00 00 00 10 31 4e 6e 69 77 ca 01   .........1Nniw..
+
+REG_BINARY    UEME_RUNPATH:C:\Program Files\RealVNC\VNC4\winvnc4.exe : 
+ID:             27
+Count:          1
+Last updated:   2009-12-07 18:16:55 UTC+0000
+Raw Data:
+0x00000000  1b 00 00 00 06 00 00 00 90 c1 40 75 69 77 ca 01   ..........@uiw..
+
+REG_BINARY    UEME_RUNCPL:"C:\WINDOWS\system32\firewall.cpl",Windows Firewall : 
+ID:             27
+Count:          3
+Last updated:   2009-12-07 18:27:55 UTC+0000
+Raw Data:
+0x00000000  1b 00 00 00 08 00 00 00 d0 84 8a fe 6a 77 ca 01   ............jw..
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\AVG Free 9.0\AVG Free User Interface.lnk : 
+ID:             28
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  1c 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\AVG Free 9.0\AVG Free Tray Icon.lnk : 
+ID:             28
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  1c 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\AVG Free 9.0\Uninstall AVG Free.lnk : 
+ID:             28
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  1c 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:%csidl2%\AVG Free 9.0 : 
+ID:             29
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  1d 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\urls.lnk : 
+ID:             31
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  1f 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\web.lnk : 
+ID:             31
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  1f 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\US5041044Teleporter.lnk : 
+ID:             31
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  1f 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\Ch700.ExaminationOf_Applications.lnk : 
+ID:             31
+Count:          0
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  1f 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPATH:C:\Program Files\OpenOffice.org 3\program\simpress.exe : 
+ID:             31
+Count:          3
+Last updated:   2009-12-10 17:53:25 UTC+0000
+Raw Data:
+0x00000000  1f 00 00 00 08 00 00 00 80 98 b6 ab c1 79 ca 01   .............y..
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\PresentationM57.biz.lnk : 
+ID:             31
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  1f 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPATH:C:\Program Files\OpenOffice.org 3\program\sdraw.exe : 
+ID:             31
+Count:          1
+Last updated:   2009-12-10 17:56:37 UTC+0000
+Raw Data:
+0x00000000  1f 00 00 00 06 00 00 00 b0 7e 78 1e c2 79 ca 01   .........~x..y..
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\Ideas.lnk : 
+ID:             31
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  1f 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\MyDocsCEO.lnk : 
+ID:             31
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  1f 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\Downloads.lnk : 
+ID:             31
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  1f 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................
+
+REG_BINARY    UEME_RUNPIDL:C:\Documents and Settings\Pat\Recent\kozub.lnk : 
+ID:             31
+Count:          2
+Last updated:   1970-01-01 00:00:00 UTC+0000
+Raw Data:
+0x00000000  1f 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00   ................

@@ -1,0 +1,113 @@
+************************************************************************
+System pid:      4
+************************************************************************
+smss.exe pid:    576
+Command line : \SystemRoot\System32\smss.exe
+************************************************************************
+csrss.exe pid:    640
+Command line : C:\WINDOWS\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,3072,512 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=winsrv:ConServerDllInitialization,2 ProfileControl=Off MaxRequestThreads=16
+************************************************************************
+winlogon.exe pid:    664
+Command line : winlogon.exe
+************************************************************************
+services.exe pid:    708
+Command line : C:\WINDOWS\system32\services.exe
+************************************************************************
+lsass.exe pid:    720
+Command line : C:\WINDOWS\system32\lsass.exe
+************************************************************************
+svchost.exe pid:    876
+Command line : C:\WINDOWS\system32\svchost -k DcomLaunch
+************************************************************************
+svchost.exe pid:    956
+Command line : C:\WINDOWS\system32\svchost -k rpcss
+************************************************************************
+svchost.exe pid:   1052
+Command line : C:\WINDOWS\System32\svchost.exe -k netsvcs
+************************************************************************
+svchost.exe pid:   1112
+Command line : C:\WINDOWS\system32\svchost.exe -k NetworkService
+************************************************************************
+avgchsvx.exe pid:   1232
+Command line : "C:\Program Files\AVG\AVG9\avgchsvx.exe"
+************************************************************************
+avgrsx.exe pid:   1240
+Command line : "C:\Program Files\AVG\AVG9\avgrsx.exe"
+************************************************************************
+svchost.exe pid:   1284
+Command line : C:\WINDOWS\system32\svchost.exe -k LocalService
+************************************************************************
+avgcsrvx.exe pid:   1436
+Command line :  /pipeName=3bf4bcbc-2174-4681-8ad0-8c9f02b6f74c /coreSdkOptions=30 /logConfFile="C:\Documents and Settings\All Users\Application Data\avg9\temp\8974feae-23e5-42c0-a18c-94d76c45dfce-4d8-oopp.tmp" /loggerName=AVG.RS.Core /binaryPath="C:\Program Files\AVG\AVG9\" /tempPath="C:\Documents and Settings\All Users\Application Data\avg9\temp\"
+************************************************************************
+spoolsv.exe pid:   1792
+Command line : C:\WINDOWS\system32\spoolsv.exe
+************************************************************************
+svchost.exe pid:    496
+Command line : C:\WINDOWS\system32\svchost.exe -k LocalService
+************************************************************************
+avgwdsvc.exe pid:    360
+Command line : "C:\Program Files\AVG\AVG9\avgwdsvc.exe"
+************************************************************************
+jqs.exe pid:    608
+Command line : "C:\Program Files\Java\jre6\bin\jqs.exe" -service -config "C:\Program Files\Java\jre6\lib\deploy\jqs\jqs.conf"
+************************************************************************
+winvnc4.exe pid:    756
+Command line : "C:\Program Files\RealVNC\VNC4\WinVNC4.exe" -service
+************************************************************************
+explorer.exe pid:   1416
+Command line : C:\WINDOWS\Explorer.EXE
+************************************************************************
+avgemc.exe pid:   2044
+Command line : "C:\Program Files\AVG\AVG9\avgemc.exe"
+************************************************************************
+avgnsx.exe pid:    196
+Command line : 
+************************************************************************
+avgcsrvx.exe pid:   1020
+Command line :  /pipeName=6fbbed8b-c1de-4c35-80aa-bdc0b1e17aa1 /coreSdkOptions=0 /binaryPath="C:\Program Files\AVG\AVG9\"
+************************************************************************
+hkcmd.exe pid:   1648
+Command line : "C:\WINDOWS\system32\hkcmd.exe" 
+************************************************************************
+jusched.exe pid:   1164
+Command line : "C:\Program Files\Java\jre6\bin\jusched.exe" 
+************************************************************************
+BrStsWnd.exe pid:   1276
+Command line : "C:\Program Files\Brownie\BrstsWnd.exe" Autorun
+************************************************************************
+avgtray.exe pid:    120
+Command line : "C:\PROGRA~1\AVG\AVG9\avgtray.exe" 
+************************************************************************
+ctfmon.exe pid:   1664
+Command line : "C:\WINDOWS\system32\ctfmon.exe" 
+************************************************************************
+msmsgs.exe pid:    824
+Command line : "C:\Program Files\Messenger\msmsgs.exe" /background
+************************************************************************
+soffice.exe pid:   2092
+Command line : "C:\Program Files\OpenOffice.org 3\program\soffice.exe" -quickstart
+************************************************************************
+soffice.bin pid:   2132
+Command line : "C:\Program Files\OpenOffice.org 3\program\soffice.exe" "-quickstart" "-env:OOO_CWD=2C:\\Program Files\\OpenOffice.org 3\\program"
+************************************************************************
+BRNIPMON.exe pid:   2404
+Command line : "C:\Program Files\Brownie\Brnipmon.exe" -192.168.1.107 -Brother HL-2170W series
+************************************************************************
+alg.exe pid:   2632
+Command line : C:\WINDOWS\System32\alg.exe
+************************************************************************
+msimn.exe pid:   3020
+Command line : "C:\Program Files\Outlook Express\msimn.exe" 
+************************************************************************
+scalc.exe pid:   3272
+************************************************************************
+soffice.bin pid:   3792
+************************************************************************
+avgcmgr.exe pid:    952
+************************************************************************
+cmd.exe pid:   3880
+Command line : "C:\WINDOWS\system32\cmd.exe" 
+************************************************************************
+mdd_1.3.exe pid:   3772
+Command line : z:\ram\mdd_1.3.exe -o z:\ram\pat-2009-12-11.ram

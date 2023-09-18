@@ -1,0 +1,98 @@
+**************************************************
+Desktop: 0x1d95c38, Name: Service-0x0-3e5$\Default, Next: 0x0
+SessionId: 0, DesktopInfo: 0xbca30650, fsHooks: 0
+spwnd: 0xbca306e8, Windows: 17
+Heap: 0xbca30000, Size: 0x80000, Base: 0xbca30000, Limit: 0xbcab0000
+ 2660 (alg.exe 2632 parent 708)
+ 2636 (alg.exe 2632 parent 708)
+ 500 (svchost.exe 496 parent 708)
+ 1288 (svchost.exe 1284 parent 708)
+**************************************************
+Desktop: 0x1e79348, Name: SAWinSta\SADesktop, Next: 0x0
+SessionId: 0, DesktopInfo: 0xbcfc0650, fsHooks: 0
+spwnd: 0xbcfc06e8, Windows: 20
+Heap: 0xbcfc0000, Size: 0x80000, Base: 0xbcfc0000, Limit: 0xbd040000
+**************************************************
+Desktop: 0x1d3a1e0, Name: WinSta0\Default, Next: 0x822e67b0
+SessionId: 0, DesktopInfo: 0xbc630650, fsHooks: 2128
+spwnd: 0xbc6306e8, Windows: 156
+Heap: 0xbc630000, Size: 0x300000, Base: 0xbc630000, Limit: 0xbc930000
+ 3420 (mdd_1.3.exe 3772 parent 3880)
+ 3504 (cmd.exe 3880 parent 1416)
+ 2984 (csrss.exe 640 parent 576)
+ 3800 (explorer.exe 1416 parent 1084)
+ 3712 (explorer.exe 1416 parent 1084)
+ 3676 (msimn.exe 3020 parent 1416)
+ 1388 (soffice.bin 2132 parent 2092)
+ 2324 (msimn.exe 3020 parent 1416)
+ 3264 (explorer.exe 1416 parent 1084)
+ 808 (soffice.bin 2132 parent 2092)
+ 1408 (soffice.bin 2132 parent 2092)
+ 2880 (soffice.bin 2132 parent 2092)
+ 2168 (msimn.exe 3020 parent 1416)
+ 3828 (msmsgs.exe 824 parent 1416)
+ 2288 (msimn.exe 3020 parent 1416)
+ 464 (msimn.exe 3020 parent 1416)
+ 3124 (msimn.exe 3020 parent 1416)
+ 396 (msmsgs.exe 824 parent 1416)
+ 3120 (soffice.bin 2132 parent 2092)
+ 2908 (soffice.bin 2132 parent 2092)
+ 2836 (soffice.bin 2132 parent 2092)
+ 2512 (spoolsv.exe 1792 parent 708)
+ 2388 (spoolsv.exe 1792 parent 708)
+ 2468 (avgtray.exe 120 parent 1416)
+ 2432 (soffice.bin 2132 parent 2092)
+ 2408 (BRNIPMON.exe 2404 parent 1276)
+ 2136 (soffice.bin 2132 parent 2092)
+ 2120 (spoolsv.exe 1792 parent 708)
+ 2096 (soffice.exe 2092 parent 1908)
+ 2108 (BrStsWnd.exe 1276 parent 1416)
+ 2100 (explorer.exe 1416 parent 1084)
+ 2088 (BrStsWnd.exe 1276 parent 1416)
+ 1832 (msmsgs.exe 824 parent 1416)
+ 1844 (hkcmd.exe 1648 parent 1416)
+ 836 (avgtray.exe 120 parent 1416)
+ 1668 (ctfmon.exe 1664 parent 1416)
+ 1280 (BrStsWnd.exe 1276 parent 1416)
+ 1108 (winvnc4.exe 756 parent 708)
+ 1176 (jusched.exe 1164 parent 1416)
+ 1072 (hkcmd.exe 1648 parent 1416)
+ 680 (csrss.exe 640 parent 576)
+ 676 (csrss.exe 640 parent 576)
+ 1884 (explorer.exe 1416 parent 1084)
+ 232 (explorer.exe 1416 parent 1084)
+ 1876 (explorer.exe 1416 parent 1084)
+ 1692 (explorer.exe 1416 parent 1084)
+ 1080 (winvnc4.exe 756 parent 708)
+ 940 (winvnc4.exe 756 parent 708)
+ 1828 (spoolsv.exe 1792 parent 708)
+ 1812 (spoolsv.exe 1792 parent 708)
+ 1796 (spoolsv.exe 1792 parent 708)
+**************************************************
+Desktop: 0x22e67b0, Name: WinSta0\Disconnect, Next: 0x82382588
+SessionId: 0, DesktopInfo: 0xbc620650, fsHooks: 0
+spwnd: 0xbc6206e8, Windows: 1
+Heap: 0xbc620000, Size: 0x10000, Base: 0xbc620000, Limit: 0xbc630000
+**************************************************
+Desktop: 0x2382588, Name: WinSta0\Winlogon, Next: 0x0
+SessionId: 0, DesktopInfo: 0xbc600650, fsHooks: 0
+spwnd: 0xbc6006e8, Windows: 6
+Heap: 0xbc600000, Size: 0x20000, Base: 0xbc600000, Limit: 0xbc620000
+ 408 (winlogon.exe 664 parent 576)
+ 716 (winlogon.exe 664 parent 576)
+ 688 (winlogon.exe 664 parent 576)
+ 668 (winlogon.exe 664 parent 576)
+**************************************************
+Desktop: 0x1dff2e8, Name: Service-0x0-3e7$\Default, Next: 0x0
+SessionId: 0, DesktopInfo: 0xbc930650, fsHooks: 0
+spwnd: 0xbc9306e8, Windows: 11
+Heap: 0xbc930000, Size: 0x80000, Base: 0xbc930000, Limit: 0xbc9b0000
+ 3568 (svchost.exe 1052 parent 708)
+ 3238597 (svchost.exe 1052 parent 708)
+**************************************************
+Desktop: 0x1d8a708, Name: Service-0x0-3e4$\Default, Next: 0x0
+SessionId: 0, DesktopInfo: 0xbc9b0650, fsHooks: 0
+spwnd: 0xbc9b06e8, Windows: 14
+Heap: 0xbc9b0000, Size: 0x80000, Base: 0xbc9b0000, Limit: 0xbca30000
+ 1116 (svchost.exe 1112 parent 708)
+ 960 (svchost.exe 956 parent 708)

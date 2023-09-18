@@ -1,0 +1,32 @@
+******************************
+Wnd Context       : 0\WinSta0\Default
+Process ID        : 3020
+ImageFileName     : msimn.exe
+IsWow64           : No
+atom_class        : 6.0.2600.5512!Listbox
+value-of WndExtra : 0x95ad8
+firstVisibleRow   : 0
+caretPos          : -1
+rowsVisible       : 1
+itemCount         : 0
+stringsStart      : 0x0
+stringsLength     : 0
+-------------------------
+
+******************************
+Wnd Context       : 0\WinSta0\Default
+Process ID        : 1416
+ImageFileName     : explorer.exe
+IsWow64           : No
+atom_class        : 6.0.2600.5512!Edit
+value-of WndExtra : 0x107558
+nChars            : 3
+selStart          : 0
+selEnd            : 3
+isPwdControl      : False
+undoPos           : 0
+undoLen           : 0
+address-of undoBuf: 0x0
+undoBuf           : 
+-------------------------
+Z:\

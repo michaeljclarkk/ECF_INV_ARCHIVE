@@ -1,0 +1,564 @@
+ Offset(V)  Session     WindowStation          Atom  RefCount    HIndex     Pinned   Name
+---------- ---------- ------------------ ---------- ---------- ---------- ---------- ----
+0x19a1d778     0       Service-0x0-3e5$      0xc00c     1          12         1      Protocols
+0x19a1d778     0       Service-0x0-3e5$      0xc00d     1          13         1      Topics
+0x19a1d778     0       Service-0x0-3e5$      0xc00e     1          14         1      Formats
+0x19a1d778     0       Service-0x0-3e5$      0xc007     1          7          1      StdShowItem
+0x19a1d778     0       Service-0x0-3e5$      0xc011     1          17         1      True
+0x19a1d778     0       Service-0x0-3e5$      0xc010     1          16         1      EditEnvItems
+0x19a1d778     0       Service-0x0-3e5$      0xc012     1          18         1      False
+0x19a1d778     0       Service-0x0-3e5$      0xc015     1          21         1      Close
+0x19a1d778     0       Service-0x0-3e5$      0xc004     1          4          1      StdEditDocument
+0x19a1d778     0       Service-0x0-3e5$      0xc008     1          8          1      StdDoVerbItem
+0x19a1d778     0       Service-0x0-3e5$      0xc003     1          3          1      StdOpenDocument
+0x19a1d778     0       Service-0x0-3e5$      0xc005     1          5          1      StdNewfromTemplate
+0x19a1d778     0       Service-0x0-3e5$      0xc014     1          20         1      Save
+0x19a1d778     0       Service-0x0-3e5$      0xc016     1          22         1      MSDraw
+0x19a1d778     0       Service-0x0-3e5$      0xc002     1          2          1      StdNewDocument
+0x19a1d778     0       Service-0x0-3e5$      0xc00f     1          15         1      Status
+0x19a1d778     0       Service-0x0-3e5$      0xc018     3          24         0      ThemePropScrollBarCtl
+0x19a1d778     0       Service-0x0-3e5$      0xc009     1          9          1      System
+0x19a1d778     0       Service-0x0-3e5$      0xc00b     1          11         1      StdDocumentName
+0x19a1d778     0       Service-0x0-3e5$      0xc013     1          19         1      Change
+0x19a1d778     0       Service-0x0-3e5$      0xc001     1          1          1      StdExit
+0x19a1d778     0       Service-0x0-3e5$      0xc006     1          6          1      StdCloseDocument
+0x19a1d778     0       Service-0x0-3e5$      0xc00a     1          10         1      OLEsystem
+0x19a1d778     0       Service-0x0-3e5$      0xc017     1          23         1      CC32SubclassInfo
+0x1c80b008     0           SAWinSta          0xc00c     1          12         1      Protocols
+0x1c80b008     0           SAWinSta          0xc00d     1          13         1      Topics
+0x1c80b008     0           SAWinSta          0xc00e     1          14         1      Formats
+0x1c80b008     0           SAWinSta          0xc007     1          7          1      StdShowItem
+0x1c80b008     0           SAWinSta          0xc011     1          17         1      True
+0x1c80b008     0           SAWinSta          0xc010     1          16         1      EditEnvItems
+0x1c80b008     0           SAWinSta          0xc012     1          18         1      False
+0x1c80b008     0           SAWinSta          0xc015     1          21         1      Close
+0x1c80b008     0           SAWinSta          0xc004     1          4          1      StdEditDocument
+0x1c80b008     0           SAWinSta          0xc008     1          8          1      StdDoVerbItem
+0x1c80b008     0           SAWinSta          0xc003     1          3          1      StdOpenDocument
+0x1c80b008     0           SAWinSta          0xc005     1          5          1      StdNewfromTemplate
+0x1c80b008     0           SAWinSta          0xc014     1          20         1      Save
+0x1c80b008     0           SAWinSta          0xc016     1          22         1      MSDraw
+0x1c80b008     0           SAWinSta          0xc002     1          2          1      StdNewDocument
+0x1c80b008     0           SAWinSta          0xc00f     1          15         1      Status
+0x1c80b008     0           SAWinSta          0xc009     1          9          1      System
+0x1c80b008     0           SAWinSta          0xc00b     1          11         1      StdDocumentName
+0x1c80b008     0           SAWinSta          0xc013     1          19         1      Change
+0x1c80b008     0           SAWinSta          0xc001     1          1          1      StdExit
+0x1c80b008     0           SAWinSta          0xc006     1          6          1      StdCloseDocument
+0x1c80b008     0           SAWinSta          0xc00a     1          10         1      OLEsystem
+0x1c80b008     0           SAWinSta          0xc017     1          23         1      CC32SubclassInfo
+0x18cfbd30     0           WinSta0           0xc00c     1          12         1      Protocols
+0x18cfbd30     0           WinSta0           0xc00d     1          13         1      Topics
+0x18cfbd30     0           WinSta0           0xc00e     1          14         1      Formats
+0x18cfbd30     0           WinSta0           0xc01a     2          26         0      BltPropThisH
+0x18cfbd30     0           WinSta0           0xc01c     1          28         0      StsWndErrLog
+0x18cfbd30     0           WinSta0           0xc021     24         33         0      OleEndPointID
+0x18cfbd30     0           WinSta0           0xc020     27         32         0      UxSubclassInfo
+0x18cfbd30     0           WinSta0           0xc025     1          37         0      WndProc
+0x18cfbd30     0           WinSta0           0xc02c     1          44         0      CAutoComplete_This
+0x18cfbd30     0           WinSta0           0xc007     1          7          1      StdShowItem
+0x18cfbd30     0           WinSta0           0xc011     1          17         1      True
+0x18cfbd30     0           WinSta0           0xc010     1          16         1      EditEnvItems
+0x18cfbd30     0           WinSta0           0xc01b     1          27         0      PROGMAN
+0x18cfbd30     0           WinSta0           0xc012     1          18         1      False
+0x18cfbd30     0           WinSta0           0xc015     1          21         1      Close
+0x18cfbd30     0           WinSta0           0xc02b     1          43         0      CAddressComboEx_This
+0x18cfbd30     0           WinSta0           0xc004     1          4          1      StdEditDocument
+0x18cfbd30     0           WinSta0           0xc01f     5          31         0      OleDropTargetMarshalHwnd
+0x18cfbd30     0           WinSta0           0xc028     1          40         0      CBands
+0x18cfbd30     0           WinSta0           0xc008     1          8          1      StdDoVerbItem
+0x18cfbd30     0           WinSta0           0xc019     2          25         0      BltPropThisL
+0x18cfbd30     0           WinSta0           0xc01e     5          30         0      OleDropTargetInterface
+0x18cfbd30     0           WinSta0           0xc022     1          34         0      pszDesktopTitleW
+0x18cfbd30     0           WinSta0           0xc01d     1          29         0      BrStsWndAtom
+0x18cfbd30     0           WinSta0           0xc003     1          3          1      StdOpenDocument
+0x18cfbd30     0           WinSta0           0xc02a     2          42         0      CAddressCombo_This
+0x18cfbd30     0           WinSta0           0xc005     1          5          1      StdNewfromTemplate
+0x18cfbd30     0           WinSta0           0xc014     1          20         1      Save
+0x18cfbd30     0           WinSta0           0xc016     1          22         1      MSDraw
+0x18cfbd30     0           WinSta0           0xc002     1          2          1      StdNewDocument
+0x18cfbd30     0           WinSta0           0xc024     1          36         0      BRNIPMon_192.168.1.107
+0x18cfbd30     0           WinSta0           0xc027     1          39         0      OETLWindow
+0x18cfbd30     0           WinSta0           0xc00f     1          15         1      Status
+0x18cfbd30     0           WinSta0           0xc018     30         24         0      ThemePropScrollBarCtl
+0x18cfbd30     0           WinSta0           0xc023     4          35         0      AfxOldWndProc423
+0x18cfbd30     0           WinSta0           0xc026     2          38         0      ConnectionNotify
+0x18cfbd30     0           WinSta0           0xc009     1          9          1      System
+0x18cfbd30     0           WinSta0           0xc00b     1          11         1      StdDocumentName
+0x18cfbd30     0           WinSta0           0xc013     1          19         1      Change
+0x18cfbd30     0           WinSta0           0xc001     1          1          1      StdExit
+0x18cfbd30     0           WinSta0           0xc006     1          6          1      StdCloseDocument
+0x18cfbd30     0           WinSta0           0xc029     2          41         0      CAddressBand_This
+0x18cfbd30     0           WinSta0           0xc00a     1          10         1      OLEsystem
+0x18cfbd30     0           WinSta0           0xc017     1          23         1      CC32SubclassInfo
+0x18dd6da8     0       Service-0x0-3e7$      0xc00c     1          12         1      Protocols
+0x18dd6da8     0       Service-0x0-3e7$      0xc00d     1          13         1      Topics
+0x18dd6da8     0       Service-0x0-3e7$      0xc00e     1          14         1      Formats
+0x18dd6da8     0       Service-0x0-3e7$      0xc019     1          25         0      RASDLG
+0x18dd6da8     0       Service-0x0-3e7$      0xc007     1          7          1      StdShowItem
+0x18dd6da8     0       Service-0x0-3e7$      0xc011     1          17         1      True
+0x18dd6da8     0       Service-0x0-3e7$      0xc010     1          16         1      EditEnvItems
+0x18dd6da8     0       Service-0x0-3e7$      0xc012     1          18         1      False
+0x18dd6da8     0       Service-0x0-3e7$      0xc015     1          21         1      Close
+0x18dd6da8     0       Service-0x0-3e7$      0xc004     1          4          1      StdEditDocument
+0x18dd6da8     0       Service-0x0-3e7$      0xc008     1          8          1      StdDoVerbItem
+0x18dd6da8     0       Service-0x0-3e7$      0xc003     1          3          1      StdOpenDocument
+0x18dd6da8     0       Service-0x0-3e7$      0xc005     1          5          1      StdNewfromTemplate
+0x18dd6da8     0       Service-0x0-3e7$      0xc01b     1          27         0      RASSRVUI_PAGE_ID
+0x18dd6da8     0       Service-0x0-3e7$      0xc014     1          20         1      Save
+0x18dd6da8     0       Service-0x0-3e7$      0xc016     1          22         1      MSDraw
+0x18dd6da8     0       Service-0x0-3e7$      0xc002     1          2          1      StdNewDocument
+0x18dd6da8     0       Service-0x0-3e7$      0xc00f     1          15         1      Status
+0x18dd6da8     0       Service-0x0-3e7$      0xc018     29         24         0      ThemePropScrollBarCtl
+0x18dd6da8     0       Service-0x0-3e7$      0xc009     1          9          1      System
+0x18dd6da8     0       Service-0x0-3e7$      0xc00b     1          11         1      StdDocumentName
+0x18dd6da8     0       Service-0x0-3e7$      0xc013     1          19         1      Change
+0x18dd6da8     0       Service-0x0-3e7$      0xc001     1          1          1      StdExit
+0x18dd6da8     0       Service-0x0-3e7$      0xc006     1          6          1      StdCloseDocument
+0x18dd6da8     0       Service-0x0-3e7$      0xc01a     1          26         0      RASSRVUI_PAGE_DATA
+0x18dd6da8     0       Service-0x0-3e7$      0xc00a     1          10         1      OLEsystem
+0x18dd6da8     0       Service-0x0-3e7$      0xc017     1          23         1      CC32SubclassInfo
+0x1950e7d0     0       Service-0x0-3e4$      0xc00c     1          12         1      Protocols
+0x1950e7d0     0       Service-0x0-3e4$      0xc00d     1          13         1      Topics
+0x1950e7d0     0       Service-0x0-3e4$      0xc00e     1          14         1      Formats
+0x1950e7d0     0       Service-0x0-3e4$      0xc007     1          7          1      StdShowItem
+0x1950e7d0     0       Service-0x0-3e4$      0xc011     1          17         1      True
+0x1950e7d0     0       Service-0x0-3e4$      0xc010     1          16         1      EditEnvItems
+0x1950e7d0     0       Service-0x0-3e4$      0xc012     1          18         1      False
+0x1950e7d0     0       Service-0x0-3e4$      0xc015     1          21         1      Close
+0x1950e7d0     0       Service-0x0-3e4$      0xc004     1          4          1      StdEditDocument
+0x1950e7d0     0       Service-0x0-3e4$      0xc008     1          8          1      StdDoVerbItem
+0x1950e7d0     0       Service-0x0-3e4$      0xc003     1          3          1      StdOpenDocument
+0x1950e7d0     0       Service-0x0-3e4$      0xc005     1          5          1      StdNewfromTemplate
+0x1950e7d0     0       Service-0x0-3e4$      0xc014     1          20         1      Save
+0x1950e7d0     0       Service-0x0-3e4$      0xc016     1          22         1      MSDraw
+0x1950e7d0     0       Service-0x0-3e4$      0xc002     1          2          1      StdNewDocument
+0x1950e7d0     0       Service-0x0-3e4$      0xc00f     1          15         1      Status
+0x1950e7d0     0       Service-0x0-3e4$      0xc018     4          24         0      ThemePropScrollBarCtl
+0x1950e7d0     0       Service-0x0-3e4$      0xc009     1          9          1      System
+0x1950e7d0     0       Service-0x0-3e4$      0xc00b     1          11         1      StdDocumentName
+0x1950e7d0     0       Service-0x0-3e4$      0xc013     1          19         1      Change
+0x1950e7d0     0       Service-0x0-3e4$      0xc001     1          1          1      StdExit
+0x1950e7d0     0       Service-0x0-3e4$      0xc006     1          6          1      StdCloseDocument
+0x1950e7d0     0       Service-0x0-3e4$      0xc00a     1          10         1      OLEsystem
+0x1950e7d0     0       Service-0x0-3e4$      0xc017     1          23         1      CC32SubclassInfo
+0x17930da8 ---------- ------------------     0xc004     1          4          1      Native
+0x17930da8 ---------- ------------------     0xc00e     1          14         1      Object Descriptor
+0x17930da8 ---------- ------------------     0xc00f     1          15         1      Link Source Descriptor
+0x17930da8 ---------- ------------------     0xc017     1          23         1      Button
+0x17930da8 ---------- ------------------     0xc044     72         68         0      msctls_updown32
+0x17930da8 ---------- ------------------     0xc083     24        131         0      MSIMEMouseOperation
+0x17930da8 ---------- ------------------     0xc097     6         151         0      WorkerW
+0x17930da8 ---------- ------------------     0xc0af     18        175         0      MSUIM.Msg.StubCleanUp
+0x17930da8 ---------- ------------------     0xc0bd     2         189         0      CMBExecute
+0x17930da8 ---------- ------------------     0xc0c1     5         193         0      FileContents
+0x17930da8 ---------- ------------------     0xc0ff     2         255         0      Microsoft.Webcheck.Dialmon.IEXPLORER_EXITING
+0x17930da8 ---------- ------------------     0xc144     2         324         0      application/x-compressed
+0x17930da8 ---------- ------------------     0xc153     1         339         0      C:\WINDOWS\system32\psbase.dll
+0x17930da8 ---------- ------------------     0xc159     9         345         0      C:\Program Files\Outlook Express\msoeres.dll
+0x17930da8 ---------- ------------------     0xc15c     1         348         0      Outlook Express Folder
+0x17930da8 ---------- ------------------     0xc16a     2         362         0      ATL:SysListView32
+0x17930da8 ---------- ------------------     0xc181     2         385         0      C:\WINDOWS\system32\xpsp2res.dll
+0x17930da8 ---------- ------------------     0xc002     1          2          1      ObjectLink
+0x17930da8 ---------- ------------------     0xc02d     1          45         1      SysQOS
+0x17930da8 ---------- ------------------     0xc04b     72         75         0      SysIPAddress32
+0x17930da8 ---------- ------------------     0xc0b3     18        179         0      CicMarshalWndClass
+0x17930da8 ---------- ------------------     0xc138     2         312         0      image/tiff
+0x17930da8 ---------- ------------------     0xc13b     3         315         0      image/bmp
+0x17930da8 ---------- ------------------     0xc141     3         321         0      video/avi
+0x17930da8 ---------- ------------------     0xc0d8     1         216         0      WM_QUERY_IDENTITY_CHANGE
+0x17930da8 ---------- ------------------     0xc154     2         340         0      OutlookExpressHiddenWindow
+0x17930da8 ---------- ------------------     0xc16e     2         366         0      ME_DocHost
+0x17930da8 ---------- ------------------     0xc178     1         376         0      text/x-component
+0x17930da8 ---------- ------------------     0xc190     2         400         0      MimeEdit_FormatBar
+0x17930da8 ---------- ------------------     0xc1a3     2         419         0      SCardUISmartCardCertAvail
+0x17930da8 ---------- ------------------     0xc066     28        102         0      6.0.2600.5512!ComboLBox
+0x17930da8 ---------- ------------------     0xc096     5         150         0      OLE_MESSAHE
+0x17930da8 ---------- ------------------     0xc0c0     3         192         0      Net Resource
+0x17930da8 ---------- ------------------     0xc088     5         136         0      XElementUnhandledSyschar
+0x17930da8 ---------- ------------------     0xc0fe     2         254         0      Microsoft.Webcheck.Dialmon.SET_CONNECTOID_NAME
+0x17930da8 ---------- ------------------     0xc110     4         272         0      C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83\comctl32.dll
+0x17930da8 ---------- ------------------     0xc12e     2         302         0      application/postscript
+0x17930da8 ---------- ------------------     0xc10d     2         269         0      Microsoft Outlook Express HTML Format
+0x17930da8 ---------- ------------------     0xc186     2         390         0      RichEdit20W
+0x17930da8 ---------- ------------------     0xc1a1     2         417         0      SCardUISmartCardInsertion
+0x17930da8 ---------- ------------------     0xc019     1          25         1      Static
+0x17930da8 ---------- ------------------     0xc031     1          49         1      SysLayer
+0x17930da8 ---------- ------------------     0xc057     28         87         0      6.0.2600.5512!msctls_updown32
+0x17930da8 ---------- ------------------     0xc061     28         97         0      6.0.2600.5512!Button
+0x17930da8 ---------- ------------------     0xc08a     4         138         0      C:\WINDOWS\system32\MSGINA.dll
+0x17930da8 ---------- ------------------     0xc0a3     2         163         0      AVGEMC_CLASS_SRV
+0x17930da8 ---------- ------------------     0xc10e     2         270         0      C:\WINDOWS\system32\winsrv.dll
+0x17930da8 ---------- ------------------     0xc10f     2         271         0      ConsoleWindowClass
+0x17930da8 ---------- ------------------     0xc177     3         375         0      RTF As Text
+0x17930da8 ---------- ------------------     0xc185     3         389         0      AC_ItemActivate
+0x17930da8 ---------- ------------------     0xc188     1         392         0      QueryCancelAutoPlay
+0x17930da8 ---------- ------------------     0xc192     4         402         0      C:\WINDOWS\system32\SHDOCVW.dll
+0x17930da8 ---------- ------------------     0xc023     1          35         1      DDEMLUnicodeClient
+0x17930da8 ---------- ------------------     0xc042     72         66         0      SysTreeView32
+0x17930da8 ---------- ------------------     0xc05e     28         94         0      6.0.2600.5512!SysIPAddress32
+0x17930da8 ---------- ------------------     0xc090     2         144         0      SAGEWINDOWCLASS
+0x17930da8 ---------- ------------------     0xc199     2         409         0      Auto-Suggest Dropdown
+0x17930da8 ---------- ------------------     0xc19c     2         412         0      CtrlNotifySink
+0x17930da8 ---------- ------------------     0xc009     1          9          1      DataObject
+0x17930da8 ---------- ------------------     0xc028     1          40         1      SysICS
+0x17930da8 ---------- ------------------     0xc03d     72         61         0      tooltips_class32
+0x17930da8 ---------- ------------------     0xc046     72         70         0      msctls_hotkey32
+0x17930da8 ---------- ------------------     0xc048     72         72         0      SysMonthCal32
+0x17930da8 ---------- ------------------     0xc049     72         73         0      SysDateTimePick32
+0x17930da8 ---------- ------------------     0xc103     3         259         0      C:\WINDOWS\system32\stobject.dll
+0x17930da8 ---------- ------------------     0xc121     2         289         0      c:\windows\system32\tapisrv.dll
+0x17930da8 ---------- ------------------     0xc14c     2         332         0      text/scriptlet
+0x17930da8 ---------- ------------------     0xc14f     1         335         0      WM_IDENTITY_CHANGED
+0x17930da8 ---------- ------------------     0xc15e     1         350         0      Outlook Express Shortcut
+0x17930da8 ---------- ------------------     0xc163     2         355         0      Outlook Express Outlook Bar Frame
+0x17930da8 ---------- ------------------     0xc032     1          50         1      ACTIVATESHELLWINDOW
+0x17930da8 ---------- ------------------     0xc04a     72         74         0      ComboBoxEx32
+0x17930da8 ---------- ------------------     0xc062     28         98         0      6.0.2600.5512!Static
+0x17930da8 ---------- ------------------     0xc070     18        112         0      commdlg_ShareViolation
+0x17930da8 ---------- ------------------     0xc089     4         137         0      Link Window
+0x17930da8 ---------- ------------------     0xc093     6         147         0      SysCredential
+0x17930da8 ---------- ------------------     0xc09f     2         159         0      TrayClockWClass
+0x17930da8 ---------- ------------------     0xc0f7     2         247         0      AvgRefreshApplicationIcons
+0x17930da8 ---------- ------------------     0xc111     2         273         0      Connections Tray
+0x17930da8 ---------- ------------------     0xc135     19        309         0      image/gif
+0x17930da8 ---------- ------------------     0xc139     3         313         0      image/x-png
+0x17930da8 ---------- ------------------     0xc15f     2         351         0      Outlook Express Browser Class
+0x17930da8 ---------- ------------------     0xc187     2         391         0      ATH_Note
+0x17930da8 ---------- ------------------     0xc039     1          57         1      FlashWState
+0x17930da8 ---------- ------------------     0xc055     28         85         0      6.0.2600.5512!SysTreeView32
+0x17930da8 ---------- ------------------     0xc07a     24        122         0      MSCTFIME Composition
+0x17930da8 ---------- ------------------     0xc027     1          39         1      SysCH
+0x17930da8 ---------- ------------------     0xc050     28         80         0      6.0.2600.5512!tooltips_class32
+0x17930da8 ---------- ------------------     0xc059     28         89         0      6.0.2600.5512!msctls_hotkey32
+0x17930da8 ---------- ------------------     0xc05b     28         91         0      6.0.2600.5512!SysMonthCal32
+0x17930da8 ---------- ------------------     0xc05c     28         92         0      6.0.2600.5512!SysDateTimePick32
+0x17930da8 ---------- ------------------     0xc07f     24        127         0      MSIMEDocumentFeed
+0x17930da8 ---------- ------------------     0xc095     5         149         0      OM_POST_WM_COMMAND
+0x17930da8 ---------- ------------------     0xc09c     1         156         0      Logoff User
+0x17930da8 ---------- ------------------     0xc0c2     4         194         0      FileGroupDescriptor
+0x17930da8 ---------- ------------------     0xc0c8     2         200         0      Preferred DropEffect
+0x17930da8 ---------- ------------------     0xc08c     2         140         0      HkClass
+0x17930da8 ---------- ------------------     0xc0d9     2         217         0      UserEventWindow
+0x17930da8 ---------- ------------------     0xc0ea     4         234         0      commctrl_DragListMsg
+0x17930da8 ---------- ------------------     0xc10a     1         266         0      TryWindowsMsgrShutdown
+0x17930da8 ---------- ------------------     0xc132     2         306         0      audio/x-aiff
+0x17930da8 ---------- ------------------     0xc13c     3         316         0      image/x-jg
+0x17930da8 ---------- ------------------     0xc145     2         325         0      application/x-zip-compressed
+0x17930da8 ---------- ------------------     0xc183     2         387         0      OE_Envelope
+0x17930da8 ---------- ------------------     0xc19d     4         413         0      DUserUnSubClassMessage
+0x17930da8 ---------- ------------------     0xc011     1          17         1      PBrush
+0x17930da8 ---------- ------------------     0xc03a    158         58         0      ShellGetDragImage
+0x17930da8 ---------- ------------------     0xc03f     72         63         0      SysListView32
+0x17930da8 ---------- ------------------     0xc05d     28         93         0      6.0.2600.5512!ComboBoxEx32
+0x17930da8 ---------- ------------------     0xc06a     28        106         0      ReaderModeCtl
+0x17930da8 ---------- ------------------     0xc0f6     1         246         0      avg_expander_ensure_visible
+0x17930da8 ---------- ------------------     0xc0fd     2         253         0      Microsoft.Webcheck.Dialmon.WINSOCK_ACTIVITY
+0x17930da8 ---------- ------------------     0xc11e     2         286         0      SALCOMWND
+0x17930da8 ---------- ------------------     0xc170     2         368         0      CF_RTF
+0x17930da8 ---------- ------------------     0xc086     1         134         0      C:\WINDOWS\system32\uxtheme.dll
+0x17930da8 ---------- ------------------     0xc0ac     18        172         0      MSUIM.Msg.RpcSendReceive
+0x17930da8 ---------- ------------------     0xc0b6     2         182         0      Progman
+0x17930da8 ---------- ------------------     0xc0fc     2         252         0      MS_WebcheckMonitor
+0x17930da8 ---------- ------------------     0xc0e9     2         233         0      BrStsKillerWnd
+0x17930da8 ---------- ------------------     0xc130     2         304         0      application/macbinhex40
+0x17930da8 ---------- ------------------     0xc029     1          41         1      SysIC
+0x17930da8 ---------- ------------------     0xc043     72         67         0      msctls_trackbar32
+0x17930da8 ---------- ------------------     0xc0ae     18        174         0      MSUIM.Msg.CheckThreadInputIdel
+0x17930da8 ---------- ------------------     0xc0c6     2         198         0      PrinterFriendlyName
+0x17930da8 ---------- ------------------     0xc0d5     1         213         0      GetAutomationObject
+0x17930da8 ---------- ------------------     0xc0e3     1         227         0      OLEUI_MSG_BROWSE_OFN
+0x17930da8 ---------- ------------------     0xc0f4     1         244         0      LOCKS-7DA6C4FB-F63A-4574-92DB-E9ACC22C384B
+0x17930da8 ---------- ------------------     0xc114     2         276         0      Afx:00400000:0
+0x17930da8 ---------- ------------------     0xc136     3         310         0      image/pjpeg
+0x17930da8 ---------- ------------------     0xc148     2         328         0      application/x-msdownload
+0x17930da8 ---------- ------------------     0xc176     1         374         0      WM_HTML_GETOBJECT
+0x17930da8 ---------- ------------------     0xc01f     1          31         1      DDEMLEvent
+0x17930da8 ---------- ------------------     0xc022     1          34         1      DDEMLAnsiClient
+0x17930da8 ---------- ------------------     0xc03b     72         59         0      ToolbarWindow32
+0x17930da8 ---------- ------------------     0xc052     28         82         0      6.0.2600.5512!SysListView32
+0x17930da8 ---------- ------------------     0xc06b     28        107         0      6.0.2600.5512!ReaderModeCtl
+0x17930da8 ---------- ------------------     0xc092     2         146         0      rfb::win32::MsgWindowClass
+0x17930da8 ---------- ------------------     0xc0be     2         190         0      CMBOpenChevronMenu
+0x17930da8 ---------- ------------------     0xc12b     3         299         0      text/plain
+0x17930da8 ---------- ------------------     0xc147     2         327         0      application/java
+0x17930da8 ---------- ------------------     0xc17c     2         380         0      URL Moniker Notification Window
+0x17930da8 ---------- ------------------     0xc02a     1          42         1      SHELLHOOK
+0x17930da8 ---------- ------------------     0xc02e     1          46         1      SysDDEI
+0x17930da8 ---------- ------------------     0xc045     72         69         0      msctls_progress32
+0x17930da8 ---------- ------------------     0xc072     31        114         0      commdlg_ColorOK
+0x17930da8 ---------- ------------------     0xc0e0     1         224         0      OLEUI_MSG_CONVERT
+0x17930da8 ---------- ------------------     0xc0e2     1         226         0      OLEUI_MSG_ADDCONTROL
+0x17930da8 ---------- ------------------     0xc108     2         264         0      MSBLUIManager
+0x17930da8 ---------- ------------------     0xc11d     2         285         0      SALTMPSUBFRAME
+0x17930da8 ---------- ------------------     0xc13d     3         317         0      image/x-art
+0x17930da8 ---------- ------------------     0xc16b     2         363         0      WAB Notification Engine
+0x17930da8 ---------- ------------------     0xc182     2         386         0      MtaOleReqWnd###
+0x17930da8 ---------- ------------------     0xc191     2         401         0      Ath_PaintBlocker
+0x17930da8 ---------- ------------------     0xc198     1         408         0      CAEBAsyncNavigation
+0x17930da8 ---------- ------------------     0xc00c     1          12         1      Custom Link Source
+0x17930da8 ---------- ------------------     0xc014     1          20         1      Screen Picture
+0x17930da8 ---------- ------------------     0xc025     1          37         1      DDEMLUnicodeServer
+0x17930da8 ---------- ------------------     0xc034     1          52         1      OTHERWINDOWDESTROYED
+0x17930da8 ---------- ------------------     0xc056     28         86         0      6.0.2600.5512!msctls_trackbar32
+0x17930da8 ---------- ------------------     0xc091     4         145         0      BltClWin
+0x17930da8 ---------- ------------------     0xc0a5     1         165         0      HardError
+0x17930da8 ---------- ------------------     0xc0a8     18        168         0      MSUIM.Msg.SetFocus
+0x17930da8 ---------- ------------------     0xc0b8     2         184         0      MenuSite
+0x17930da8 ---------- ------------------     0xc0d0     2         208         0      NotRecyclable
+0x17930da8 ---------- ------------------     0xc0f2     2         242         0      AvgDlgAppPopupFlashWnd
+0x17930da8 ---------- ------------------     0xc0fb     2         251         0      CicLoaderWndClass
+0x17930da8 ---------- ------------------     0xc109     2         265         0      HiddenWindowClass
+0x17930da8 ---------- ------------------     0xc122     7         290         0      text/html
+0x17930da8 ---------- ------------------     0xc160     2         352         0      DirectDBNotifyWndProc
+0x17930da8 ---------- ------------------     0xc04e     28         78         0      6.0.2600.5512!ToolbarWindow32
+0x17930da8 ---------- ------------------     0xc16d     2         365         0      ThorFrontPageWndClass
+0x17930da8 ---------- ------------------     0xc180     3         384         0      WM_ATLGETCONTROL
+0x17930da8 ---------- ------------------     0xc058     28         88         0      6.0.2600.5512!msctls_progress32
+0x17930da8 ---------- ------------------     0xc0a1     1         161         0      AVGRefreshCC
+0x17930da8 ---------- ------------------     0xc0c3     5         195         0      FileGroupDescriptorW
+0x17930da8 ---------- ------------------     0xc0c7     4         199         0      HTML Format
+0x17930da8 ---------- ------------------     0xc123     2         291         0      Tapi32WndClass
+0x17930da8 ---------- ------------------     0xc0a0     3         160         0      C:\Program Files\Messenger\msmsgs.exe
+0x17930da8 ---------- ------------------     0xc155     2         341         0      CIESplashScreen
+0x17930da8 ---------- ------------------     0xc15b     2         347         0      DirectDBListenWndProc
+0x17930da8 ---------- ------------------     0xc165     2         357         0      FolderBar Frame
+0x17930da8 ---------- ------------------     0xc18d     1         397         0      Rich Text Format Without Objects
+0x17930da8 ---------- ------------------     0xc02c     1          44         1      SysDT
+0x17930da8 ---------- ------------------     0xc041     72         65         0      SysTabControl32
+0x17930da8 ---------- ------------------     0xc0b0     18        176         0      MSUIM.Msg.ShowFloating
+0x17930da8 ---------- ------------------     0xc0e7     11        231         0      C:\Program Files\Brownie\BrstsWnd.exe
+0x17930da8 ---------- ------------------     0xc101     2         257         0      BrStsLptLogThWnd
+0x17930da8 ---------- ------------------     0xc11b     2         283         0      SALFRAME
+0x17930da8 ---------- ------------------     0xc152     1         338         0      WM_IDENTITY_INFO_CHANGED
+0x17930da8 ---------- ------------------     0xc179     1         377         0      video/quicktime
+0x17930da8 ---------- ------------------     0xc1a2     2         418         0      SCardUISmartCardRemoval
+0x17930da8 ---------- ------------------     0xc00d     1          13         1      Link Source
+0x17930da8 ---------- ------------------     0xc094     1         148         0      C:\Program Files\RealVNC\VNC4\WinVNC4.exe
+0x17930da8 ---------- ------------------     0xc099     1         153         0      Enable Balloon Tip
+0x17930da8 ---------- ------------------     0xc0bc     2         188         0      CMBAutomation
+0x17930da8 ---------- ------------------     0xc0df     1         223         0      OLEUI_MSG_CLOSEBUSYDIALOG
+0x17930da8 ---------- ------------------     0xc113     2         275         0      MGMTAPI Notification Class
+0x17930da8 ---------- ------------------     0xc125     2         293         0      HidPhoneNotifClass
+0x17930da8 ---------- ------------------     0xc006     1          6          1      FileName
+0x17930da8 ---------- ------------------     0xc09a     3         154         0      DDEEXECUTESHORTCIRCUIT
+0x17930da8 ---------- ------------------     0xc0b5     4         181         0      CiceroUIWndFrame
+0x17930da8 ---------- ------------------     0xc0cd     2         205         0      InShellDragLoop
+0x17930da8 ---------- ------------------     0xc12a     2         298         0      hatchwin
+0x17930da8 ---------- ------------------     0xc151     2         337         0      Internet Message (rfc822/rfc1522)
+0x17930da8 ---------- ------------------     0xc19f     2         415         0      SCardUIReaderArrival
+0x17930da8 ---------- ------------------     0xc03c     72         60         0      ReBarWindow32
+0x17930da8 ---------- ------------------     0xc054     28         84         0      6.0.2600.5512!SysTabControl32
+0x17930da8 ---------- ------------------     0xc0ad     18        173         0      MSUIM.Msg.ThreadMarshal
+0x17930da8 ---------- ------------------     0xc0d7     3         215         0      SubclassedFSNotify
+0x17930da8 ---------- ------------------     0xc0f9     2         249         0      AvgWndClass_Tray
+0x17930da8 ---------- ------------------     0xc10b     2         267         0      BadApplicationNotificationWindowClass
+0x17930da8 ---------- ------------------     0xc120     2         288         0      GDI+ Accessibility
+0x17930da8 ---------- ------------------     0xc131     2         305         0      application/pdf
+0x17930da8 ---------- ------------------     0xc10c     4         268         0      SysFader
+0x17930da8 ---------- ------------------     0xc18a     1         394         0      RTF in UTF8
+0x17930da8 ---------- ------------------     0xc02f     1          47         1      SysWNDO
+0x17930da8 ---------- ------------------     0xc06c     9         108         0      WOWLFChange
+0x17930da8 ---------- ------------------     0xc07e     18        126         0      MSIMEReconvert
+0x17930da8 ---------- ------------------     0xc080     24        128         0      MSIMEQueryPosition
+0x17930da8 ---------- ------------------     0xc081     18        129         0      MSIMEModeBias
+0x17930da8 ---------- ------------------     0xc11c     2         284         0      SALSUBFRAME
+0x17930da8 ---------- ------------------     0xc140     3         320         0      image/x-icon
+0x17930da8 ---------- ------------------     0xc18c     1         396         0      RICHEDIT
+0x17930da8 ---------- ------------------     0xc024     1          36         1      DDEMLAnsiServer
+0x17930da8 ---------- ------------------     0xc06e     9         110         0      WOWCHOOSEFONT_GETLOGFONT
+0x17930da8 ---------- ------------------     0xc06f     18        111         0      commdlg_LBSelChangedNotify
+0x17930da8 ---------- ------------------     0xc0ca     2         202         0      Logical Performed DropEffect
+0x17930da8 ---------- ------------------     0xc0d1     2         209         0      Briefcase File Object
+0x17930da8 ---------- ------------------     0xc0d2     2         210         0      DropEffectFolderList
+0x17930da8 ---------- ------------------     0xc0fa     2         250         0      SapiTipWorkerClassV1.0
+0x17930da8 ---------- ------------------     0xc11a     5         282         0      C:\Program Files\OpenOffice.org 3\program\soffice.bin
+0x17930da8 ---------- ------------------     0xc126     2         294         0      TreeList
+0x17930da8 ---------- ------------------     0xc128     2         296         0      SO Executer Class
+0x17930da8 ---------- ------------------     0xc13a     3         314         0      image/png
+0x17930da8 ---------- ------------------     0xc184     3         388         0      AC_SearchComplete
+0x17930da8 ---------- ------------------     0xc04f     28         79         0      6.0.2600.5512!ReBarWindow32
+0x17930da8 ---------- ------------------     0xc068     28        104         0      SysLink
+0x17930da8 ---------- ------------------     0xc079     24        121         0      MSCTFIME UI
+0x17930da8 ---------- ------------------     0xc0d6     3         214         0      ShellFileOpened
+0x17930da8 ---------- ------------------     0xc0e1     1         225         0      OLEUI_MSG_CHANGESOURCE
+0x17930da8 ---------- ------------------     0xc13f     3         319         0      image/x-wmf
+0x17930da8 ---------- ------------------     0xc17d     2         381         0      Outlook Express Message View
+0x17930da8 ---------- ------------------     0xc19b     2         411         0      DirectUIHWND
+0x17930da8 ---------- ------------------     0xc008     1          8          1      NetworkName
+0x17930da8 ---------- ------------------     0xc012     1          18         1      MSDraw
+0x17930da8 ---------- ------------------     0xc0d4     4         212         0      SHELLDLL_DefView
+0x17930da8 ---------- ------------------     0xc0ec     3         236         0      RichEdit Text and Objects
+0x17930da8 ---------- ------------------     0xc0f1     2         241         0      AvgMsgPostponeUpgrade
+0x17930da8 ---------- ------------------     0xc0e8     2         232         0      BrStsWnd
+0x17930da8 ---------- ------------------     0xc18f     1         399         0      Outlook Express Recipients
+0x17930da8 ---------- ------------------     0xc001     1          1          1      USER32
+0x17930da8 ---------- ------------------     0xc026     1          38         1      IME
+0x17930da8 ---------- ------------------     0xc071     19        113         0      commdlg_FileNameOK
+0x17930da8 ---------- ------------------     0xc09d     2         157         0      winmm_devicechange
+0x17930da8 ---------- ------------------     0xc0c9     2         201         0      Performed DropEffect
+0x17930da8 ---------- ------------------     0xc0cf     2         207         0      TargetCLSID
+0x17930da8 ---------- ------------------     0xc12c     2         300         0      text/richtext
+0x17930da8 ---------- ------------------     0xc12f     2         303         0      application/base64
+0x17930da8 ---------- ------------------     0xc157     1         343         0      ## Athena_Account_Manager_Notification_Message ##
+0x17930da8 ---------- ------------------     0xc15d     1         349         0      Outlook Express Messages
+0x17930da8 ---------- ------------------     0xc010     1          16         1      OleDraw
+0x17930da8 ---------- ------------------     0xc033     1          51         1      OTHERWINDOWCREATED
+0x17930da8 ---------- ------------------     0xc069     28        105         0      6.0.2600.5512!SysLink
+0x17930da8 ---------- ------------------     0xc075     18        117         0      commdlg_help
+0x17930da8 ---------- ------------------     0xc0a4     2         164         0      MSTaskSwWClass
+0x17930da8 ---------- ------------------     0xc0c4     2         196         0      Shell IDLData Private
+0x17930da8 ---------- ------------------     0xc0c5     4         197         0      FileNameMapW
+0x17930da8 ---------- ------------------     0xc104     2         260         0      SystemTray_Main
+0x17930da8 ---------- ------------------     0xc127     2         295         0      SO Listener Class
+0x17930da8 ---------- ------------------     0xc14b     2         331         0      application/x-netcdf
+0x17930da8 ---------- ------------------     0xc14e     2         334         0      application/xml
+0x17930da8 ---------- ------------------     0xc150     1         336         0      message/rfc822
+0x17930da8 ---------- ------------------     0xc166     2         358         0      Outlook Express Navigation Pane
+0x17930da8 ---------- ------------------     0xc194     2         404         0      IEFrame
+0x17930da8 ---------- ------------------     0xc007     1          7          1      FileNameW
+0x17930da8 ---------- ------------------     0xc021     1          33         1      DMGClass
+0x17930da8 ---------- ------------------     0xc08e     18        142         0      MSWHEEL_ROLLMSG
+0x17930da8 ---------- ------------------     0xc0ba     2         186         0      CMBFullCancel
+0x17930da8 ---------- ------------------     0xc0bb     2         187         0      CMBDragCancel
+0x17930da8 ---------- ------------------     0xc0e6     2         230         0      CActivityMonitor::Window
+0x17930da8 ---------- ------------------     0xc137     4         311         0      image/jpeg
+0x17930da8 ---------- ------------------     0xc161     2         353         0      SizableRebar
+0x17930da8 ---------- ------------------     0xc164     2         356         0      FolderBar Window
+0x17930da8 ---------- ------------------     0xc17e     2         382         0      Outlook Express Message List
+0x17930da8 ---------- ------------------     0xc18b     1         395         0      RTF with NCRs for nonASCII
+0x17930da8 ---------- ------------------     0xc1a4     2         420         0      SCardUISmartCardStatus
+0x17930da8 ---------- ------------------     0xc016     1          22         1      MoreOlePrivateData
+0x17930da8 ---------- ------------------     0xc036     1          54         1      Ghost
+0x17930da8 ---------- ------------------     0xc04c     72         76         0      SysPager
+0x17930da8 ---------- ------------------     0xc07b     24        123         0      MSIMEService
+0x17930da8 ---------- ------------------     0xc084     18        132         0      MSIMEKeyMap
+0x17930da8 ---------- ------------------     0xc08f     11        143         0      TaskbarCreated
+0x17930da8 ---------- ------------------     0xc0a6     6         166         0      CLIPBRDWNDCLASS
+0x17930da8 ---------- ------------------     0xc0a7     18        167         0      MSUIM.Msg.Private
+0x17930da8 ---------- ------------------     0xc0a9     18        169         0      MSUIM.Msg.ThreadTerminate
+0x17930da8 ---------- ------------------     0xc0de     1         222         0      OLEUI_MSG_CHANGEICON
+0x17930da8 ---------- ------------------     0xc0eb     6         235         0      Rich Text Format
+0x17930da8 ---------- ------------------     0xc107     2         263         0      MSGSHotmailSP
+0x17930da8 ---------- ------------------     0xc118     2         280         0      C:\Program Files\Brownie\Brnipmon.exe
+0x17930da8 ---------- ------------------     0xc156     2         342         0      Ath_ThumbNail
+0x17930da8 ---------- ------------------     0xc158     2         344         0      ConnectionNotify
+0x17930da8 ---------- ------------------     0xc19a     2         410         0      DUIViewWndClassName
+0x17930da8 ---------- ------------------     0xc018     1          24         1      Edit
+0x17930da8 ---------- ------------------     0xc01c     1          28         1      ComboBox
+0x17930da8 ---------- ------------------     0xc038     1          56         1      OleMainThreadWndClass
+0x17930da8 ---------- ------------------     0xc03e     72         62         0      msctls_statusbar32
+0x17930da8 ---------- ------------------     0xc040     72         64         0      SysHeader32
+0x17930da8 ---------- ------------------     0xc078     2         120         0      SAS window class
+0x17930da8 ---------- ------------------     0xc098     2         152         0      Shell_TrayWnd
+0x17930da8 ---------- ------------------     0xc0b2     18        178         0      MSUIM.Msg.MuiMgrDirtyUpdate
+0x17930da8 ---------- ------------------     0xc087     5         135         0      XElementButtonFocusChange
+0x17930da8 ---------- ------------------     0xc0f8     2         248         0      C:\PROGRA~1\AVG\AVG9\avgtray.exe
+0x17930da8 ---------- ------------------     0xc0e5     2         229         0      MSGSBlObj
+0x17930da8 ---------- ------------------     0xc100     2         256         0      BrStsErrLogThWnd
+0x17930da8 ---------- ------------------     0xc169     2         361         0      Outlook Express Address Book Control
+0x17930da8 ---------- ------------------     0xc171     1         369         0      MS Forms CLSID
+0x17930da8 ---------- ------------------     0xc005     1          5          1      Binary
+0x17930da8 ---------- ------------------     0xc013     1          19         1      Ole Private Data
+0x17930da8 ---------- ------------------     0xc035     1          53         1      Message
+0x17930da8 ---------- ------------------     0xc073     31        115         0      commdlg_SetRGBColor
+0x17930da8 ---------- ------------------     0xc07d     18        125         0      MSIMEReconvertRequest
+0x17930da8 ---------- ------------------     0xc0d3     2         211         0      Autoplay Enumerated IDList Array
+0x17930da8 ---------- ------------------     0xc106     2         262         0      CSessionMonitor::Window
+0x17930da8 ---------- ------------------     0xc116     3         278         0      SYSTEM_WINDOW_ACTIVATED
+0x17930da8 ---------- ------------------     0xc133     2         307         0      audio/basic
+0x17930da8 ---------- ------------------     0xc149     2         329         0      application/octet-stream
+0x17930da8 ---------- ------------------     0xc162     2         354         0      Outlook Express Outlook Bar
+0x17930da8 ---------- ------------------     0xc167     2         359         0      ThorTreeViewWndClass
+0x17930da8 ---------- ------------------     0xc16f     2         367         0      ##MimeEdit_Server
+0x17930da8 ---------- ------------------     0xc17a     1         378         0      application/hta
+0x17930da8 ---------- ------------------     0xc015     1          21         1      OleClipboardPersistOnFlush
+0x17930da8 ---------- ------------------     0xc01d     1          29         1      MDIClient
+0x17930da8 ---------- ------------------     0xc020     1          32         1      DDEMLMom
+0x17930da8 ---------- ------------------     0xc05f     28         95         0      6.0.2600.5512!SysPager
+0x17930da8 ---------- ------------------     0xc06d     9         109         0      WOWDirChange
+0x17930da8 ---------- ------------------     0xc077     56        119         0      {FB8F0821-0164-101B-84ED-08002B2EC713}
+0x17930da8 ---------- ------------------     0xc0ab     18        171         0      MSUIM.Msg.LangBarModal
+0x17930da8 ---------- ------------------     0xc115     3         277         0      C:\Program Files\AVG\AVG9\AVGUIRES.DLL
+0x17930da8 ---------- ------------------     0xc117     2         279         0      AfxFrameOrView42s
+0x17930da8 ---------- ------------------     0xc172     1         370         0      MS Forms Text
+0x17930da8 ---------- ------------------     0xc003     1          3          1      OwnerLink
+0x17930da8 ---------- ------------------     0xc00a     1          10         1      Embedded Object
+0x17930da8 ---------- ------------------     0xc04d     72         77         0      NativeFontCtl
+0x17930da8 ---------- ------------------     0xc051     28         81         0      6.0.2600.5512!msctls_statusbar32
+0x17930da8 ---------- ------------------     0xc053     28         83         0      6.0.2600.5512!SysHeader32
+0x17930da8 ---------- ------------------     0xc063     28         99         0      6.0.2600.5512!Edit
+0x17930da8 ---------- ------------------     0xc065     28        101         0      6.0.2600.5512!Combobox
+0x17930da8 ---------- ------------------     0xc0a2     1         162         0      AVGUpdateApp
+0x17930da8 ---------- ------------------     0xc0b1     18        177         0      MSUIM.Msg.LBUpdate
+0x17930da8 ---------- ------------------     0xc0b7     4         183         0      BaseBar
+0x17930da8 ---------- ------------------     0xc0cc     4         204         0      UniformResourceLocator
+0x17930da8 ---------- ------------------     0xc0dd     1         221         0      OLEUI_MSG_BROWSE
+0x17930da8 ---------- ------------------     0xc0da     3         218         0      C:\WINDOWS\system32\MSCTF.dll
+0x17930da8 ---------- ------------------     0xc0ed     2         237         0      HotKeysCatcher
+0x17930da8 ---------- ------------------     0xc134     2         308         0      audio/wav
+0x17930da8 ---------- ------------------     0xc14a     2         330         0      application/x-cdf
+0x17930da8 ---------- ------------------     0xc174     2         372         0      ThorConnWndClass
+0x17930da8 ---------- ------------------     0xc175     2         373         0      Internet Explorer_Hidden
+0x17930da8 ---------- ------------------     0xc18e     2         398         0      C:\WINDOWS\system32\RICHED20.DLL
+0x17930da8 ---------- ------------------     0xc193     2         403         0      ExploreWClass
+0x17930da8 ---------- ------------------     0xc01a     1          26         1      ListBox
+0x17930da8 ---------- ------------------     0xc01b     1          27         1      ScrollBar
+0x17930da8 ---------- ------------------     0xc047     72         71         0      SysAnimate32
+0x17930da8 ---------- ------------------     0xc09b     2         155         0      Welcome Finished
+0x17930da8 ---------- ------------------     0xc0aa     18        170         0      MSUIM.Msg.ThreadItemChange
+0x17930da8 ---------- ------------------     0xc0f0     2         240         0      AvgMsgPostponeReboot
+0x17930da8 ---------- ------------------     0xc0f3     4         243         0      AvgDlgAppPopupIEWndNotify
+0x17930da8 ---------- ------------------     0xc0e4     4         228         0      OleDdeWndClass
+0x17930da8 ---------- ------------------     0xc11f     2         287         0      GDI+ Hook Window Class
+0x17930da8 ---------- ------------------     0xc124     2         292         0      MdmDevChg
+0x17930da8 ---------- ------------------     0xc112     1         274         0      ConsoleProgmanHandle
+0x17930da8 ---------- ------------------     0xc12d     2         301         0      image/x-xbitmap
+0x17930da8 ---------- ------------------     0xc15a     2         346         0      Identity Mgr Notify
+0x17930da8 ---------- ------------------     0xc16c     2         364         0      ATL:tooltips_class32
+0x17930da8 ---------- ------------------     0xc19e     2         414         0      Inet Notify_Hidden
+0x17930da8 ---------- ------------------     0xc00b     1          11         1      Embed Source
+0x17930da8 ---------- ------------------     0xc076     32        118         0      MSJSTICK_VJOYD_MSGSTR
+0x17930da8 ---------- ------------------     0xc082     18        130         0      MSIMEShowImePad
+0x17930da8 ---------- ------------------     0xc0bf     2         191         0      Shell Object Offsets
+0x17930da8 ---------- ------------------     0xc0ce     2         206         0      DragContext
+0x17930da8 ---------- ------------------     0xc08d     5         141         0      XElementNavigateOut
+0x17930da8 ---------- ------------------     0xc0db     1         219         0      OLEUI_MSG_HELP
+0x17930da8 ---------- ------------------     0xc0f5     1         245         0      avg_expander_recalc_layout
+0x17930da8 ---------- ------------------     0xc105     2         261         0      BrStsResultWnd
+0x17930da8 ---------- ------------------     0xc129     1         297         0      SO KillTray
+0x17930da8 ---------- ------------------     0xc13e     3         318         0      image/x-emf
+0x17930da8 ---------- ------------------     0xc143     3         323         0      video/mpeg
+0x17930da8 ---------- ------------------     0xc146     2         326         0      application/x-gzip-compressed
+0x17930da8 ---------- ------------------     0xc173     2         371         0      Outlook Express FolderSync Window Class
+0x17930da8 ---------- ------------------     0xc17b     2         379         0      Internet Explorer_Server
+0x17930da8 ---------- ------------------     0xc030     1          48         1      SysIMEL
+0x17930da8 ---------- ------------------     0xc060     28         96         0      6.0.2600.5512!NativeFontCtl
+0x17930da8 ---------- ------------------     0xc07c     18        124         0      MSIMEUIReady
+0x17930da8 ---------- ------------------     0xc085     4         133         0      WinscardSessionChangeWndClass
+0x17930da8 ---------- ------------------     0xc0b9     2         185         0      CMBPopupOpen
+0x17930da8 ---------- ------------------     0xc0cb     2         203         0      Paste Succeeded
+0x17930da8 ---------- ------------------     0xc0ee     2         238         0      commdlg_FindReplace
+0x17930da8 ---------- ------------------     0xc119     2         281         0      BRNIPMon
+0x17930da8 ---------- ------------------     0xc14d     34        333         0      text/xml
+0x17930da8 ---------- ------------------     0xc168     2         360         0      Outlook Express Pane Frame
+0x17930da8 ---------- ------------------     0xc17f     3         383         0      WM_ATLGETHOST
+0x17930da8 ---------- ------------------     0xc195     4         405         0      C:\WINDOWS\system32\SHELL32.dll
+0x17930da8 ---------- ------------------     0xc01e     1          30         1      ComboLBox
+0x17930da8 ---------- ------------------     0xc02b     1          43         1      SysCP
+0x17930da8 ---------- ------------------     0xc037     1          55         1      SysShadow
+0x17930da8 ---------- ------------------     0xc05a     28         90         0      6.0.2600.5512!SysAnimate32
+0x17930da8 ---------- ------------------     0xc064     28        100         0      6.0.2600.5512!Listbox
+0x17930da8 ---------- ------------------     0xc067     28        103         0      6.0.2600.5512!ScrollBar
+0x17930da8 ---------- ------------------     0xc074     18        116         0      Shell IDList Array
+0x17930da8 ---------- ------------------     0xc09e     2         158         0      TrayNotifyWnd
+0x17930da8 ---------- ------------------     0xc0b4     4         180         0      CTrayIconWndClass
+0x17930da8 ---------- ------------------     0xc08b     5         139         0      DUI_UIA_InvokeHelperMsg
+0x17930da8 ---------- ------------------     0xc0dc     1         220         0      OLEUI_MSG_ENDDIALOG
+0x17930da8 ---------- ------------------     0xc0ef     11        239         0      FmtTextHyperLinkClick
+0x17930da8 ---------- ------------------     0xc102     2         258         0      BrStsStdLogThWnd
+0x17930da8 ---------- ------------------     0xc142     3         322         0      video/x-msvideo
+0x17930da8 ---------- ------------------     0xc189     2         393         0      RichEdit20A
+0x17930da8 ---------- ------------------     0xc196     2         406         0      CabinetWClass
+0x17930da8 ---------- ------------------     0xc197     1         407         0      CMBIgnoreNextDeselect
+0x17930da8 ---------- ------------------     0xc1a0     2         416         0      SCardUIReaderRemoval

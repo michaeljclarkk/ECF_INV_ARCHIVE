@@ -1,0 +1,5 @@
+Name                 StartAddress EndAddress Time
+-------------------- ------------ ---------- ----
+Sfloppy.SYS          0x00f8a2c000 0xf8a2f000 2009-12-11 01:27:10 
+Cdaudio.SYS          0x00f8870000 0xf8875000 2009-12-11 01:27:10 
+mdd.sys              0x00f87f0000 0xf87f5000 2009-12-11 16:57:42 
